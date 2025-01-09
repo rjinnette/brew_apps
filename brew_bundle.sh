@@ -12,7 +12,7 @@ git_status=$(git status --porcelain)
 # If there are changes, stage, commit, and push
 if [[ -n "$git_status" ]]; then
     add  # Use the alias for git add
-    cmt "Update $(date +'%m/%d/%Y')"  # Use the alias for git commit
+    cmt "Apps: $(date +'%m/%d/%Y')"  # Use the alias for git commit
     push  # Use the alias for git push
 else
     echo "No changes to commit."
