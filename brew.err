@@ -1,0 +1,5 @@
+
+Error: Read-only file system @ rb_sysopen - /Brewfile
+fatal: not a git repository (or any of the parent directories): .git
+Error: Read-only file system @ rb_sysopen - /Brewfile
+fatal: not a git repository (or any of the parent directories): .git
