@@ -3,6 +3,9 @@
 # Source the .zsh_profile to ensure the aliases are available
 source ~/.zprofile
 
+#change into proper directory
+cd /Users/ryanjinnette/Code/brew_apps/
+
 # Run brew bundle dump to save the Brewfile
 brew bundle dump --force
 

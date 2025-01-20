@@ -1,5 +1,3 @@
 
-Error: Read-only file system @ rb_sysopen - /Brewfile
-fatal: not a git repository (or any of the parent directories): .git
-Error: Read-only file system @ rb_sysopen - /Brewfile
-fatal: not a git repository (or any of the parent directories): .git
+zsh:1: no such file or directory: cd /Users/ryanjinnette/Code/brew_apps/ && ./brew_bundle.sh
+zsh:1: no such file or directory: cd /Users/ryanjinnette/Code/brew_apps/ && ./brew_bundle.sh
