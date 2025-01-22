@@ -1,0 +1,19 @@
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:d9faa506c014dedc0b034a68103ba75c9a58242f4d6c67b6ca0f649c39602bcf
+#=#=#                                                                          ##O#-#                                                                         ########                                                                  11.9%#########################################                                 57.1%######################################################################## 100.0%
+==> Pouring portable-ruby-3.3.7.arm64_big_sur.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 3 taps (homebrew/bundle, homebrew/core and homebrew/cask).
+==> New Formulae
+binocle
+c2patool
+cargo-cache
+diary
+json2hcl
+==> New Casks
+spectrolite
+
+You have 1 outdated formula installed.
+
