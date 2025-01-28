@@ -16,11 +16,12 @@ git_status=$(git status --porcelain)
 if [[ -n "$git_status" ]]; then
     add  # Use the alias for git add
     cmt "Apps: $(date +'%m/%d/%Y')"  # Use the alias for git commit
+    message="Brewfile updated"
     push  # Use the alias for git push
 else
-    echo "No changes to commit."
+     message="No new apps/tools"
     exit 0  # Exit the script cleanly if no changes are found
 fi
 
-
+curl -d message https://ntfy.thenettework.com/brew
 
