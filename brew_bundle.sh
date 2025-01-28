@@ -23,5 +23,5 @@ else
     exit 0  # Exit the script cleanly if no changes are found
 fi
 
-curl -d message https://ntfy.thenettework.com/brew
+curl -d "$message" https://ntfy.thenettework.com/brew
 
