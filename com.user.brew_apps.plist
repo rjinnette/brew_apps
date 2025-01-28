@@ -1,1 +1,59 @@
-/Users/ryanjinnette/Library/LaunchAgents/com.user.brew_apps.plist
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>com.user.brew_apps</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>/Users/ryanjinnette/Code/brew_apps/brew_bundle.sh</string>
+        </array>
+
+        <key>StartCalendarInterval</key>
+        <array>
+            <!-- Run at 12 PM on the 1st of the month -->
+            <dict>
+                <key>Minute</key>
+                <integer>0</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Day</key>
+                <integer>1</integer>
+            </dict>
+
+            <!-- Run at 12 PM on the 15th of the month -->
+            <dict>
+                <key>Minute</key>
+                <integer>0</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Day</key>
+                <integer>8</integer>
+            </dict>
+	    <dict>
+                <key>Minute</key>
+                <integer>0</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Day</key>
+                <integer>15</integer>
+            </dict>
+	    <dict>
+                <key>Minute</key>
+                <integer>0</integer>
+                <key>Hour</key>
+                <integer>12</integer>
+                <key>Day</key>
+                <integer>22</integer>
+            </dict>
+        </array>
+
+        <key>RunAtLoad</key>
+        <true/>
+
+        <!-- Optionally, you can also log output for debugging-->
+        <key>StandardOutPath</key>
+        <string>/Users/ryanjinnette/Code/brew_apps/brew.log</string>
+    </dict>
+</plist>
+
