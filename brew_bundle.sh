@@ -11,7 +11,8 @@ brew bundle dump --force
 
 # Check the Git status
 git_status=$(git status --porcelain)
-echo "Git Status: '$git_status'"
+# Debugging Help
+# echo "Git Status: '$git_status'"
 
 # If there are changes, stage, commit, and push
 if [[ -n "$git_status" ]]; then
