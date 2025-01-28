@@ -19,9 +19,8 @@ if [[ -n "$git_status" ]]; then
     message="Brewfile updated"
     push  # Use the alias for git push
 else
-     message="No new apps/tools"
-    exit 0  # Exit the script cleanly if no changes are found
+     message="No new apps/tools"  # Exit the script cleanly if no changes are found
 fi
 
 curl -d "$message" https://ntfy.thenettework.com/brew
-
+exit 0
