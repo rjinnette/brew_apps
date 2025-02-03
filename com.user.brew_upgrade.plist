@@ -6,12 +6,12 @@
         <string>com.user.brew_upgrade</string>
         <key>ProgramArguments</key>
         <array>
-            <string>brew update && brew upgrade && curl -d "Apps Updated/Upgraded" https://ntfy.thenettework.com/brew</string>
+            <string>/Users/ryanjinnette/Code/brew_apps/brew_upgrade.sh</string>
         </array>
 
         <key>StartCalendarInterval</key>
         <array>
- 	     <dict>
+            <dict>
                 <key>Minute</key>
                 <integer>0</integer>
                 <key>Hour</key>
@@ -20,7 +20,6 @@
                 <integer>1</integer>
             </dict>
 
-            <!-- Run at 12 PM on the 8th of the month -->
             <dict>
                 <key>Minute</key>
                 <integer>0</integer>
@@ -30,7 +29,6 @@
                 <integer>8</integer>
             </dict>
 
-            <!-- Run at 12 PM on the 1st of the month -->
             <dict>
                 <key>Minute</key>
                 <integer>0</integer>
@@ -40,7 +38,6 @@
                 <integer>15</integer>
             </dict>
 
-            <!-- Run at 12 PM on the 22nd of the month -->
             <dict>
                 <key>Minute</key>
                 <integer>0</integer>
@@ -49,14 +46,22 @@
                 <key>Day</key>
                 <integer>22</integer>
             </dict>
+            <dict>
+                <key>Minute</key>
+                <integer>38</integer>
+                <key>Hour</key>
+                <integer>21</integer>
+                <key>Day</key>
+                <integer>2</integer>
+            </dict>
         </array>
 
         <key>RunAtLoad</key>
         <true/>
 
-        <!-- Optionally, you can also log output for debugging-->
         <key>StandardOutPath</key>
         <string>/Users/ryanjinnette/Code/brew_apps/upgrade.log</string>
     </dict>
 </plist>
+
 
