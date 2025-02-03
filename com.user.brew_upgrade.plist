@@ -46,14 +46,14 @@
                 <key>Day</key>
                 <integer>22</integer>
             </dict>
-            <dict>
+            <!-- <dict>
                 <key>Minute</key>
-                <integer>38</integer>
+                <integer>39</integer>
                 <key>Hour</key>
                 <integer>21</integer>
                 <key>Day</key>
                 <integer>2</integer>
-            </dict>
+            </dict> -->
         </array>
 
         <key>RunAtLoad</key>
