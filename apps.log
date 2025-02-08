@@ -1,82 +1,0 @@
-==> Auto-updating Homebrew...
-Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
-HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:d9faa506c014dedc0b034a68103ba75c9a58242f4d6c67b6ca0f649c39602bcf
-#=#=#                                                                          ##O#-#                                                                         ########                                                                  11.9%#########################################                                 57.1%######################################################################## 100.0%
-==> Pouring portable-ruby-3.3.7.arm64_big_sur.bottle.tar.gz
-==> Auto-updated Homebrew!
-Updated 3 taps (homebrew/bundle, homebrew/core and homebrew/cask).
-==> New Formulae
-binocle
-c2patool
-cargo-cache
-diary
-json2hcl
-==> New Casks
-spectrolite
-
-You have 1 outdated formula installed.
-
-[main 67e2a2a] Apps: 01/22/2025
- 1 file changed, 19 insertions(+)
- create mode 100644 apps.log
-To https://github.com/rjinnette/brew_apps.git
-   73de19e..67e2a2a  main -> main
-branch 'main' set up to track 'origin/main'.
-[main 87ae1ee] Apps: 01/23/2025
- 2 files changed, 9 insertions(+), 1 deletion(-)
-To https://github.com/rjinnette/brew_apps.git
-   67e2a2a..87ae1ee  main -> main
-branch 'main' set up to track 'origin/main'.
-==> Auto-updating Homebrew...
-Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
-HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-==> Auto-updated Homebrew!
-Updated 3 taps (homebrew/bundle, homebrew/core and homebrew/cask).
-==> New Casks
-valhalla-supermassive
-
-You have 1 outdated formula installed.
-
-[main c403f07] Apps: 01/24/2025
- 1 file changed, 15 insertions(+)
-To https://github.com/rjinnette/brew_apps.git
-   87ae1ee..c403f07  main -> main
-branch 'main' set up to track 'origin/main'.
-[main 3c0bd25] Apps: 01/25/2025
- 2 files changed, 8 insertions(+), 1 deletion(-)
-To https://github.com/rjinnette/brew_apps.git
-   c403f07..3c0bd25  main -> main
-branch 'main' set up to track 'origin/main'.
-[main 8920e7f] Apps: 01/26/2025
- 1 file changed, 5 insertions(+)
-To https://github.com/rjinnette/brew_apps.git
-   3c0bd25..8920e7f  main -> main
-branch 'main' set up to track 'origin/main'.
-[main 18d47f5] Apps: 01/27/2025
- 2 files changed, 7 insertions(+), 1 deletion(-)
-To https://github.com/rjinnette/brew_apps.git
-   8920e7f..18d47f5  main -> main
-branch 'main' set up to track 'origin/main'.
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   141  100   124  100    17   1098    150 --:--:-- --:--:-- --:--:--  1258
-{"id":"Vj9lQYLDapQh","time":1738092667,"expires":1738135867,"event":"message","topic":"brew","message":"No new apps/tools"}
-==> Auto-updating Homebrew...
-Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
-HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> New Formulae
-ludusavi
-umka-lang
-
-[main 1cead23] Apps: 01/29/2025
- 2 files changed, 14 insertions(+)
-To https://github.com/rjinnette/brew_apps.git
-   fe90deb..1cead23  main -> main
-branch 'main' set up to track 'origin/main'.
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   139  100   123  100    16    207     27 --:--:-- --:--:-- --:--:--   234100   139  100   123  100    16    207     26 --:--:-- --:--:-- --:--:--   234
-{"id":"K8HsMO7Oefy8","time":1738179071,"expires":1738222271,"event":"message","topic":"brew","message":"Brewfile updated"}
