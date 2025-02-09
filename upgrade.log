@@ -5,3 +5,41 @@ Already up-to-date.
 Already up-to-date.
 {"id":"PDEGkYf6cbNa","time":1738554020,"expires":1738597220,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 {"id":"i0PzZznAwPlg","time":1738790780,"expires":1738833980,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 2 outdated packages:
+bitwarden-cli 2025.1.2 -> 2025.1.3
+python@3.13 3.13.1 -> 3.13.2
+==> Downloading https://ghcr.io/v2/homebrew/core/bitwarden-cli/manifests/2025.1.3
+==> Fetching bitwarden-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/bitwarden-cli/blobs/sha256:05defee18c99358facc3bc9c10a4a72a31a8c512aa9db9bf87f0b02855623da9
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.2
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:166ed4ffa110e57196cade5512bd7f5d27ce5c2c386c8abd416b8fcf3f0e1683
+==> Upgrading bitwarden-cli
+  2025.1.2 -> 2025.1.3 
+==> Pouring bitwarden-cli--2025.1.3.arm64_sequoia.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2025.1.3: 8,182 files, 50.4MB
+==> Running `brew cleanup bitwarden-cli`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2025.1.2... (8,182 files, 50.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2025.1.2... (22.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2025.1.2... (11.8MB)
+==> Upgrading python@3.13
+  3.13.1 -> 3.13.2 
+==> Pouring python@3.13--3.13.2.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.13/3.13.2/bin/python3.13 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.13/3.13.2/bin/python3.13 -Im pip install -v --[0m
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.2: 3,274 files, 65.4MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.1... (3,275 files, 65.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.1... (20.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.1... (15.5MB)
+==> Caveats
+==> bitwarden-cli
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"Vgb5iPrXbLM6","time":1739037809,"expires":1739081009,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
