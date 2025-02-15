@@ -44,3 +44,8 @@ zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"Vgb5iPrXbLM6","time":1739037809,"expires":1739081009,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 {"id":"QV1eawpH0geX","time":1739123079,"expires":1739166279,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 1 outdated package:
+sqlite 3.48.0 -> 3.49.0
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.49.0
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:a91a65a3ba87aa27d72f88b2d390119c68fd70808bdb6e052ec90e6a9ae410cc
