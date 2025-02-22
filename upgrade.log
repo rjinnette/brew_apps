@@ -49,3 +49,78 @@ sqlite 3.48.0 -> 3.49.0
 ==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.49.0
 ==> Fetching sqlite
 ==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:a91a65a3ba87aa27d72f88b2d390119c68fd70808bdb6e052ec90e6a9ae410cc
+==> Upgrading 4 outdated packages:
+sqlite 3.48.0 -> 3.49.0
+openssl@3 3.4.0 -> 3.4.1
+docker-compose 2.32.4 -> 2.33.0
+fzf 0.59.0 -> 0.60.0
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.49.0
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:a91a65a3ba87aa27d72f88b2d390119c68fd70808bdb6e052ec90e6a9ae410cc
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.4.1
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:b20c7d9b63e7b320cba173c11710dee9888c77175a841031d7a245bb37355b98
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/manifests/2.33.0
+==> Fetching docker-compose
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:eea4aa03c8623e24c649c7b8ca1099c872bfa81e5b70c7e866cbd74f13456c2c
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/manifests/0.60.0
+==> Fetching fzf
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/blobs/sha256:fe4d9d402b1de39bc6cff579e60a135feb334ce50ab112fa80a01de0e36a7bf7
+==> Upgrading sqlite
+  3.48.0 -> 3.49.0 
+==> Pouring sqlite--3.49.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.49.0: 13 files, 4.7MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.48.0... (12 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.48.0... (8.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.48.0... (2.3MB)
+==> Upgrading openssl@3
+  3.4.0 -> 3.4.1 
+==> Pouring openssl@3--3.4.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.4.1: 7,236 files, 33.4MB
+==> Running `brew cleanup openssl@3`...
+Removing: /opt/homebrew/Cellar/openssl@3/3.4.0... (7,236 files, 33.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.4.0... (8.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3--3.4.0... (9.7MB)
+==> Upgrading docker-compose
+  2.32.4 -> 2.33.0 
+==> Pouring docker-compose--2.33.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/2.33.0: 8 files, 60.2MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/2.32.4... (8 files, 53.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.32.4... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.32.4... (16MB)
+==> Upgrading fzf
+  0.59.0 -> 0.60.0 
+==> Pouring fzf--0.60.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.60.0: 19 files, 4.4MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.59.0... (19 files, 4.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.59.0... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.59.0... (1.7MB)
+==> Caveats
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+{"id":"3iviqQLRBDnx","time":1739642420,"expires":1739685620,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
