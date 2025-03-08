@@ -233,3 +233,63 @@ Note that it is very difficult to remove Rosetta 2 once it is installed.
 ==> Purging files for version 5.0.4 of Cask qbittorrent
 ==> Purging files for version 5.0.3 of Cask qbittorrent
 {"id":"zKBNBHW2KnXo","time":1740853183,"expires":1740896383,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 3 outdated packages:
+libnghttp2 1.64.0 -> 1.65.0
+node 23.7.0 -> 23.9.0
+fzf 0.60.2 -> 0.60.3
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.65.0
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:492e4dadaeb76e53e56b15180eb4ab33d8e726d5766f258f94d3628382e7a8e2
+==> Downloading https://ghcr.io/v2/homebrew/core/node/manifests/23.9.0
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:57e1da8a3afbd55a86fc84896c6fc26c9540307b8133025306e22468df245794
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/manifests/0.60.3
+==> Fetching fzf
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/blobs/sha256:1124d444049ea2dc9d923143d5f2c782b6feb1363d982eaaa184189093d96545
+==> Upgrading libnghttp2
+  1.64.0 -> 1.65.0 
+==> Pouring libnghttp2--1.65.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.65.0: 14 files, 767KB
+==> Running `brew cleanup libnghttp2`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/libnghttp2/1.64.0... (14 files, 793.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.64.0... (7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2--1.64.0... (221.2KB)
+==> Upgrading node
+  23.7.0 -> 23.9.0 
+==> Pouring node--23.9.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/23.9.0: 2,602 files, 71.3MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/23.7.0... (2,602 files, 70.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--23.7.0... (15.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--23.7.0... (18.5MB)
+==> Upgrading fzf
+  0.60.2 -> 0.60.3 
+==> Pouring fzf--0.60.3.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.60.3: 19 files, 4.4MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.60.2... (19 files, 4.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.60.2... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.60.2... (1.7MB)
+==> Casks with 'auto_updates true' or 'version :latest' will not be upgraded; pass `--greedy` to upgrade them.
+==> Upgrading 1 outdated package:
+fing 3.8.0 -> 3.8.1
+==> Upgrading fing
+==> Caveats
+fing is built for Intel macOS and so requires Rosetta 2 to be installed.
+You can install Rosetta 2 with:
+  softwareupdate --install-rosetta --agree-to-license
+Note that it is very difficult to remove Rosetta 2 once it is installed.
+
+==> Downloading https://get.fing.com/fing-desktop-releases/mac/Fing-3.8.1.dmg
+Already downloaded: /Users/ryanjinnette/Library/Caches/Homebrew/downloads/d6279a189a75ae5b81794ce4a84d9e5ffda7af00e6888125157a7b928441f6df--Fing-3.8.1.dmg
+==> Removing launchctl service com.fing.service
+==> Purging files for version 3.8.1 of Cask fing
+{"id":"etaRwoV0FGYV","time":1741027905,"expires":1741071105,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
