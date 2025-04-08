@@ -476,3 +476,6 @@ You can install Rosetta 2 with:
 Note that it is very difficult to remove Rosetta 2 once it is installed.
 
 ==> Downloading https://get.fing.com/fing-desktop-releases/mac/Fing-3.8.1.dmg
+Already downloaded: /Users/ryanjinnette/Library/Caches/Homebrew/downloads/d6279a189a75ae5b81794ce4a84d9e5ffda7af00e6888125157a7b928441f6df--Fing-3.8.1.dmg
+==> Removing launchctl service com.fing.service
+==> Purging files for version 3.8.1 of Cask fing
