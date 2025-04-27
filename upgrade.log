@@ -555,3 +555,10 @@ Already downloaded: /Users/ryanjinnette/Library/Caches/Homebrew/downloads/d6279a
 ==> Purging files for version 3.8.1 of Cask fing
 {"id":"7e3bePmrhdQT","time":1744738217,"expires":1744781417,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 {"id":"fDFLXs8VL1uh","time":1745341246,"expires":1745384446,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 6 outdated packages:
+libuv 1.50.0 -> 1.51.0
+python@3.13 3.13.2 -> 3.13.3
+c-ares 1.34.4 -> 1.34.5
+docker-compose 2.34.0 -> 2.35.1
+python@3.11 3.11.11 -> 3.11.12
+fzf 0.61.1 -> 0.61.3
