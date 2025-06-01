@@ -1389,3 +1389,19 @@ Note that it is very difficult to remove Rosetta 2 once it is installed.
 ==> Removing launchctl service com.fing.service
 ==> Purging files for version 3.9.0 of Cask fing
 {"id":"sodK75wmdD26","time":1747934638,"expires":1747977838,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 1 outdated package:
+sqlite 3.49.2 -> 3.50.0
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.50.0
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:f60f3563efb77f189f8031983202321acf157e8154894c0d2e2a95f4e9778bb1
+==> Upgrading sqlite
+  3.49.2 -> 3.50.0 
+==> Pouring sqlite--3.50.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.50.0: 13 files, 4.9MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.49.2... (13 files, 4.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.49.2... (11.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.49.2... (2.2MB)
+{"id":"rjPcdlSecyOK","time":1748764700,"expires":1748807900,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
