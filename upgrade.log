@@ -1405,3 +1405,4 @@ Removing: /opt/homebrew/Cellar/sqlite/3.49.2... (13 files, 4.7MB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.49.2... (11.2KB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.49.2... (2.2MB)
 {"id":"rjPcdlSecyOK","time":1748764700,"expires":1748807900,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+{"id":"uaTMQgJQ4ZFY","time":1748797385,"expires":1748840585,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
