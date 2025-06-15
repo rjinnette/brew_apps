@@ -1406,3 +1406,110 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.49.2... (2.2MB)
 {"id":"rjPcdlSecyOK","time":1748764700,"expires":1748807900,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 {"id":"uaTMQgJQ4ZFY","time":1748797385,"expires":1748840585,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 6 outdated packages:
+bitwarden-cli 2025.2.0 -> 2025.5.0
+python@3.13 3.13.3_1 -> 3.13.4
+sqlite 3.50.0 -> 3.50.1
+libgit2 1.9.0 -> 1.9.1
+docker-compose 2.36.2 -> 2.37.0
+python@3.11 3.11.12_1 -> 3.11.13
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.50.1
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:13d6403cd7df65d989386b2ccd59108056dda577b90104b479ecbcdeb6d867bb
+==> Downloading https://ghcr.io/v2/homebrew/core/bitwarden-cli/manifests/2025.5.0
+==> Fetching bitwarden-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/bitwarden-cli/blobs/sha256:97764f18ccb72f733e498c9feae0868cce7013f4b44b3553b9dcf07aa300aed0
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.4
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:bee3f11e18d79d6b97a8c330b55c83baf6c398da877ca139289d9cac64aa75bc
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/manifests/1.9.1
+==> Fetching libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/blobs/sha256:3be60ae5bc7e68b788b021eaf00927f595c28bfed352cd5bf8c212494392dfb8
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/manifests/2.37.0
+==> Fetching docker-compose
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:3a1ea5c53c35773db0f896651a7ad55eead4571d1ca99b3b5321ebbcd94f3191
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.11/manifests/3.11.13
+==> Fetching python@3.11
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:cab6abf1dbc00b087ce38dc55c52e7fc97253b7d01f353893929464432f9922a
+==> Upgrading sqlite
+  3.50.0 -> 3.50.1 
+==> Pouring sqlite--3.50.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.50.1: 13 files, 4.9MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.50.0... (13 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.50.0... (11.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.50.0... (2.2MB)
+==> Upgrading bitwarden-cli
+  2025.2.0 -> 2025.5.0 
+==> Pouring bitwarden-cli--2025.5.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2025.5.0: 35,331 files, 327.6MB
+==> Running `brew cleanup bitwarden-cli`...
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2025.2.0... (8,150 files, 51.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2025.2.0... (22.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2025.2.0... (12.0MB)
+==> Upgrading python@3.13
+  3.13.3_1 -> 3.13.4 
+==> Pouring python@3.13--3.13.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.4: 3,606 files, 66.8MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.3_1... (3,766 files, 70.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.3_1... (31KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.3_1... (17.2MB)
+==> Upgrading libgit2
+  1.9.0 -> 1.9.1 
+==> Pouring libgit2--1.9.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.9.1: 109 files, 4.9MB
+==> Running `brew cleanup libgit2`...
+Removing: /opt/homebrew/Cellar/libgit2/1.9.0... (109 files, 4.9MB)
+==> Upgrading docker-compose
+  2.36.2 -> 2.37.0 
+==> Pouring docker-compose--2.37.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/2.37.0: 8 files, 60.3MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/2.36.2... (8 files, 60.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.36.2... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.36.2... (17.4MB)
+==> Upgrading python@3.11
+  3.11.12_1 -> 3.11.13 
+==> Pouring python@3.11--3.11.13.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1mDownloading https://formulae.brew.sh/api/formula.jws.json[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.13/bin/python3.11 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.13/bin/python3.11 -Im pip install -v -[0m
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.13: 3,306 files, 62.1MB
+==> Running `brew cleanup python@3.11`...
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.12_1... (3,306 files, 62MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11_bottle_manifest--3.11.12_1... (26.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11--3.11.12_1... (15.1MB)
+==> Casks with 'auto_updates true' or 'version :latest' will not be upgraded; pass `--greedy` to upgrade them.
+==> Upgrading 1 outdated package:
+ente-auth 4.3.6 -> 4.4.0
+==> Upgrading ente-auth
+==> Downloading https://github.com/ente-io/ente/releases/download/auth-v4.4.0/ente-auth-v4.4.0.dmg
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/560284721/afc4a030-2a64-4f78-8169-e59135f87331?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250608%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250608T180611Z&X-Amz-Expires=300&X-Amz-Signature=92b613b62160c34d77fa1de72945ac83cc972895f6a6897b57ca498e1c5c9576&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dente-auth-v4.4.0.dmg&response-content-type=application%2Foctet-stream
+==> Backing App 'Ente Auth.app' up to '/opt/homebrew/Caskroom/ente-auth/4.3.6/Ente Auth.app'
+==> Removing App '/Applications/Ente Auth.app'
+==> Moving App 'Ente Auth.app' to '/Applications/Ente Auth.app'
+==> Purging files for version 4.3.6 of Cask ente-auth
+🍺  ente-auth was successfully upgraded!
+==> Caveats
+==> bitwarden-cli
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"sWpvewuegsHP","time":1749405988,"expires":1749449188,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
