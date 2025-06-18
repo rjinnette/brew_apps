@@ -1513,3 +1513,43 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
       "/opt/homebrew/lib/docker/cli-plugins"
   ]
 {"id":"sWpvewuegsHP","time":1749405988,"expires":1749449188,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 2 outdated packages:
+python@3.13 3.13.4 -> 3.13.5
+docker-compose 2.37.0 -> 2.37.1
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.5
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:969e945c1395d108d37bfac36b97362af0f178a2d8bd1d50c78dee513641d790
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/manifests/2.37.1
+==> Fetching docker-compose
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:e9344d9dcc58b72e422e4fcc5a880c1e3def26322ad5b88c5da28475b1724669
+==> Upgrading python@3.13
+  3.13.4 -> 3.13.5 
+==> Pouring python@3.13--3.13.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.5: 3,605 files, 66.9MB
+==> Running `brew cleanup python@3.13`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.4... (3,683 files, 68.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.4... (31KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.4... (17.2MB)
+==> Upgrading docker-compose
+  2.37.0 -> 2.37.1 
+==> Pouring docker-compose--2.37.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/2.37.1: 8 files, 60.4MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/2.37.0... (8 files, 60.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.37.0... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.37.0... (17.4MB)
+==> Caveats
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"sEAfa71JqD7M","time":1750006851,"expires":1750050051,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
