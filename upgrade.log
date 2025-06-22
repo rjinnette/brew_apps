@@ -1553,3 +1553,4 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
       "/opt/homebrew/lib/docker/cli-plugins"
   ]
 {"id":"sEAfa71JqD7M","time":1750006851,"expires":1750050051,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+{"id":"ceoLLENdm5r0","time":1750212404,"expires":1750255604,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
