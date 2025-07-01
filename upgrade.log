@@ -1554,3 +1554,25 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
   ]
 {"id":"sEAfa71JqD7M","time":1750006851,"expires":1750050051,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 {"id":"ceoLLENdm5r0","time":1750212404,"expires":1750255604,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 1 outdated package:
+docker-compose 2.37.1 -> 2.37.2
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/manifests/2.37.2
+==> Fetching docker-compose
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:eb8218af5dc43b91cca9489b5833958f6a086355b475dc40319264953d60e320
+==> Upgrading docker-compose
+  2.37.1 -> 2.37.2 
+==> Pouring docker-compose--2.37.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/2.37.2: 8 files, 60.6MB
+==> Running `brew cleanup docker-compose`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/docker-compose/2.37.1... (8 files, 60.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.37.1... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.37.1... (17.4MB)
+{"id":"zCSUvb0c9IyV","time":1750611612,"expires":1750654812,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
