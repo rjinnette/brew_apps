@@ -1576,3 +1576,122 @@ Removing: /opt/homebrew/Cellar/docker-compose/2.37.1... (8 files, 60.4MB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.37.1... (7.3KB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.37.1... (17.4MB)
 {"id":"zCSUvb0c9IyV","time":1750611612,"expires":1750654812,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 6 outdated packages:
+bitwarden-cli 2025.5.0 -> 2025.6.0
+sqlite 3.50.1 -> 3.50.2
+libnghttp2 1.65.0 -> 1.66.0
+node 24.2.0 -> 24.3.0
+docker-compose 2.37.2 -> 2.38.1
+fzf 0.62.0 -> 0.63.0
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.50.2
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:0721dd40b60d85e21ccb9020872951c567a7d68d987da83cee478667e63862a3
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.66.0
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:41c3c42b773f4a02cdd9e4f7724e10aea9b6bd1ee2a78408fb02083725a1443f
+==> Downloading https://ghcr.io/v2/homebrew/core/node/manifests/24.3.0
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:5b25a3148f341fec74d1a1a3b88141dc2ee8d451715bd51ae33cae2b7fda1045
+==> Downloading https://ghcr.io/v2/homebrew/core/bitwarden-cli/manifests/2025.6.0
+==> Fetching bitwarden-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/bitwarden-cli/blobs/sha256:de62380d78e2f00b085374ff4e970c0335192a1c45db378a54105d8fefc3d8c9
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/manifests/2.38.1
+==> Fetching docker-compose
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:168aee92d79f9cbe91e2d76d5d4e684d3b72407f2cecdaf5ba03d4d2028263f6
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/manifests/0.63.0
+==> Fetching fzf
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/blobs/sha256:cf9a3399a7e7e07cbd3d790def2da454dd25a34d6c8ea89ec3b1dacaa10ab123
+==> Upgrading sqlite
+  3.50.1 -> 3.50.2 
+==> Pouring sqlite--3.50.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.50.2: 13 files, 4.9MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.50.1... (13 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.50.1... (11.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.50.1... (2.2MB)
+==> Upgrading libnghttp2
+  1.65.0 -> 1.66.0 
+==> Pouring libnghttp2--1.66.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.66.0: 14 files, 841KB
+==> Running `brew cleanup libnghttp2`...
+Removing: /opt/homebrew/Cellar/libnghttp2/1.65.0... (14 files, 767KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.65.0... (7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2--1.65.0... (213.5KB)
+==> Upgrading node
+  24.2.0 -> 24.3.0 
+==> Pouring node--24.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/24.3.0: 2,466 files, 98.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.2.0... (2,460 files, 98.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.2.0... (21.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.2.0... (22.4MB)
+==> Upgrading bitwarden-cli
+  2025.5.0 -> 2025.6.0 
+==> Pouring bitwarden-cli--2025.6.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2025.6.0: 44,211 files, 421.2MB
+==> Running `brew cleanup bitwarden-cli`...
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2025.5.0... (35,331 files, 327.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2025.5.0... (43.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2025.5.0... (80.6MB)
+==> Upgrading docker-compose
+  2.37.2 -> 2.38.1 
+==> Pouring docker-compose--2.38.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/2.38.1: 8 files, 60.7MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/2.37.2... (8 files, 60.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.37.2... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.37.2... (17.6MB)
+==> Upgrading fzf
+  0.62.0 -> 0.63.0 
+==> Pouring fzf--0.63.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.63.0: 19 files, 4.5MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.62.0... (19 files, 4.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.62.0... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.62.0... (1.7MB)
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/brotli_bottle_manifest--1.1.0-2... (7.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/brotli--1.1.0... (732.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lazydocker_bottle_manifest--0.24.1-2... (7.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lazydocker--0.24.1... (4.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/zstd_bottle_manifest--1.5.7... (9.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/zstd--1.5.7... (767KB)
+==> Autoremoving 1 unneeded formula:
+icu4c@76
+Uninstalling /opt/homebrew/Cellar/icu4c@76/76.1_2... (277 files, 81MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/arp-scan--1.10.0... (592.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/arp-scan_bottle_manifest--1.10.0-1... (9.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/ente-auth--4.3.6.dmg... (36.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/fefdbb87b6e58f70387942397aca02fc611e3776/Cask/gimp.rb... (1.8KB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/node... (64B)
+Pruned 41 symbolic links and 1 directories from /opt/homebrew
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+error code: 1033
