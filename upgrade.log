@@ -1805,4 +1805,40 @@ To set up shell integration, see:
   https://github.com/junegunn/fzf#setting-up-shell-integration
 To use fzf in Vim, add the following line to your .vimrc:
   set rtp+=/opt/homebrew/opt/fzf
-error code: 502error code: 502
+error code: 502error code: 502==> Upgrading 3 outdated packages:
+readline 8.3 -> 8.3.1
+bash 5.3 -> 5.3_1
+node 24.3.0 -> 24.4.0
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:3afa0c228ce704810d09d40ce7d1265777df8b9034a7bfc18f0f4c19094710a8
+==> Fetching bash
+==> Downloading https://ghcr.io/v2/homebrew/core/bash/blobs/sha256:1aa846f7589467b1fa33e9f2a344b9e0c22c65df203f1bd9513f51bfa53b26fb
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:598f14eda0f461f0610f313e3431e216b9608d556f592d7f48b53cc4b7bc52e3
+==> Upgrading readline
+  8.3 -> 8.3.1 
+==> Pouring readline--8.3.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.3.1: 56 files, 2.6MB
+==> Running `brew cleanup readline`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/readline/8.3... (56 files, 2.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/readline_bottle_manifest--8.3... (9.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/readline--8.3... (739.6KB)
+==> Upgrading bash
+  5.3 -> 5.3_1 
+==> Pouring bash--5.3_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bash/5.3_1: 172 files, 13.1MB
+==> Running `brew cleanup bash`...
+Removing: /opt/homebrew/Cellar/bash/5.3... (172 files, 13.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bash_bottle_manifest--5.3-1... (13.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bash--5.3... (3.4MB)
+==> Upgrading node
+  24.3.0 -> 24.4.0 
+==> Pouring node--24.4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/24.4.0: 2,466 files, 98.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.3.0... (2,466 files, 98.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.3.0... (21.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.3.0... (22.4MB)
+error code: 502Already up-to-date.
