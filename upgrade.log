@@ -1805,4 +1805,4 @@ To set up shell integration, see:
   https://github.com/junegunn/fzf#setting-up-shell-integration
 To use fzf in Vim, add the following line to your .vimrc:
   set rtp+=/opt/homebrew/opt/fzf
-error code: 502
+error code: 502error code: 502
