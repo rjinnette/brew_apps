@@ -1842,3 +1842,4 @@ Removing: /opt/homebrew/Cellar/node/24.3.0... (2,466 files, 98.7MB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.3.0... (21.1KB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.3.0... (22.4MB)
 error code: 502Already up-to-date.
+error code: 502
