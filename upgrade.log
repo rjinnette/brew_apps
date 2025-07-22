@@ -1842,4 +1842,18 @@ Removing: /opt/homebrew/Cellar/node/24.3.0... (2,466 files, 98.7MB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.3.0... (21.1KB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.3.0... (22.4MB)
 error code: 502Already up-to-date.
-error code: 502
+error code: 502==> Upgrading 1 outdated package:
+ca-certificates 2025-05-20 -> 2025-07-15
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:84e089e758e75d61228f97d54b3eb1918737a2272c747206cc4d9d75d8a3cb52
+==> Upgrading ca-certificates
+  2025-05-20 -> 2025-07-15 
+==> Pouring ca-certificates--2025-07-15.all.bottle.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-07-15: 4 files, 225.8KB
+==> Running `brew cleanup ca-certificates`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-05-20... (4 files, 225.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-05-20... (2.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates--2025-05-20... (126.4KB)
