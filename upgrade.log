@@ -1857,3 +1857,101 @@ Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 Removing: /opt/homebrew/Cellar/ca-certificates/2025-05-20... (4 files, 225.8KB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-05-20... (2.0KB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates--2025-05-20... (126.4KB)
+==> Upgrading 5 outdated packages:
+pixman 0.46.2 -> 0.46.4
+harfbuzz 11.2.1 -> 11.3.2
+sqlite 3.50.2 -> 3.50.3
+gettext 0.25.1 -> 0.26
+node 24.4.0 -> 24.4.1
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:d5ac21b30a733b24e58531bfdbe510ccbe14b72972e3b71ecad78a5243f6cfb1
+==> Fetching pixman
+==> Downloading https://ghcr.io/v2/homebrew/core/pixman/blobs/sha256:47c77f5ccc98501480075a102c991846fe45743d10aa6ae9618b0e1c0c774021
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:b25ac1e62443f8f79eadc3dadf6d3af954d4cbc33a0577fc626aa0c8f2bb01a5
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:211fb413ebdb583b370a5d34693b8a8b5490ec348d8de10b0cfa7ed7ab55ac64
+==> Fetching dependencies for node: libnghttp3, libngtcp2 and simdjson
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp3/manifests/1.10.1-1
+==> Fetching libnghttp3
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp3/blobs/sha256:b3dffb612eb8682d4981be3a8f614f0796a882de0f5074ccf27dd9adcb821144
+==> Downloading https://ghcr.io/v2/homebrew/core/libngtcp2/manifests/1.13.0
+==> Fetching libngtcp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libngtcp2/blobs/sha256:b8cb59471c72f95b769458e78a83f2d82f5cf9652672aa8c8302e8a7d1d7b342
+==> Downloading https://ghcr.io/v2/homebrew/core/simdjson/manifests/3.13.0
+==> Fetching simdjson
+==> Downloading https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:2d66e98360e79ddc9c6659aea66532e472b31186f83a9d6efe240065833ef1a0
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:e3b31f9b31a2b7afa8c9e8f1c8fa4b0136cf9e60b0a4385015486706f8a9286b
+==> Upgrading sqlite
+  3.50.2 -> 3.50.3 
+==> Pouring sqlite--3.50.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.50.3: 13 files, 4.9MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.50.2... (13 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.50.2... (11.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.50.2... (2.2MB)
+==> Upgrading pixman
+  0.46.2 -> 0.46.4 
+==> Pouring pixman--0.46.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pixman/0.46.4: 10 files, 688.0KB
+==> Running `brew cleanup pixman`...
+Removing: /opt/homebrew/Cellar/pixman/0.46.2... (10 files, 688.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pixman_bottle_manifest--0.46.2... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pixman--0.46.2... (190.5KB)
+==> Upgrading gettext
+  0.25.1 -> 0.26 
+==> Pouring gettext--0.26.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.26: 2,428 files, 28.2MB
+==> Running `brew cleanup gettext`...
+Removing: /opt/homebrew/Cellar/gettext/0.25.1... (2,419 files, 27.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gettext_bottle_manifest--0.25.1... (14.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gettext--0.25.1... (9MB)
+==> Upgrading harfbuzz
+  11.2.1 -> 11.3.2 
+==> Pouring harfbuzz--11.3.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/11.3.2: 77 files, 10.1MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/11.2.1... (77 files, 10.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--11.2.1... (32.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--11.2.1... (2.6MB)
+==> Upgrading node
+  24.4.0 -> 24.4.1 
+==> Installing dependencies for node: libnghttp3, libngtcp2 and simdjson
+==> Installing node dependency: libnghttp3
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp3/manifests/1.10.1-1
+Already downloaded: /Users/ryanjinnette/Library/Caches/Homebrew/downloads/df33f7ba5e3fa90c7706e454dde3cf7619df91ea038a72c79230319a3475c238--libnghttp3-1.10.1-1.bottle_manifest.json
+==> Pouring libnghttp3--1.10.1.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.10.1: 20 files, 557.6KB
+==> Installing node dependency: libngtcp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libngtcp2/manifests/1.13.0
+Already downloaded: /Users/ryanjinnette/Library/Caches/Homebrew/downloads/46a61bfae46498a6f6313fff16ec81f7dbc0c3c5a4c5f3004db806d24d94f214--libngtcp2-1.13.0.bottle_manifest.json
+==> Pouring libngtcp2--1.13.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.13.0: 21 files, 1.2MB
+==> Installing node dependency: simdjson
+==> Downloading https://ghcr.io/v2/homebrew/core/simdjson/manifests/3.13.0
+Already downloaded: /Users/ryanjinnette/Library/Caches/Homebrew/downloads/02c41c3dcd1d6d8e7fa71de0dbc30f47556872481178358c68a85bf79f14457d--simdjson-3.13.0.bottle_manifest.json
+==> Pouring simdjson--3.13.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/3.13.0: 17 files, 5.3MB
+==> Installing node
+==> Pouring node--24.4.1.arm64_sequoia.bottle.2.tar.gz
+🍺  /opt/homebrew/Cellar/node/24.4.1: 2,466 files, 96.9MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.4.0... (2,466 files, 98.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.4.0... (21KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.4.0... (22.4MB)
+==> No outdated dependents to upgrade!
+==> Casks with 'auto_updates true' or 'version :latest' will not be upgraded; pass `--greedy` to upgrade them.
+==> Upgrading 1 outdated package:
+ente-auth 4.4.0 -> 4.4.3
+==> Upgrading ente-auth
+==> Downloading https://github.com/ente-io/ente/releases/download/auth-v4.4.3/ente-auth-v4.4.3.dmg
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/560284721/00acede6-d435-401a-ab50-8dab7d91a63a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-07-22T17%3A55%3A58Z&rscd=attachment%3B+filename%3Dente-auth-v4.4.3.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2025-07-22T16%3A55%3A58Z&ske=2025-07-22T17%3A55%3A58Z&sks=b&skv=2018-11-09&sig=uCjw0Cai6tjXNNdAO7GJgC3RhDnRMYcixvmrOA0KUgQ%3D&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc1MzIwNDQyNCwibmJmIjoxNzUzMjA0MTI0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.CaWVDDsCqUSujXZlzmfgGSMneS5eUd_rUrxu-nSIEc8&response-content-disposition=attachment%3B%20filename%3Dente-auth-v4.4.3.dmg&response-content-type=application%2Foctet-stream
+==> Backing App 'Ente Auth.app' up to '/opt/homebrew/Caskroom/ente-auth/4.4.0/Ente Auth.app'
+==> Removing App '/Applications/Ente Auth.app'
+==> Moving App 'Ente Auth.app' to '/Applications/Ente Auth.app'
+==> Purging files for version 4.4.0 of Cask ente-auth
+🍺  ente-auth was successfully upgraded!
+error code: 502
