@@ -1954,4 +1954,190 @@ ente-auth 4.4.0 -> 4.4.3
 ==> Moving App 'Ente Auth.app' to '/Applications/Ente Auth.app'
 ==> Purging files for version 4.4.0 of Cask ente-auth
 🍺  ente-auth was successfully upgraded!
-error code: 502
+error code: 502==> Upgrading 13 outdated packages:
+bitwarden-cli 2025.6.1 -> 2025.7.0
+mpg123 1.33.0 -> 1.33.1
+zeromq 4.3.5_1 -> 4.3.5_2
+harfbuzz 11.3.2 -> 11.3.3
+libnghttp3 1.10.1 -> 1.11.0
+sqlite 3.50.3 -> 3.50.4
+svt-av1 3.0.2 -> 3.1.0
+bash 5.3_1 -> 5.3.3
+openexr 3.3.4 -> 3.3.5
+node 24.4.1 -> 24.5.0
+docker-compose 2.38.2 -> 2.39.1
+libngtcp2 1.13.0 -> 1.14.0
+fzf 0.64.0 -> 0.65.0
+==> Fetching downloads for: sqlite, mpg123, zeromq, harfbuzz, libnghttp3, svt-av1, bash, openexr, libngtcp2, node, docker-compose, bitwarden-cli and fzf
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:3e335d368e5121928ce36ac773e3288f4fb6c41101444f1b4af4d1dbe659327d
+==> Fetching mpg123
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/blobs/sha256:8db0262004266cefbed59a42ed54228756fee5ad06304391735cd8b743d90a04
+==> Fetching zeromq
+==> Downloading https://ghcr.io/v2/homebrew/core/zeromq/blobs/sha256:03990812828803732fe5253d9940e1a769012068f9af165804d2dd30255aa3c4
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:98904ebda5dea947ef4ce81e1c9ae412cb8c5f1215fa2ecf3d2e5822fba05a8d
+==> Fetching libnghttp3
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp3/blobs/sha256:1c9d28dd6fde53d9fa821b5193f3544efb334ff6a22c9153a3ad962f0263c7dc
+==> Fetching svt-av1
+==> Downloading https://ghcr.io/v2/homebrew/core/svt-av1/blobs/sha256:3a012b4410dd0983dfcc7306f1e58542a4eab657b0e41451e07da79c88b8f393
+==> Fetching bash
+==> Downloading https://ghcr.io/v2/homebrew/core/bash/blobs/sha256:4320a344c3026bdc04760002504da6bab0186f5dba723a88e3d53d8652e96c34
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:f12f6e8a339ab66b6269da2b6376d49fec5a8b5bdeae7c0ebe89cd2b0b5a69a1
+==> Fetching libngtcp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libngtcp2/blobs/sha256:9b415426148c99279e3e9d67ba501b105906223e42fe594e84ba35ead58ac2cd
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:4e0afc7a81bae0b8c51f41deeca76e0dfa0de0b46e8ebef5313d418c902e7f31
+==> Fetching docker-compose
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:39dc86959a146bb8d49fbc858730cb20340ca7a632fc6f1a4d69c83d46920aed
+==> Fetching bitwarden-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/bitwarden-cli/blobs/sha256:8b1f9d8e9f2a11e128d811b25f500ff8c5f3b1403b66d7d6b43e0bac9c55791d
+==> Fetching fzf
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/blobs/sha256:6ccb9f330646341917b9f7a9d6f94c3e197a658cf34d8058238e1f9da3600171
+==> Upgrading sqlite
+  3.50.3 -> 3.50.4 
+==> Pouring sqlite--3.50.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.50.4: 13 files, 4.9MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.50.3... (13 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.50.3... (11.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.50.3... (2.2MB)
+==> Upgrading mpg123
+  1.33.0 -> 1.33.1 
+==> Pouring mpg123--1.33.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpg123/1.33.1: 34 files, 2.0MB
+==> Running `brew cleanup mpg123`...
+Removing: /opt/homebrew/Cellar/mpg123/1.33.0... (34 files, 2.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123_bottle_manifest--1.33.0... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123--1.33.0... (633.7KB)
+==> Upgrading zeromq
+  4.3.5_1 -> 4.3.5_2 
+==> Pouring zeromq--4.3.5_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/zeromq/4.3.5_2: 85 files, 6.4MB
+==> Running `brew cleanup zeromq`...
+Removing: /opt/homebrew/Cellar/zeromq/4.3.5_1... (85 files, 6.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/zeromq_bottle_manifest--4.3.5_1-1... (9.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/zeromq--4.3.5_1... (1.6MB)
+==> Upgrading harfbuzz
+  11.3.2 -> 11.3.3 
+==> Pouring harfbuzz--11.3.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/11.3.3: 77 files, 10.1MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/11.3.2... (77 files, 10.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--11.3.2... (32.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--11.3.2... (2.6MB)
+==> Upgrading libnghttp3
+  1.10.1 -> 1.11.0 
+==> Pouring libnghttp3--1.11.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.11.0: 20 files, 579.8KB
+==> Running `brew cleanup libnghttp3`...
+Removing: /opt/homebrew/Cellar/libnghttp3/1.10.1... (20 files, 557.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3_bottle_manifest--1.10.1-1... (8.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3--1.10.1... (175.2KB)
+==> Upgrading svt-av1
+  3.0.2 -> 3.1.0 
+==> Pouring svt-av1--3.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/3.1.0: 19 files, 3.3MB
+==> Running `brew cleanup svt-av1`...
+Removing: /opt/homebrew/Cellar/svt-av1/3.0.2... (18 files, 3.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1_bottle_manifest--3.0.2... (8.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1--3.0.2... (1.3MB)
+==> Upgrading bash
+  5.3_1 -> 5.3.3 
+==> Pouring bash--5.3.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bash/5.3.3: 172 files, 13.1MB
+==> Running `brew cleanup bash`...
+Removing: /opt/homebrew/Cellar/bash/5.3_1... (172 files, 13.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bash_bottle_manifest--5.3_1... (12.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bash--5.3_1... (3.3MB)
+==> Upgrading openexr
+  3.3.4 -> 3.3.5 
+==> Pouring openexr--3.3.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.3.5: 210 files, 4.8MB
+==> Running `brew cleanup openexr`...
+Removing: /opt/homebrew/Cellar/openexr/3.3.4... (210 files, 4.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr_bottle_manifest--3.3.4... (11.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr--3.3.4... (1.1MB)
+==> Upgrading libngtcp2
+  1.13.0 -> 1.14.0 
+==> Pouring libngtcp2--1.14.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.14.0: 21 files, 1.2MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.13.0... (21 files, 1.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.13.0... (10.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.13.0... (366.2KB)
+==> Upgrading node
+  24.4.1 -> 24.5.0 
+==> Pouring node--24.5.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/24.5.0: 2,467 files, 95.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.4.1... (2,466 files, 96.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.4.1-2... (28KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.4.1... (21.5MB)
+==> Upgrading docker-compose
+  2.38.2 -> 2.39.1 
+==> Pouring docker-compose--2.39.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/2.39.1: 8 files, 61MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/2.38.2... (8 files, 60.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.38.2... (7.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.38.2... (17.6MB)
+==> Upgrading bitwarden-cli
+  2025.6.1 -> 2025.7.0 
+==> Pouring bitwarden-cli--2025.7.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2025.7.0: 10,049 files, 45.9MB
+==> Running `brew cleanup bitwarden-cli`...
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2025.6.1... (10,133 files, 46.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2025.6.1-1... (28.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2025.6.1... (11.5MB)
+==> Upgrading fzf
+  0.64.0 -> 0.65.0 
+==> Pouring fzf--0.65.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.65.0: 19 files, 4.5MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.64.0... (19 files, 4.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.64.0... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.64.0... (1.7MB)
+==> No outdated dependents to upgrade!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/icu4c@77_bottle_manifest--77.1... (10.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/icu4c@77--77.1... (29.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/icu4c@76_bottle_manifest--76.1_2... (10.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/icu4c@76--76.1_2... (29.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/vienna--3.9.5.tgz... (8.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/ente-auth--4.4.0.dmg... (36.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/287d6b13bd97dfce385fd07e3348320940a44056e50552b059ee64db214471b8... (607 files, 5.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/b398a48f8ba83ea2e8b1f255b1e09c4ea8ed2874200563c348cc34030e67c441... (650 files, 5.1MB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/python@3.11... (2 files, 2.5KB)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+{"id":"X2nOtWTlYby9","time":1754069375,"expires":1754112575,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
