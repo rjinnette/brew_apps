@@ -2141,3 +2141,24 @@ To set up shell integration, see:
 To use fzf in Vim, add the following line to your .vimrc:
   set rtp+=/opt/homebrew/opt/fzf
 {"id":"X2nOtWTlYby9","time":1754069375,"expires":1754112575,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 1 outdated package:
+uv 0.8.4 -> 0.8.5
+==> Fetching downloads for: uv
+==> Fetching uv
+==> Downloading https://ghcr.io/v2/homebrew/core/uv/blobs/sha256:25090425a7f9ebd2f51cc3db975a1659642249309bd099e621d4b2e3591bc80c
+==> Upgrading uv
+  0.8.4 -> 0.8.5 
+==> Pouring uv--0.8.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.8.5: 17 files, 36.9MB
+==> Running `brew cleanup uv`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/uv/0.8.4... (17 files, 36.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.8.4... (8.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.8.4... (15.8MB)
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"pE1kbs9cOI8l","time":1754529937,"expires":1754573137,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
