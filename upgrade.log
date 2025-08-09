@@ -2162,3 +2162,44 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.8.4... (15.8MB)
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"pE1kbs9cOI8l","time":1754529937,"expires":1754573137,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 3 outdated packages:
+mpg123 1.33.1 -> 1.33.2
+uv 0.8.5 -> 0.8.6
+openssl@3 3.5.1 -> 3.5.2
+==> Fetching downloads for: mpg123, uv and openssl@3
+==> Fetching mpg123
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/blobs/sha256:ef311cff7f895e6d9833813db551278279d5c9c7ce37635e3fe441c5c8d64928
+==> Fetching uv
+==> Downloading https://ghcr.io/v2/homebrew/core/uv/blobs/sha256:b28b214fe21910471abebcca635c489f0c3ffae4b45f8a6337c74eac7194c12d
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:4066d7983ad535f0e460fc340f343f9de933073882470d5ea968b18698b2777c
+==> Upgrading mpg123
+  1.33.1 -> 1.33.2 
+==> Pouring mpg123--1.33.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpg123/1.33.2: 34 files, 2.0MB
+==> Running `brew cleanup mpg123`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/mpg123/1.33.1... (34 files, 2.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123_bottle_manifest--1.33.1... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123--1.33.1... (633.9KB)
+==> Upgrading uv
+  0.8.5 -> 0.8.6 
+==> Pouring uv--0.8.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.8.6: 17 files, 37.6MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.8.5... (17 files, 36.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.8.5... (8.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.8.5... (15.9MB)
+==> Upgrading openssl@3
+  3.5.1 -> 3.5.2 
+==> Pouring openssl@3--3.5.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.5.2: 7,563 files, 35.4MB
+==> Running `brew cleanup openssl@3`...
+Removing: /opt/homebrew/Cellar/openssl@3/3.5.1... (7,563 files, 35.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.5.1... (11.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3--3.5.1... (10.2MB)
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
