@@ -2245,3 +2245,101 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
       "/opt/homebrew/lib/docker/cli-plugins"
   ]
 {"id":"4OcqAM51JDZb","time":1754726710,"expires":1754769910,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 8 outdated packages:
+python@3.13 3.13.5 -> 3.13.6
+highway 1.2.0 -> 1.3.0
+harfbuzz 11.3.3 -> 11.4.1
+glib 2.84.3 -> 2.84.4
+webp 1.5.0 -> 1.6.0
+uv 0.8.8 -> 0.8.11
+ca-certificates 2025-07-15 -> 2025-08-12
+node 24.5.0 -> 24.6.0
+==> Fetching downloads for: ca-certificates, node, highway, glib, harfbuzz, webp, uv and python@3.13
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:80f4508a2a5711fcabeeaafdeebb88c9eec6b0e834e75f47b837ffe3da60c7d3
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:76c3bfe040c325a5d8b0fc629cd16c86c9a58287fc08732c6af06ae428d083e1
+==> Fetching highway
+==> Downloading https://ghcr.io/v2/homebrew/core/highway/blobs/sha256:0dfc837e61d17b1cd2c5e27afc94993a4eb75b59ca8a057ef7c6dea61acbdd7a
+==> Fetching glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:8c27060502813360234e956090f1c6436f83769c422434e022921afa2f8c5f62
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:53abe6e4c73f315e62b575f55e7eddbb1057bf29a975a79f7baf79b27a91072b
+==> Fetching webp
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/blobs/sha256:ad74e4538a799bc21e85fb2899c2267f7b6c8761212d195ec3cb3583062ad19e
+==> Fetching uv
+==> Downloading https://ghcr.io/v2/homebrew/core/uv/blobs/sha256:1029001fa24969ad08c98b17d596173d1cec8bfcb3df3bb5e8c4ba159997ee76
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:c6f72505721814738260f330244140fee983b21477a28994c66adf8018be75c8
+==> Upgrading ca-certificates
+  2025-07-15 -> 2025-08-12 
+==> Pouring ca-certificates--2025-08-12.all.bottle.1.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-08-12: 4 files, 232.7KB
+==> Running `brew cleanup ca-certificates`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-07-15... (4 files, 225.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-07-15... (2.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates--2025-07-15... (126.4KB)
+==> Upgrading node
+  24.5.0 -> 24.6.0 
+==> Pouring node--24.6.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/24.6.0: 2,467 files, 95.8MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.5.0... (2,467 files, 95.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.5.0... (28.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.5.0... (21.2MB)
+==> Upgrading highway
+  1.2.0 -> 1.3.0 
+==> Pouring highway--1.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/highway/1.3.0: 81 files, 5.3MB
+==> Running `brew cleanup highway`...
+Removing: /opt/homebrew/Cellar/highway/1.2.0... (75 files, 4.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/highway_bottle_manifest--1.2.0... (9.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/highway--1.2.0... (766.5KB)
+==> Upgrading glib
+  2.84.3 -> 2.84.4 
+==> Pouring glib--2.84.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.84.4: 504 files, 37.7MB
+==> Running `brew cleanup glib`...
+Removing: /opt/homebrew/Cellar/glib/2.84.3... (504 files, 37.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/glib_bottle_manifest--2.84.3... (21.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/glib--2.84.3... (8.7MB)
+==> Upgrading harfbuzz
+  11.3.3 -> 11.4.1 
+==> Pouring harfbuzz--11.4.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/11.4.1: 77 files, 11.8MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/11.3.3... (77 files, 10.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--11.3.3... (32.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--11.3.3... (2.6MB)
+==> Upgrading webp
+  1.5.0 -> 1.6.0 
+==> Pouring webp--1.6.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/webp/1.6.0: 64 files, 2.5MB
+==> Running `brew cleanup webp`...
+Removing: /opt/homebrew/Cellar/webp/1.5.0... (64 files, 2.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/webp_bottle_manifest--1.5.0... (15.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/webp--1.5.0... (883.4KB)
+==> Upgrading uv
+  0.8.8 -> 0.8.11 
+==> Pouring uv--0.8.11.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.8.11: 17 files, 37.4MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.8.8... (17 files, 37.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.8.8... (8.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.8.8... (16.1MB)
+==> Upgrading python@3.13
+  3.13.5 -> 3.13.6 
+==> Pouring python@3.13--3.13.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.6: 3,620 files, 66.6MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.5... (3,870 files, 72.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.5... (31KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.5... (17.2MB)
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"G6QF202B2RNp","time":1755278980,"expires":1755322180,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
