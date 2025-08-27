@@ -2343,3 +2343,10 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.5... (17
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"G6QF202B2RNp","time":1755278980,"expires":1755322180,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+{"id":"wgFiP8r6bNDo","time":1755882918,"expires":1755926118,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 5 outdated packages:
+ffmpeg 7.1.1_5 -> 8.0
+harfbuzz 11.4.1 -> 11.4.4
+svt-av1 3.1.0 -> 3.1.2
+speedtest-cli 2.1.3_1 -> 2.1.3_2
+libngtcp2 1.14.0 -> 1.15.0
