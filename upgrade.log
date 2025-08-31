@@ -2350,3 +2350,62 @@ harfbuzz 11.4.1 -> 11.4.4
 svt-av1 3.1.0 -> 3.1.2
 speedtest-cli 2.1.3_1 -> 2.1.3_2
 libngtcp2 1.14.0 -> 1.15.0
+==> Fetching downloads for: harfbuzz, svt-av1, ffmpeg, speedtest-cli and libngtcp2
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:370e265869f5d889a809a558484ffdf21e04317817a649b4dcbbe9ac4bbda5f5
+==> Fetching svt-av1
+==> Downloading https://ghcr.io/v2/homebrew/core/svt-av1/blobs/sha256:8c2b600f85d7ff7280fbfb1eadf0c184389851b0b45181e38ab83471b172e5d9
+==> Fetching ffmpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/blobs/sha256:a3c8c7d17e361171186713958b25b90a59805eff9ef6348b841249e4411ba63e
+==> Fetching speedtest-cli
+==> Downloading https://ghcr.io/v2/homebrew/core/speedtest-cli/blobs/sha256:77a4dc453d1e58aee76c4145eb1e917d7514762cfd76d6014454e4f37b40fec3
+==> Fetching libngtcp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libngtcp2/blobs/sha256:31839237f47174ee305ebe2b026da71032a01c886e430942a33edda24e608622
+==> Upgrading harfbuzz
+  11.4.1 -> 11.4.4 
+==> Pouring harfbuzz--11.4.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/11.4.4: 77 files, 11.8MB
+==> Running `brew cleanup harfbuzz`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/harfbuzz/11.4.1... (77 files, 11.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--11.4.1... (32.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--11.4.1... (3MB)
+==> Upgrading svt-av1
+  3.1.0 -> 3.1.2 
+==> Pouring svt-av1--3.1.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/3.1.2: 19 files, 3.3MB
+==> Running `brew cleanup svt-av1`...
+Removing: /opt/homebrew/Cellar/svt-av1/3.1.0... (19 files, 3.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1_bottle_manifest--3.1.0... (8.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1--3.1.0... (1.4MB)
+==> Upgrading ffmpeg
+  7.1.1_5 -> 8.0 
+==> Pouring ffmpeg--8.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0: 285 files, 52.9MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/7.1.1_5... (287 files, 52.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--7.1.1_5... (113.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--7.1.1_5... (20.2MB)
+==> Upgrading speedtest-cli
+  2.1.3_1 -> 2.1.3_2 
+==> Pouring speedtest-cli--2.1.3_2.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/speedtest-cli/2.1.3_2: 8 files, 97.6KB
+==> Running `brew cleanup speedtest-cli`...
+Removing: /opt/homebrew/Cellar/speedtest-cli/2.1.3_1... (7 files, 87.0KB)
+==> Upgrading libngtcp2
+  1.14.0 -> 1.15.0 
+==> Pouring libngtcp2--1.15.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.15.0: 21 files, 1.2MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.14.0... (21 files, 1.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.14.0... (10.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.14.0... (371.4KB)
+==> No outdated dependents to upgrade!
+{"id":"qCXGScrlVMZI","time":1756272209,"expires":1756315409,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 5 outdated packages:
+pango 1.56.4 -> 1.57.0
+fontconfig 2.16.0 -> 2.17.1
+uv 0.8.13 -> 0.8.14
+pcre2 10.45 -> 10.46
+node 24.6.0 -> 24.7.0
