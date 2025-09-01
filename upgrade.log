@@ -2409,3 +2409,72 @@ fontconfig 2.16.0 -> 2.17.1
 uv 0.8.13 -> 0.8.14
 pcre2 10.45 -> 10.46
 node 24.6.0 -> 24.7.0
+==> Fetching downloads for: fontconfig, pcre2, pango, uv and node
+==> Fetching fontconfig
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/blobs/sha256:b292b9e4ef57b6ed6190119972bffad4d326798f08b9ee74a1776b3eb94fc9a0
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:6ddb89f2eef25f73e258a97bf4379539e24ea76e207fa3c0eb49222bdb656de2
+==> Fetching pango
+==> Downloading https://ghcr.io/v2/homebrew/core/pango/blobs/sha256:af46edb4113ff0190d78175fb4e82296467cef2ed216267bcc3b26f151b2fe0a
+==> Fetching uv
+==> Downloading https://ghcr.io/v2/homebrew/core/uv/blobs/sha256:2e4f4f13cb69866fd54fd804d081165a5bbb9bb3fa8ee89c9fbaa36c462bb3a4
+==> Fetching dependencies for node: uvwasi
+==> Downloading https://ghcr.io/v2/homebrew/core/uvwasi/manifests/0.0.21
+==> Fetching uvwasi
+==> Downloading https://ghcr.io/v2/homebrew/core/uvwasi/blobs/sha256:e9bc1d223efb41a0bee91c928bf2d85a57179c0ab37713dfd6941f046f3f50e9
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:56ea01001e0320e0b3b639d9bceb042996f39831a8ffd3995a5ac8cb52d498b2
+==> Upgrading fontconfig
+  2.16.0 -> 2.17.1 
+==> Pouring fontconfig--2.17.1.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1mRegenerating font cache, this may take a while[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/fontconfig/2.17.1/bin/fc-cache --force --really-force -[0m
+🍺  /opt/homebrew/Cellar/fontconfig/2.17.1: 97 files, 1.2MB
+==> Running `brew cleanup fontconfig`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/fontconfig/2.16.0... (92 files, 1.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fontconfig_bottle_manifest--2.16.0... (13.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fontconfig--2.16.0... (378.5KB)
+==> Upgrading pcre2
+  10.45 -> 10.46 
+==> Pouring pcre2--10.46.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.46: 242 files, 6.8MB
+==> Running `brew cleanup pcre2`...
+Removing: /opt/homebrew/Cellar/pcre2/10.45... (242 files, 6.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pcre2_bottle_manifest--10.45... (10.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pcre2--10.45... (2.2MB)
+==> Upgrading pango
+  1.56.4 -> 1.57.0 
+==> Pouring pango--1.57.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pango/1.57.0: 69 files, 3.6MB
+==> Running `brew cleanup pango`...
+Removing: /opt/homebrew/Cellar/pango/1.56.4... (69 files, 3.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pango_bottle_manifest--1.56.4... (34.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pango--1.56.4... (852.1KB)
+==> Upgrading uv
+  0.8.13 -> 0.8.14 
+==> Pouring uv--0.8.14.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.8.14: 17 files, 38.0MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.8.13... (17 files, 37.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.8.13... (8.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.8.13... (16.2MB)
+==> Upgrading node
+  24.6.0 -> 24.7.0 
+==> Installing node dependency: uvwasi
+==> Downloading https://ghcr.io/v2/homebrew/core/uvwasi/manifests/0.0.21
+Already downloaded: /Users/ryanjinnette/Library/Caches/Homebrew/downloads/a80b65d36adc763bbdea467d6c047f9eeb054d311726ac54b945a5299d107ecd--uvwasi-0.0.21.bottle_manifest.json
+==> Pouring uvwasi--0.0.21.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uvwasi/0.0.21: 15 files, 281.3KB
+==> Pouring node--24.7.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/24.7.0: 2,467 files, 96.0MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.6.0... (2,467 files, 95.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.6.0... (26.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.6.0... (21.2MB)
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"LR9RPNWjFu93","time":1756602209,"expires":1756645409,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
