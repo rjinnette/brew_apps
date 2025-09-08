@@ -2478,3 +2478,74 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.6.0... (21.2MB)
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"LR9RPNWjFu93","time":1756602209,"expires":1756645409,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 3 outdated packages:
+harfbuzz 11.4.4 -> 11.4.5
+libngtcp2 1.15.0 -> 1.15.1
+fzf 0.65.1 -> 0.65.2
+==> Fetching downloads for: harfbuzz, libngtcp2 and fzf
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:caea11e390402d2201fa2430e4cff4a1fa0acec8b3c564f6ec792784e98fcd9a
+==> Fetching libngtcp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libngtcp2/blobs/sha256:f20ea5d5069d5e4048e99364117e99073ff2808c653db353fbed54bb37cb22b7
+==> Fetching fzf
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/blobs/sha256:444cf406b792fd47ffca3eb671e5be08407e62dfa23609e561a85d1b27da39b2
+==> Upgrading harfbuzz
+  11.4.4 -> 11.4.5 
+==> Pouring harfbuzz--11.4.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/11.4.5: 77 files, 11.8MB
+==> Running `brew cleanup harfbuzz`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/harfbuzz/11.4.4... (77 files, 11.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--11.4.4... (32.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--11.4.4... (3.1MB)
+==> Upgrading libngtcp2
+  1.15.0 -> 1.15.1 
+==> Pouring libngtcp2--1.15.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.15.1: 21 files, 1.2MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.15.0... (21 files, 1.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.15.0... (10.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.15.0... (378.4KB)
+==> Upgrading fzf
+  0.65.1 -> 0.65.2 
+==> Pouring fzf--0.65.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.65.2: 19 files, 4.6MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.65.1... (19 files, 4.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.65.1... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.65.1... (1.7MB)
+==> No outdated dependents to upgrade!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/c-ares_bottle_manifest--1.34.5... (8.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/c-ares--1.34.5... (296.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libuv_bottle_manifest--1.51.0... (8.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libuv--1.51.0... (371.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/xz_bottle_manifest--5.8.1... (11.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/xz--5.8.1... (730.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/portable-ruby-3.3.8.arm64_big_sur.bottle.tar.gz... (11.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/portable-ruby-3.4.3.arm64_big_sur.bottle.tar.gz... (11.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/ente-auth--4.4.3.dmg... (36.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/c76bd5d607f544946a2f876e31b967af5b6ad99c68a2a67a0a02acc7c592f5f2... (664 files, 5.3MB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/glib... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/openssl@3... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/node... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/unbound... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/gnutls... (64B)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+==> Caveats
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+{"id":"thoo7z71WaUf","time":1756746907,"expires":1756790107,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
