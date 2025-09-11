@@ -2549,3 +2549,164 @@ To set up shell integration, see:
 To use fzf in Vim, add the following line to your .vimrc:
   set rtp+=/opt/homebrew/opt/fzf
 {"id":"thoo7z71WaUf","time":1756746907,"expires":1756790107,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 13 outdated packages:
+ffmpeg 8.0 -> 8.0_1
+frei0r 2.3.3 -> 2.4.0
+freetype 2.13.3 -> 2.14.0
+glib 2.84.4 -> 2.86.0
+aom 3.12.1 -> 3.13.1
+libnghttp2 1.66.0 -> 1.67.0
+openexr 3.3.5_1 -> 3.4.0
+uv 0.8.14 -> 0.8.15
+uvwasi 0.0.21 -> 0.0.23
+x264 r3108 -> r3222
+jpeg-xl 0.11.1_2 -> 0.11.1_3
+sdl2 2.32.8 -> 2.32.10
+jpeg-turbo 3.1.1 -> 3.1.2
+==> Fetching downloads for: jpeg-turbo, frei0r, freetype, glib, openexr, jpeg-xl, aom, libnghttp2, uv, uvwasi, x264, sdl2 and ffmpeg
+==> Fetching jpeg-turbo
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:59f90f6a9c2dc28abc3b425c7116e30dc4c13986538c6fcf614fa1b2aee8e7d4
+==> Fetching frei0r
+==> Downloading https://ghcr.io/v2/homebrew/core/frei0r/blobs/sha256:260b59f5cdef89305e1d51b61516e5714d6ebc2253ff90c47b634897b17d0161
+==> Fetching freetype
+==> Downloading https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:3316a38555210e86a126f81840d32ed6a0a3e2dfac5bd4d0a407dfeb6a2b97b7
+==> Fetching glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:7c3d1882370a0cffe94535a6db4af6d0f3d27bc10aeb3a34d0d2de46209dd12d
+==> Fetching dependencies for openexr: openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/manifests/0.22.0
+==> Fetching openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/blobs/sha256:0358455e3ab0d3fdfb4ce3ff8ba4d0166c2c483ba07eb7b5295867e53062eddc
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:9ade6e4cd035310443eb46105b4c83aa365815c91377bf696a0685393d6de755
+==> Fetching jpeg-xl
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:73de0c3b5ca045185ff1dd02c030060c19be06679b3f5be7c1863ddcf82461df
+==> Fetching aom
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:ca79133eb9a4ec1e943322ef475811cc2be310cccfc28d4aa1326bfba0ffa0c7
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:35b1d5add253624e9a904dfe1e3f1145d1d7acc7618d6f9ea7ac312f878be442
+==> Fetching uv
+==> Downloading https://ghcr.io/v2/homebrew/core/uv/blobs/sha256:96a8c7cf99a50531e0f3b828e612e9b36903f31e257ab43eaa8745e477b89909
+==> Fetching uvwasi
+==> Downloading https://ghcr.io/v2/homebrew/core/uvwasi/blobs/sha256:8b31bdacb3dce4e40fd0ac0e6336b1b7b1c22e8dd5fe5cfafc0b51bce6929f45
+==> Fetching x264
+==> Downloading https://ghcr.io/v2/homebrew/core/x264/blobs/sha256:a613d44ead5d3999270970f41283eadfad8001061faf063945def6b8fb5145f4
+==> Fetching sdl2
+==> Downloading https://ghcr.io/v2/homebrew/core/sdl2/blobs/sha256:702b9e09ac8a7cc8a99ab4e9298803bbfcd3179d7b029883fe760ceecf98e526
+==> Fetching ffmpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/blobs/sha256:e187d42e699e7d9c05722b37c8b8f3d03d2e874cdea67f3f04c2f3134aaa683e
+==> Upgrading jpeg-turbo
+  3.1.1 -> 3.1.2 
+==> Pouring jpeg-turbo--3.1.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-turbo/3.1.2: 47 files, 3.6MB
+==> Running `brew cleanup jpeg-turbo`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/jpeg-turbo/3.1.1... (47 files, 3.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jpeg-turbo_bottle_manifest--3.1.1... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jpeg-turbo--3.1.1... (1.2MB)
+==> Upgrading frei0r
+  2.3.3 -> 2.4.0 
+==> Pouring frei0r--2.4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/frei0r/2.4.0: 164 files, 5.7MB
+==> Running `brew cleanup frei0r`...
+Removing: /opt/homebrew/Cellar/frei0r/2.3.3... (157 files, 5.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/frei0r_bottle_manifest--2.3.3... (9.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/frei0r--2.3.3... (644.9KB)
+==> Upgrading freetype
+  2.13.3 -> 2.14.0 
+==> Pouring freetype--2.14.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetype/2.14.0: 68 files, 2.6MB
+==> Running `brew cleanup freetype`...
+Removing: /opt/homebrew/Cellar/freetype/2.13.3... (68 files, 2.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/freetype_bottle_manifest--2.13.3... (11.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/freetype--2.13.3... (936.9KB)
+==> Upgrading glib
+  2.84.4 -> 2.86.0 
+==> Pouring glib--2.86.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.86.0: 504 files, 37.6MB
+==> Running `brew cleanup glib`...
+Removing: /opt/homebrew/Cellar/glib/2.84.4... (504 files, 37.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/glib_bottle_manifest--2.84.4... (21.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/glib--2.84.4... (8.7MB)
+==> Upgrading openexr
+  3.3.5_1 -> 3.4.0 
+==> Installing openexr dependency: openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/manifests/0.22.0
+Already downloaded: /Users/ryanjinnette/Library/Caches/Homebrew/downloads/7433d6555ba8ce963d95828545e5c99799140dc1fc15d72a6c107077abc1a171--openjph-0.22.0.bottle_manifest.json
+==> Pouring openjph--0.22.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.22.0: 25 files, 621.4KB
+==> Pouring openexr--3.4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.4.0: 212 files, 4.9MB
+==> Running `brew cleanup openexr`...
+Removing: /opt/homebrew/Cellar/openexr/3.3.5_1... (210 files, 4.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr_bottle_manifest--3.3.5_1... (11.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr--3.3.5_1... (1.1MB)
+==> Upgrading jpeg-xl
+  0.11.1_2 -> 0.11.1_3 
+==> Pouring jpeg-xl--0.11.1_3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-xl/0.11.1_3: 64 files, 34.4MB
+==> Running `brew cleanup jpeg-xl`...
+Removing: /opt/homebrew/Cellar/jpeg-xl/0.11.1_2... (64 files, 34.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jpeg-xl_bottle_manifest--0.11.1_2... (28.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jpeg-xl--0.11.1_2... (13.2MB)
+==> Upgrading aom
+  3.12.1 -> 3.13.1 
+==> Pouring aom--3.13.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aom/3.13.1: 28 files, 10.2MB
+==> Running `brew cleanup aom`...
+Removing: /opt/homebrew/Cellar/aom/3.12.1... (24 files, 9.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/aom_bottle_manifest--3.12.1... (27.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/aom--3.12.1... (3.9MB)
+==> Upgrading libnghttp2
+  1.66.0 -> 1.67.0 
+==> Pouring libnghttp2--1.67.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.67.0: 14 files, 762.7KB
+==> Running `brew cleanup libnghttp2`...
+Removing: /opt/homebrew/Cellar/libnghttp2/1.66.0... (14 files, 841KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.66.0... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2--1.66.0... (228.9KB)
+==> Upgrading uv
+  0.8.14 -> 0.8.15 
+==> Pouring uv--0.8.15.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.8.15: 17 files, 38.8MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.8.14... (17 files, 38.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.8.14... (8.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.8.14... (16.3MB)
+==> Upgrading uvwasi
+  0.0.21 -> 0.0.23 
+==> Pouring uvwasi--0.0.23.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uvwasi/0.0.23: 15 files, 282.3KB
+==> Running `brew cleanup uvwasi`...
+Removing: /opt/homebrew/Cellar/uvwasi/0.0.21... (15 files, 281.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uvwasi_bottle_manifest--0.0.21... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uvwasi--0.0.21... (67.4KB)
+==> Upgrading x264
+  r3108 -> r3222 
+==> Pouring x264--r3222.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/x264/r3222: 12 files, 4.2MB
+==> Running `brew cleanup x264`...
+Removing: /opt/homebrew/Cellar/x264/r3108... (12 files, 4.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/x264_bottle_manifest--r3108... (9.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/x264--r3108... (1.9MB)
+==> Upgrading sdl2
+  2.32.8 -> 2.32.10 
+==> Pouring sdl2--2.32.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl2/2.32.10: 94 files, 6.4MB
+==> Running `brew cleanup sdl2`...
+Removing: /opt/homebrew/Cellar/sdl2/2.32.8... (94 files, 6.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl2_bottle_manifest--2.32.8... (21.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl2--2.32.8... (1.7MB)
+==> Upgrading ffmpeg
+  8.0 -> 8.0_1 
+==> Pouring ffmpeg--8.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0_1: 285 files, 52.9MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0... (285 files, 52.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.0... (113.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.0... (20.6MB)
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"OxXbLDC1vhfn","time":1757350885,"expires":1757394085,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
