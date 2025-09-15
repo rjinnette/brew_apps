@@ -2710,3 +2710,90 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.0... (20.6MB)
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"OxXbLDC1vhfn","time":1757350885,"expires":1757394085,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 6 outdated packages:
+cjson 1.7.18 -> 1.7.19
+uv 0.8.15 -> 0.8.17
+ca-certificates 2025-08-12 -> 2025-09-09
+libssh 0.11.2 -> 0.11.3
+docker-compose 2.39.2 -> 2.39.3
+p11-kit 0.25.5 -> 0.25.7
+==> Fetching downloads for: cjson, uv, ca-certificates, libssh, docker-compose and p11-kit
+==> Fetching cjson
+==> Downloading https://ghcr.io/v2/homebrew/core/cjson/blobs/sha256:02864d4e743d0b31edf050ab99325b77cbd34bde4a0fee2258c4903fb7cac621
+==> Fetching uv
+==> Downloading https://ghcr.io/v2/homebrew/core/uv/blobs/sha256:c51081f7bf936eeb45f30e6914984106db7f09777d25dc302a3d14021d09187c
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:a74a274a402f29cff2e1bb595a5253c20d7503a086175d57f7081821540203ce
+==> Fetching libssh
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh/blobs/sha256:ed8b3a5fc472d34a7dcc545125ad1b46018cb6a285f0493c983ed0057137dc1c
+==> Fetching docker-compose
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:a594fde55e9a2c676bdb142e0b2b11cd81a8bf02216d46f95881ceca7f2291d9
+==> Fetching p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:60dcadb4ab610a38b5d8e83ab4d3d5bf66ef39b490fcd99773b6eaa900fd523b
+==> Upgrading cjson
+  1.7.18 -> 1.7.19 
+==> Pouring cjson--1.7.19.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cjson/1.7.19: 24 files, 258KB
+==> Running `brew cleanup cjson`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/cjson/1.7.18... (24 files, 257.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/cjson_bottle_manifest--1.7.18... (11.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/cjson--1.7.18... (56.8KB)
+==> Upgrading uv
+  0.8.15 -> 0.8.17 
+==> Pouring uv--0.8.17.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.8.17: 17 files, 39.0MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.8.15... (17 files, 38.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.8.15... (8.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.8.15... (16.7MB)
+==> Upgrading ca-certificates
+  2025-08-12 -> 2025-09-09 
+==> Pouring ca-certificates--2025-09-09.all.bottle.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-09-09: 4 files, 232.9KB
+==> Running `brew cleanup ca-certificates`...
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-08-12... (4 files, 232.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-08-12-1... (2.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates--2025-08-12... (129.9KB)
+==> Upgrading libssh
+  0.11.2 -> 0.11.3 
+==> Pouring libssh--0.11.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh/0.11.3: 25 files, 1.5MB
+==> Running `brew cleanup libssh`...
+Removing: /opt/homebrew/Cellar/libssh/0.11.2... (25 files, 1.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh_bottle_manifest--0.11.2... (10.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh--0.11.2... (526.3KB)
+==> Upgrading docker-compose
+  2.39.2 -> 2.39.3 
+==> Pouring docker-compose--2.39.3.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/2.39.3: 8 files, 60.0MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/2.39.2... (8 files, 61MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.39.2... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.39.2... (17.8MB)
+==> Upgrading p11-kit
+  0.25.5 -> 0.25.7 
+==> Pouring p11-kit--0.25.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/p11-kit/0.25.7: 33 files, 4.3MB
+==> Running `brew cleanup p11-kit`...
+Removing: /opt/homebrew/Cellar/p11-kit/0.25.5... (31 files, 4.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/p11-kit_bottle_manifest--0.25.5-2... (11.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/p11-kit--0.25.5... (873.2KB)
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"KZQ0k3szw9wb","time":1757629826,"expires":1757673026,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
