@@ -2797,3 +2797,56 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
       "/opt/homebrew/lib/docker/cli-plugins"
   ]
 {"id":"KZQ0k3szw9wb","time":1757629826,"expires":1757673026,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 5 outdated packages:
+freetype 2.14.0 -> 2.14.1
+harfbuzz 11.4.5 -> 11.5.0
+openexr 3.4.0 -> 3.4.0_1
+openjph 0.22.0 -> 0.23.0
+p11-kit 0.25.7 -> 0.25.8
+==> Fetching downloads for: freetype, harfbuzz, openjph, openexr and p11-kit
+==> Fetching freetype
+==> Downloading https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:fee385426a9952d3908ea5e16ab58d2c163552e830f599ff77803d754ae387de
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:291666fda455cbfc2ccc13a3919597951887995f75a80b8959a691467504809a
+==> Fetching openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/blobs/sha256:fc6fe4d9d833d183099498f2dc5be24779389a6ba790a003d9436577cec0e4cb
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:c4c825d0859bc9cc9bf6086e69c25caffca882ef6c41f69913a796b650ece152
+==> Fetching p11-kit
+==> Downloading https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:4b4c6317a0f8d86da5d28f5d007e09261c399495702de85740f94434ca444ba6
+==> Upgrading freetype
+  2.14.0 -> 2.14.1 
+==> Pouring freetype--2.14.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetype/2.14.1: 68 files, 2.6MB
+==> Running `brew cleanup freetype`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/freetype/2.14.0... (68 files, 2.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/freetype_bottle_manifest--2.14.0... (10.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/freetype--2.14.0... (982.2KB)
+==> Upgrading harfbuzz
+  11.4.5 -> 11.5.0 
+==> Pouring harfbuzz--11.5.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/11.5.0: 77 files, 11.8MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/11.4.5... (77 files, 11.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--11.4.5... (32.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--11.4.5... (3.1MB)
+==> Upgrading openjph
+  0.22.0 -> 0.23.0 
+==> Pouring openjph--0.23.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.23.0: 25 files, 621.9KB
+==> Running `brew cleanup openjph`...
+Removing: /opt/homebrew/Cellar/openjph/0.22.0... (25 files, 621.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph_bottle_manifest--0.22.0... (13.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph--0.22.0... (153.3KB)
+==> Upgrading openexr
+  3.4.0 -> 3.4.0_1 
+==> Pouring openexr--3.4.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.4.0_1: 212 files, 4.9MB
+==> Running `brew cleanup openexr`...
+Removing: /opt/homebrew/Cellar/openexr/3.4.0... (212 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr_bottle_manifest--3.4.0... (17.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr--3.4.0... (1.1MB)
+==> No outdated dependents to upgrade!
+{"id":"c93g8vckhM2B","time":1757958619,"expires":1758001819,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
