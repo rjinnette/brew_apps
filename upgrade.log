@@ -3135,3 +3135,64 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11--3.11.13... (1
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"QAhTLbThXk9D","time":1759338287,"expires":1759381487,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 3 outdated packages:
+simdjson 3.13.0 -> 4.0.7
+harfbuzz 12.0.0 -> 12.1.0
+node 24.9.0 -> 24.9.0_1
+==> Fetching downloads for: simdjson, harfbuzz and node
+==> Fetching simdjson
+==> Downloading https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:8474462783d068f9d841733101667cd2d66438a87c56264809a064be19ecd2dc
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:d04d381a5f8f01a904e330415aca2953f73dd97b51cc39d836b2391d6431a748
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:e81c9c35749bfdc22925bec8e9e5d11cd3d559fb67a9a37f52dd5d3d953bba76
+==> Upgrading simdjson
+  3.13.0 -> 4.0.7 
+==> Pouring simdjson--4.0.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.0.7: 17 files, 5.9MB
+==> Running `brew cleanup simdjson`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/simdjson/3.13.0... (17 files, 5.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--3.13.0... (8.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--3.13.0... (976.3KB)
+==> Upgrading harfbuzz
+  12.0.0 -> 12.1.0 
+==> Pouring harfbuzz--12.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.1.0: 77 files, 12.0MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/12.0.0... (77 files, 11.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--12.0.0... (28.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--12.0.0... (3.1MB)
+==> Upgrading node
+  24.9.0 -> 24.9.0_1 
+==> Pouring node--24.9.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/24.9.0_1: 2,467 files, 75.6MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.9.0... (2,467 files, 75.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.9.0... (23.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.9.0... (19MB)
+==> No outdated dependents to upgrade!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libzip_bottle_manifest--1.11.4... (12.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libzip--1.11.4... (141.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpdecimal_bottle_manifest--4.0.1... (9.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpdecimal--4.0.1... (181.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/wireguard-go_bottle_manifest--0.0.20250522... (7.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/wireguard-go--0.0.20250522... (1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/wireguard-tools_bottle_manifest--1.0.20250521... (10.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/wireguard-tools--1.0.20250521... (54.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/portable-ruby-3.4.5.arm64_big_sur.bottle.tar.gz... (11.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/portable-ruby-3.4.4.arm64_big_sur.bottle.tar.gz... (11.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/gimp--3.0.4.dmg... (222MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/fing--3.9.0.dmg... (150.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/9857322932db1075c1bb0e18715c0100e54c980b13f0770aaa027620250b6c8c... (670 files, 5.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/412954e5ce5d98f76c01852f9577ee68b361a7cd127bb849d925126eefa090e9... (673 files, 5.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/530d64a00e98e5a06b8fcd01114790442d0e1d09515261495da9b488ece22ae8... (668 files, 5.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/496c245e5f804d12db27657fff8069a14912e240bd3b578d52fccd35c5909d8a... (653 files, 5.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/6f30e8f1ffb9fa828f346a2fa6bfae5823a79041589f6940ac6a872a061c3c33... (667 files, 5.4MB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/fontconfig... (2 files, 3.3KB)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+{"id":"BHhyCRFhsWVI","time":1759409640,"expires":1759452840,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
