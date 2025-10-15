@@ -3196,3 +3196,102 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/6f30e8f1ffb9fa828
 Removing: /Users/ryanjinnette/Library/Logs/Homebrew/fontconfig... (2 files, 3.3KB)
 Pruned 0 symbolic links and 2 directories from /opt/homebrew
 {"id":"BHhyCRFhsWVI","time":1759409640,"expires":1759452840,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 6 outdated packages:
+frei0r 2.4.0 -> 2.5.0
+mpg123 1.33.2 -> 1.33.3
+libunistring 1.4 -> 1.4.1
+uv 0.8.22 -> 0.9.0
+openssl@3 3.5.4 -> 3.6.0
+docker-compose 2.39.4 -> 2.40.0
+==> Fetching downloads for: frei0r, mpg123, libunistring, uv, openssl@3 and docker-compose
+==> Fetching frei0r
+==> Downloading https://ghcr.io/v2/homebrew/core/frei0r/blobs/sha256:64fe8ea2a3289791c0ecbab17632b659a0a0c3c2c3cc9129d9dad760e35729b9
+==> Fetching mpg123
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/blobs/sha256:5c0f3a5461e813ea34f0be6623d950687292b734a0aec33e46e54678eb17bf13
+==> Fetching libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:dbc874f78025281d97cf683531c635a6a4195b928f1af4288bda71e6dba723cd
+==> Fetching uv
+==> Downloading https://ghcr.io/v2/homebrew/core/uv/blobs/sha256:22e7a2eca9885f81459b583592b228f2cc15d3929382180347554a5c2e001139
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:9a8fa2ae1ef3424b116d7e6422d979e0290f4affdef072b1592e4535d2617d92
+==> Fetching docker-compose
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:c5e911ead5d0f5293392149bd3aa4bcdc17d00c421b10c527da901deb1e63f73
+==> Upgrading frei0r
+  2.4.0 -> 2.5.0 
+==> Pouring frei0r--2.5.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/frei0r/2.5.0: 164 files, 5.7MB
+==> Running `brew cleanup frei0r`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/frei0r/2.4.0... (164 files, 5.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/frei0r_bottle_manifest--2.4.0... (8.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/frei0r--2.4.0... (672.5KB)
+==> Upgrading mpg123
+  1.33.2 -> 1.33.3 
+==> Pouring mpg123--1.33.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpg123/1.33.3: 34 files, 2.0MB
+==> Running `brew cleanup mpg123`...
+Removing: /opt/homebrew/Cellar/mpg123/1.33.2... (34 files, 2.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123_bottle_manifest--1.33.2... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123--1.33.2... (633.9KB)
+==> Upgrading libunistring
+  1.4 -> 1.4.1 
+==> Pouring libunistring--1.4.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libunistring/1.4.1: 59 files, 5.5MB
+==> Running `brew cleanup libunistring`...
+Removing: /opt/homebrew/Cellar/libunistring/1.4... (59 files, 5.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libunistring_bottle_manifest--1.4... (7.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libunistring--1.4... (1.8MB)
+==> Upgrading uv
+  0.8.22 -> 0.9.0 
+==> Pouring uv--0.9.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.0: 17 files, 40.0MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.8.22... (17 files, 39.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.8.22... (7.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.8.22... (17.0MB)
+==> Upgrading openssl@3
+  3.5.4 -> 3.6.0 
+==> Pouring openssl@3--3.6.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.0: 7,609 files, 36.0MB
+==> Running `brew cleanup openssl@3`...
+Removing: /opt/homebrew/Cellar/openssl@3/3.5.4... (7,565 files, 35.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.5.4... (11.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3--3.5.4... (10.2MB)
+==> Upgrading docker-compose
+  2.39.4 -> 2.40.0 
+==> Pouring docker-compose--2.40.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/2.40.0: 8 files, 59.9MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/2.39.4... (8 files, 60.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.39.4... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.39.4... (17.5MB)
+==> Casks with 'auto_updates true' or 'version :latest' will not be upgraded; pass `--greedy` to upgrade them.
+==> Upgrading 1 outdated package:
+gimp 3.0.4 -> 3.0.6
+==> Upgrading gimp
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-cask/984d41d6b5f50d289402d2a38af6620655ae3db6/Casks/g/gimp.rb
+==> Downloading https://download.gimp.org/gimp/v3.0/macos/gimp-3.0.6-arm64.dmg
+==> Downloading from https://paducahix.mm.fcix.net/gimp/gimp/v3.0/macos/gimp-3.0.6-arm64.dmg
+==> Backing App 'GIMP.app' up to '/opt/homebrew/Caskroom/gimp/3.0.4/GIMP.app'
+==> Removing App '/Applications/GIMP.app'
+==> Unlinking Binary '/opt/homebrew/bin/gimp'
+==> Moving App 'GIMP.app' to '/Applications/GIMP.app'
+==> Linking Binary 'gimp.wrapper.sh' to '/opt/homebrew/bin/gimp'
+==> Purging files for version 3.0.4 of Cask gimp
+🍺  gimp was successfully upgraded!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"LDpyXYYkHrZC","time":1759944183,"expires":1759987383,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
