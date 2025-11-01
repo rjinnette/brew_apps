@@ -3552,3 +3552,154 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
       "/opt/homebrew/lib/docker/cli-plugins"
   ]
 {"id":"K5rkIE88IcP4","time":1761154403,"expires":1761197603,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 11 outdated packages:
+simdjson 4.0.7 -> 4.1.0
+python@3.14 3.14.0 -> 3.14.0_1
+python@3.13 3.13.8 -> 3.13.9_1
+glib 2.86.0 -> 2.86.1
+libnghttp2 1.67.1 -> 1.68.0
+openjph 0.24.2 -> 0.24.3
+node 24.10.0 -> 24.10.0_1
+unbound 1.24.0 -> 1.24.1
+docker-compose 2.40.1 -> 2.40.2
+python@3.11 3.11.14 -> 3.11.14_1
+fzf 0.66.0 -> 0.66.1
+==> Fetching downloads for: fzf, python@3.14, python@3.13, glib, libnghttp2, openjph, simdjson, node, unbound, docker-compose and python@3.11
+==> Fetching fzf
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/blobs/sha256:a5406d31653c7c2989fc799d78499a1710ff36b5bd9da9ebae0b934bc9d89042
+==> Fetching python@3.14
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.14/blobs/sha256:f59474e8481341bf8308aaa1ca7cd553a8db19c7aab64f6402fba55fe2c6fc1a
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:1e69017b62b04ec5ed8369bd6ea90d0f483187b9e111afdf1c853f22feba0b65
+==> Fetching glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:69180a746a740205498efc9be52f19c6f200c91700bc1743d6e3dce6dc0cb342
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:65c944b77dd8e8583f9e1fd0820cd81fe2b12f5b7a1992350386dd2e1a117257
+==> Fetching openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/blobs/sha256:ec8e50ab367d82c9b264690983bba9da9dd653dba9caebd3a96692f4b6398ed6
+==> Fetching simdjson
+==> Downloading https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:9437eae75ec4a4c288876b96c55a2090493bf4d5f40e51ef148bf511ff0a8bd8
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:b64df0dd3cc2ada5fd8130c7e612fc80eee4cfa1f21e11605ed7aa140f7c0b8f
+==> Fetching unbound
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/blobs/sha256:14cd3f7445095878f8cad653a17930a72f693212558d1275dc435466f116a781
+==> Fetching docker-compose
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:56f9c2e268208e4cc0fd1e9786f5da016d1e8719e74ede288fa7afa4fd407884
+==> Fetching python@3.11
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:1f45f5ef42e5cce4e37f001b7e9848c02805a920ca2a6413042eeb212d14dfb8
+==> Upgrading fzf
+  0.66.0 -> 0.66.1 
+==> Pouring fzf--0.66.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.66.1: 19 files, 4.6MB
+==> Running `brew cleanup fzf`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/fzf/0.66.0... (19 files, 4.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.66.0... (7.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.66.0... (1.8MB)
+==> Upgrading python@3.14
+  3.14.0 -> 3.14.0_1 
+==> Pouring python@3.14--3.14.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.0_1: 3,759 files, 69.6MB
+==> Running `brew cleanup python@3.14`...
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.0... (3,848 files, 72.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14_bottle_manifest--3.14.0-1... (29.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14--3.14.0... (17.8MB)
+==> Upgrading python@3.13
+  3.13.8 -> 3.13.9_1 
+==> Pouring python@3.13--3.13.9_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.9_1: 3,631 files, 66.7MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.8... (3,734 files, 69.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.8... (26.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.8... (17.1MB)
+==> Upgrading glib
+  2.86.0 -> 2.86.1 
+==> Pouring glib--2.86.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.86.1: 504 files, 37.8MB
+==> Running `brew cleanup glib`...
+Removing: /opt/homebrew/Cellar/glib/2.86.0... (504 files, 37.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/glib_bottle_manifest--2.86.0... (21.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/glib--2.86.0... (8.8MB)
+==> Upgrading libnghttp2
+  1.67.1 -> 1.68.0 
+==> Pouring libnghttp2--1.68.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.68.0: 14 files, 770.3KB
+==> Running `brew cleanup libnghttp2`...
+Removing: /opt/homebrew/Cellar/libnghttp2/1.67.1... (14 files, 739.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.67.1... (7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2--1.67.1... (209.2KB)
+==> Upgrading openjph
+  0.24.2 -> 0.24.3 
+==> Pouring openjph--0.24.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.24.3: 25 files, 622.5KB
+==> Running `brew cleanup openjph`...
+Removing: /opt/homebrew/Cellar/openjph/0.24.2... (25 files, 622.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph_bottle_manifest--0.24.2... (12.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph--0.24.2... (153.7KB)
+==> Upgrading simdjson
+  4.0.7 -> 4.1.0 
+==> Pouring simdjson--4.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.1.0: 17 files, 6.2MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.0.7... (17 files, 5.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.0.7... (7.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.0.7... (1MB)
+==> Upgrading node
+  24.10.0 -> 24.10.0_1 
+==> Pouring node--24.10.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/24.10.0_1: 2,468 files, 75.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.10.0... (2,468 files, 75.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.10.0-1... (23.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.10.0... (19MB)
+==> Upgrading unbound
+  1.24.0 -> 1.24.1 
+==> Pouring unbound--1.24.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/unbound/1.24.1: 59 files, 6.3MB
+==> Running `brew cleanup unbound`...
+Removing: /opt/homebrew/Cellar/unbound/1.24.0... (59 files, 6.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/unbound_bottle_manifest--1.24.0... (13.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/unbound--1.24.0... (2.8MB)
+==> Upgrading docker-compose
+  2.40.1 -> 2.40.2 
+==> Pouring docker-compose--2.40.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/2.40.2: 8 files, 60.1MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/2.40.1... (8 files, 60.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.40.1... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.40.1... (17.6MB)
+==> Upgrading python@3.11
+  3.11.14 -> 3.11.14_1 
+==> Pouring python@3.11--3.11.14_1.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.14_1/bin/python3.11 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.14_1/bin/python3.11 -Im pip install -v[0m
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.14_1: 3,306 files, 62.1MB
+==> Running `brew cleanup python@3.11`...
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.14... (3,306 files, 62MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11_bottle_manifest--3.11.14... (20.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11--3.11.14... (15MB)
+==> Caveats
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"poOwG36EqzhI","time":1761692304,"expires":1761735504,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
