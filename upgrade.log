@@ -3703,3 +3703,114 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
       "/opt/homebrew/lib/docker/cli-plugins"
   ]
 {"id":"poOwG36EqzhI","time":1761692304,"expires":1761735504,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 7 outdated packages:
+brotli 1.1.0 -> 1.2.0
+libdeflate 1.24 -> 1.25
+uv 0.9.5 -> 0.9.7
+dav1d 1.5.1 -> 1.5.2
+openjph 0.24.3 -> 0.24.5
+node 24.10.0_1 -> 25.1.0
+docker-compose 2.40.2 -> 2.40.3
+==> Fetching downloads for: brotli, libdeflate, uv, dav1d, openjph, node and docker-compose
+==> Fetching brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/brotli/blobs/sha256:b8e388c96be5a63a46e0335c390fecb20dda7adb1368a2ba0209b38cae17c708
+==> Fetching libdeflate
+==> Downloading https://ghcr.io/v2/homebrew/core/libdeflate/blobs/sha256:81bb3537257061a0a60cf1b6842b7c13d9090ddce9bd8ec84fa7381e08c45b47
+==> Fetching uv
+==> Downloading https://ghcr.io/v2/homebrew/core/uv/blobs/sha256:9512341179d58aa49a3afcedad6b4f83c0478b6087bc0183951e46d4cd95d5f9
+==> Fetching dav1d
+==> Downloading https://ghcr.io/v2/homebrew/core/dav1d/blobs/sha256:606c3c39ebbc55f12524f3688148441fc1c699f2e0f15afad248eed30b95c73b
+==> Fetching openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/blobs/sha256:8a985ce7b1bdbf4d15d6e3f7ab90f284891a1f132fc825e1579e5867b12d5e22
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:67ea6362b4e774b88b97c12798c0bff7b36cfc17636b0e15aec07ac8f97c681d
+==> Fetching docker-compose
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-compose/blobs/sha256:d3a36647584ffa366fe33f2324141bdbff61ae0e06f110f3a19d73eb58eb0038
+==> Upgrading brotli
+  1.1.0 -> 1.2.0 
+==> Pouring brotli--1.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/brotli/1.2.0: 33 files, 1.8MB
+==> Running `brew cleanup brotli`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/brotli/1.1.0... (28 files, 1.7MB)
+==> Upgrading libdeflate
+  1.24 -> 1.25 
+==> Pouring libdeflate--1.25.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libdeflate/1.25: 17 files, 328.5KB
+==> Running `brew cleanup libdeflate`...
+Removing: /opt/homebrew/Cellar/libdeflate/1.24... (17 files, 328.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libdeflate_bottle_manifest--1.24... (9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libdeflate--1.24... (110.6KB)
+==> Upgrading uv
+  0.9.5 -> 0.9.7 
+==> Pouring uv--0.9.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.7: 17 files, 40MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.9.5... (17 files, 40MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.5... (7.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.5... (17MB)
+==> Upgrading dav1d
+  1.5.1 -> 1.5.2 
+==> Pouring dav1d--1.5.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dav1d/1.5.2: 16 files, 922.2KB
+==> Running `brew cleanup dav1d`...
+Removing: /opt/homebrew/Cellar/dav1d/1.5.1... (16 files, 921.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/dav1d_bottle_manifest--1.5.1... (8.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/dav1d--1.5.1... (352.6KB)
+==> Upgrading openjph
+  0.24.3 -> 0.24.5 
+==> Pouring openjph--0.24.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.24.5: 25 files, 622.6KB
+==> Running `brew cleanup openjph`...
+Removing: /opt/homebrew/Cellar/openjph/0.24.3... (25 files, 622.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph_bottle_manifest--0.24.3... (11.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph--0.24.3... (153.8KB)
+==> Upgrading node
+  24.10.0_1 -> 25.1.0 
+==> Pouring node--25.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.1.0: 2,269 files, 78.0MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/24.10.0_1... (2,468 files, 75.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--24.10.0_1... (23.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--24.10.0_1... (19MB)
+==> Upgrading docker-compose
+  2.40.2 -> 2.40.3 
+==> Pouring docker-compose--2.40.3.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/2.40.3: 8 files, 60.1MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/2.40.2... (8 files, 60.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.40.2... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.40.2... (17.6MB)
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2_bottle_manifest--1.9.1... (12.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2--1.9.1... (1.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/984d41d6b5f50d289402d2a38af6620655ae3db6/Cask/gimp.rb... (1.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/c91fc409058d974d5067ab3ee3b72377330aa4062a73846994948dc24850a65f... (674 files, 5.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/351eae37507e977972fffae3095d615ae5994d07a8ec3fe15eaa054d17c442bf... (673 files, 5.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/e35a048f6f5c3e3aa6d8c407d039ccfb05a03ab95ae40c9328e2b5490769e6c4... (675 files, 5.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/d04f6d50addc91a184a99c86cd8d94dfea49545b528a90a829ab55e5e304d81c... (674 files, 5.5MB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/glib... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/openssl@3... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/node... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/unbound... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/python@3.11... (2 files, 2.5KB)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"Yl81E8rbnJjW","time":1762017006,"expires":1762060206,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
