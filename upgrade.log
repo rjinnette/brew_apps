@@ -3814,3 +3814,119 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
       "/opt/homebrew/lib/docker/cli-plugins"
   ]
 {"id":"Yl81E8rbnJjW","time":1762017006,"expires":1762060206,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 10 outdated packages:
+ffmpeg 8.0_1 -> 8.0_2
+simdjson 4.1.0 -> 4.2.1
+harfbuzz 12.1.0 -> 12.2.0
+libbluray 1.4.0 -> 1.4.0_1
+sqlite 3.50.4 -> 3.51.0
+openexr 3.4.2 -> 3.4.3
+ca-certificates 2025-09-09 -> 2025-11-04
+gettext 0.26 -> 0.26_1
+openjph 0.24.5 -> 0.25.0
+node 25.1.0 -> 25.1.0_1
+==> Fetching downloads for: sqlite, simdjson, gettext, harfbuzz, libbluray, openjph, openexr, ca-certificates, ffmpeg and node
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:8a986b66c97e295a5a9908b531528535dd30f23c42bde5cfcbdd258f097d868a
+==> Fetching simdjson
+==> Downloading https://ghcr.io/v2/homebrew/core/simdjson/blobs/sha256:156102c5972d1d22e3bc19b0b4c595eee8d1963d1f70194e2ac41f74a9c05417
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:f1aa739f3f4b720b7abf4512af6d1c470feafe57b15ebca25c45f8b22afe7ab5
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:eda041888a074d2d00393d59078df013c287c88d6e11f75758201dfeab125943
+==> Fetching libbluray
+==> Downloading https://ghcr.io/v2/homebrew/core/libbluray/blobs/sha256:b14c0952114a372fe73e50c6110b8970e01e6e0d5227c5357bc0080a0a0033c6
+==> Fetching openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/blobs/sha256:6e31572a70adef98dcb35756af04e63b9427c7327e030b95ed25d74f72523d46
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:3a11bd94ee231d80ad15b599fc21c39b62c2c196dae1508ef49f711bb0be1f4b
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:c414336ff5220d77124debb496c8d86ffa1bbc5946309ee2d9d26645db300b96
+==> Fetching ffmpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/blobs/sha256:3f7d86973c2944aa1d303c055157c85f6c10f5b805b095f4f6783bf8c13cfef5
+==> Fetching node
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:1340fe4760ee3a744ff90f13f0f22ae6ddb5e3c90070c894198ac95719af6e10
+==> Upgrading sqlite
+  3.50.4 -> 3.51.0 
+==> Pouring sqlite--3.51.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.51.0: 13 files, 5.0MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.50.4... (13 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.50.4... (11.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.50.4... (2.2MB)
+==> Upgrading simdjson
+  4.1.0 -> 4.2.1 
+==> Pouring simdjson--4.2.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.2.1: 17 files, 6.3MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.1.0... (17 files, 6.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.1.0... (7.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.1.0... (1.1MB)
+==> Upgrading gettext
+  0.26 -> 0.26_1 
+==> Pouring gettext--0.26_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.26_1: 2,428 files, 28.2MB
+==> Running `brew cleanup gettext`...
+Removing: /opt/homebrew/Cellar/gettext/0.26... (2,428 files, 28.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gettext_bottle_manifest--0.26... (15.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gettext--0.26... (9.2MB)
+==> Upgrading harfbuzz
+  12.1.0 -> 12.2.0 
+==> Pouring harfbuzz--12.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.2.0: 77 files, 12.0MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/12.1.0... (77 files, 12.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--12.1.0... (28.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--12.1.0... (3.1MB)
+==> Upgrading libbluray
+  1.4.0 -> 1.4.0_1 
+==> Pouring libbluray--1.4.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libbluray/1.4.0_1: 22 files, 1.2MB
+==> Running `brew cleanup libbluray`...
+Removing: /opt/homebrew/Cellar/libbluray/1.4.0... (22 files, 1.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libbluray_bottle_manifest--1.4.0... (15.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libbluray--1.4.0... (361.5KB)
+==> Upgrading openjph
+  0.24.5 -> 0.25.0 
+==> Pouring openjph--0.25.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.25.0: 25 files, 622.5KB
+==> Running `brew cleanup openjph`...
+Removing: /opt/homebrew/Cellar/openjph/0.24.5... (25 files, 622.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph_bottle_manifest--0.24.5... (12.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph--0.24.5... (154.1KB)
+==> Upgrading openexr
+  3.4.2 -> 3.4.3 
+==> Pouring openexr--3.4.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.4.3: 212 files, 4.9MB
+==> Running `brew cleanup openexr`...
+Removing: /opt/homebrew/Cellar/openexr/3.4.2... (212 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr_bottle_manifest--3.4.2... (15.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr--3.4.2... (1.1MB)
+==> Upgrading ca-certificates
+  2025-09-09 -> 2025-11-04 
+==> Pouring ca-certificates--2025-11-04.all.bottle.1.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-11-04: 4 files, 235.8KB
+==> Running `brew cleanup ca-certificates`...
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-09-09... (4 files, 232.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-09-09... (2.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates--2025-09-09... (129.9KB)
+==> Upgrading ffmpeg
+  8.0_1 -> 8.0_2 
+==> Pouring ffmpeg--8.0_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0_2: 285 files, 52.9MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0_1... (285 files, 52.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.0_1... (113.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.0_1... (20.6MB)
+==> Upgrading node
+  25.1.0 -> 25.1.0_1 
+==> Pouring node--25.1.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.1.0_1: 2,269 files, 78.0MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.1.0... (2,269 files, 78.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.1.0... (23.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.1.0... (19.2MB)
+{"id":"T5kN5yNMMaKO","time":1762527024,"expires":1762570224,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
