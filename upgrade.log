@@ -3930,3 +3930,33 @@ Removing: /opt/homebrew/Cellar/node/25.1.0... (2,269 files, 78.0MB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.1.0... (23.5KB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.1.0... (19.2MB)
 {"id":"T5kN5yNMMaKO","time":1762527024,"expires":1762570224,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 2 outdated packages:
+uv 0.9.7 -> 0.9.8
+openjph 0.25.0 -> 0.25.2
+==> Fetching downloads for: uv and openjph
+==> Fetching uv
+==> Downloading https://ghcr.io/v2/homebrew/core/uv/blobs/sha256:b95c8d05740da6cb8d0f1b7e8259464458d86d8d0600379c99291f5d7ba2b504
+==> Fetching openjph
+==> Downloading https://ghcr.io/v2/homebrew/core/openjph/blobs/sha256:0779ae68deaad2081ef9dbf83cc97ce23add21de02e01780425a177c25f087f4
+==> Upgrading uv
+  0.9.7 -> 0.9.8 
+==> Pouring uv--0.9.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.8: 17 files, 40.3MB
+==> Running `brew cleanup uv`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/uv/0.9.7... (17 files, 40MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.7... (7.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.7... (17.0MB)
+==> Upgrading openjph
+  0.25.0 -> 0.25.2 
+==> Pouring openjph--0.25.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.25.2: 25 files, 622.5KB
+==> Running `brew cleanup openjph`...
+Removing: /opt/homebrew/Cellar/openjph/0.25.0... (25 files, 622.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph_bottle_manifest--0.25.0... (12.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph--0.25.0... (154.2KB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"4Xs1IyroDigz","time":1762727478,"expires":1762770678,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
