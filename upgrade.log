@@ -3960,3 +3960,83 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph--0.25.0... (154.2K
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"4Xs1IyroDigz","time":1762727478,"expires":1762770678,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 8 outdated packages:
+bitwarden-cli 2025.10.0 -> 2025.11.0
+simdjson 4.2.1 -> 4.2.2
+harfbuzz 12.2.0 -> 12.2.0_1
+tesseract 5.5.1 -> 5.5.1_1
+uv 0.9.8 -> 0.9.9
+lazydocker 0.24.1 -> 0.24.2
+node 25.1.0_1 -> 25.2.0
+icu4c@77 77.1 -> 77.1_1
+==> Fetching downloads for: icu4c@77, simdjson, harfbuzz, tesseract, node, bitwarden-cli, lazydocker and uv
+==> Upgrading icu4c@77
+  77.1 -> 77.1_1 
+==> Pouring icu4c@77--77.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@77/77.1_1: 277 files, 85.1MB
+==> Running `brew cleanup icu4c@77`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/icu4c@77/77.1... (277 files, 85.2MB)
+==> Upgrading simdjson
+  4.2.1 -> 4.2.2 
+==> Pouring simdjson--4.2.2.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.2.2: 17 files, 6.6MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.2.1... (17 files, 6.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.2.1... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.2.1... (1.2MB)
+==> Upgrading harfbuzz
+  12.2.0 -> 12.2.0_1 
+==> Installing harfbuzz dependency: icu4c@78
+==> Pouring icu4c@78--78.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@78/78.1: 279 files, 87.9MB
+==> Pouring harfbuzz--12.2.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.2.0_1: 77 files, 12.5MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/12.2.0... (77 files, 12.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--12.2.0... (29.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--12.2.0... (3.3MB)
+==> Upgrading tesseract
+  5.5.1 -> 5.5.1_1 
+==> Pouring tesseract--5.5.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tesseract/5.5.1_1: 75 files, 34.9MB
+==> Running `brew cleanup tesseract`...
+Removing: /opt/homebrew/Cellar/tesseract/5.5.1... (75 files, 34.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/tesseract_bottle_manifest--5.5.1... (48.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/tesseract--5.5.1... (13.2MB)
+==> Upgrading node
+  25.1.0_1 -> 25.2.0 
+==> Pouring node--25.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.2.0: 2,269 files, 81.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.1.0_1... (2,269 files, 81.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.1.0_1... (24KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.1.0_1... (20.2MB)
+==> Upgrading bitwarden-cli
+  2025.10.0 -> 2025.11.0 
+==> Pouring bitwarden-cli--2025.11.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2025.11.0: 10,181 files, 49.8MB
+==> Running `brew cleanup bitwarden-cli`...
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2025.10.0... (10,181 files, 47.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2025.10.0... (6.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2025.10.0... (11.7MB)
+==> Upgrading lazydocker
+  0.24.1 -> 0.24.2 
+==> Pouring lazydocker--0.24.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lazydocker/0.24.2: 6 files, 12.4MB
+==> Running `brew cleanup lazydocker`...
+Removing: /opt/homebrew/Cellar/lazydocker/0.24.1... (6 files, 12.6MB)
+==> Upgrading uv
+  0.9.8 -> 0.9.9 
+==> Pouring uv--0.9.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.9: 17 files, 42.2MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.9.8... (17 files, 42.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.8... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.8... (17.9MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"kohRZu06llmR","time":1763230221,"expires":1763273421,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
