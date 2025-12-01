@@ -4040,3 +4040,124 @@ zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"kohRZu06llmR","time":1763230221,"expires":1763273421,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 Already up-to-date.
+==> Upgrading 11 outdated packages:
+ffmpeg 8.0_2 -> 8.0.1
+glib 2.86.1 -> 2.86.2
+mbedtls 3.6.4 -> 4.0.0
+libarchive 3.8.2 -> 3.8.3
+openexr 3.4.3 -> 3.4.4
+uv 0.9.9 -> 0.9.11
+librist 0.2.11 -> 0.2.11_1
+openjph 0.25.2 -> 0.25.3
+node 25.2.0 -> 25.2.1
+fzf 0.66.1 -> 0.67.0
+gnutls 3.8.10 -> 3.8.11
+==> Fetching downloads for: libarchive, glib, mbedtls, openjph, openexr, uv, gnutls, librist, node, fzf and ffmpeg
+==> Upgrading libarchive
+  3.8.2 -> 3.8.3 
+==> Pouring libarchive--3.8.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libarchive/3.8.3: 65 files, 4MB
+==> Running `brew cleanup libarchive`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libarchive/3.8.2... (65 files, 4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libarchive_bottle_manifest--3.8.2... (12KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libarchive--3.8.2... (1.6MB)
+==> Upgrading glib
+  2.86.1 -> 2.86.2 
+==> Pouring glib--2.86.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.86.2: 504 files, 39.6MB
+==> Running `brew cleanup glib`...
+Removing: /opt/homebrew/Cellar/glib/2.86.1... (504 files, 39.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/glib_bottle_manifest--2.86.1... (20.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/glib--2.86.1... (9.2MB)
+==> Upgrading mbedtls
+  3.6.4 -> 4.0.0 
+==> Pouring mbedtls--4.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mbedtls/4.0.0: 172 files, 9.6MB
+==> Running `brew cleanup mbedtls`...
+Removing: /opt/homebrew/Cellar/mbedtls/3.6.4... (198 files, 14.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mbedtls_bottle_manifest--3.6.4... (15.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mbedtls--3.6.4... (3.6MB)
+==> Upgrading openjph
+  0.25.2 -> 0.25.3 
+==> Pouring openjph--0.25.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.25.3: 25 files, 637.3KB
+==> Running `brew cleanup openjph`...
+Removing: /opt/homebrew/Cellar/openjph/0.25.2... (25 files, 637.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph_bottle_manifest--0.25.2... (12.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph--0.25.2... (157.9KB)
+==> Upgrading openexr
+  3.4.3 -> 3.4.4 
+==> Pouring openexr--3.4.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.4.4: 212 files, 4.6MB
+==> Running `brew cleanup openexr`...
+Removing: /opt/homebrew/Cellar/openexr/3.4.3... (212 files, 5.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr_bottle_manifest--3.4.3... (15.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr--3.4.3... (1.2MB)
+==> Upgrading uv
+  0.9.9 -> 0.9.11 
+==> Pouring uv--0.9.11.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.11: 17 files, 42.9MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.9.9... (17 files, 42.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.9... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.9... (17.8MB)
+==> Upgrading gnutls
+  3.8.10 -> 3.8.11 
+==> Pouring gnutls--3.8.11.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gnutls/3.8.11: 1,303 files, 12.1MB
+==> Running `brew cleanup gnutls`...
+Removing: /opt/homebrew/Cellar/gnutls/3.8.10... (1,296 files, 12MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gnutls_bottle_manifest--3.8.10... (22.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gnutls--3.8.10... (3.2MB)
+==> Upgrading librist
+  0.2.11 -> 0.2.11_1 
+==> Installing librist dependency: mbedtls@3
+==> Pouring mbedtls@3--3.6.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mbedtls@3/3.6.5: 198 files, 14.0MB
+==> Pouring librist--0.2.11_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/librist/0.2.11_1: 29 files, 840.7KB
+==> Running `brew cleanup librist`...
+Removing: /opt/homebrew/Cellar/librist/0.2.11... (29 files, 836.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/librist_bottle_manifest--0.2.11... (23KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/librist--0.2.11... (213.4KB)
+==> Upgrading node
+  25.2.0 -> 25.2.1 
+==> Pouring node--25.2.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.2.1: 2,269 files, 81.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.2.0... (2,269 files, 81.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.2.0... (24KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.2.0... (20.2MB)
+==> Upgrading fzf
+  0.66.1 -> 0.67.0 
+==> Pouring fzf--0.67.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.67.0: 19 files, 4.9MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.66.1... (19 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.66.1... (7.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.66.1... (1.8MB)
+==> Upgrading ffmpeg
+  8.0_2 -> 8.0.1 
+==> Pouring ffmpeg--8.0.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0.1: 285 files, 55.4MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0_2... (285 files, 55.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.0_2... (102.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.0_2... (21.6MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+{"id":"wuqAC9HV38fq","time":1763839528,"expires":1763882728,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
