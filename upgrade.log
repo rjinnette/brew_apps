@@ -4161,3 +4161,186 @@ To set up shell integration, see:
 To use fzf in Vim, add the following line to your .vimrc:
   set rtp+=/opt/homebrew/opt/fzf
 {"id":"wuqAC9HV38fq","time":1763839528,"expires":1763882728,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 7 outdated packages:
+libpng 1.6.50 -> 1.6.51
+libnghttp3 1.12.0 -> 1.13.1
+sqlite 3.51.0 -> 3.51.1
+bash 5.3.3 -> 5.3.8
+uv 0.9.11 -> 0.9.13
+unbound 1.24.1 -> 1.24.2
+libngtcp2 1.17.0 -> 1.18.0
+==> Fetching downloads for: sqlite, libpng, libnghttp3, bash, uv, unbound and libngtcp2
+==> Upgrading sqlite
+  3.51.0 -> 3.51.1 
+==> Pouring sqlite--3.51.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.51.1: 13 files, 5.3MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.51.0... (13 files, 5.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.51.0... (11.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.51.0... (2.4MB)
+==> Upgrading libpng
+  1.6.50 -> 1.6.51 
+==> Pouring libpng--1.6.51.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpng/1.6.51: 28 files, 1.4MB
+==> Running `brew cleanup libpng`...
+Removing: /opt/homebrew/Cellar/libpng/1.6.50... (28 files, 1.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libpng_bottle_manifest--1.6.50... (9.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libpng--1.6.50... (457.3KB)
+==> Upgrading libnghttp3
+  1.12.0 -> 1.13.1 
+==> Pouring libnghttp3--1.13.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.13.1: 20 files, 593.6KB
+==> Running `brew cleanup libnghttp3`...
+Removing: /opt/homebrew/Cellar/libnghttp3/1.12.0... (20 files, 603.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3_bottle_manifest--1.12.0... (7.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3--1.12.0... (188.6KB)
+==> Upgrading bash
+  5.3.3 -> 5.3.8 
+==> Pouring bash--5.3.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bash/5.3.8: 172 files, 13.8MB
+==> Running `brew cleanup bash`...
+Removing: /opt/homebrew/Cellar/bash/5.3.3... (172 files, 13.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bash_bottle_manifest--5.3.3... (13KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bash--5.3.3... (3.4MB)
+==> Upgrading uv
+  0.9.11 -> 0.9.13 
+==> Pouring uv--0.9.13.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.13: 17 files, 43.0MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.9.11... (17 files, 42.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.11... (18.1MB)
+==> Upgrading unbound
+  1.24.1 -> 1.24.2 
+==> Pouring unbound--1.24.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/unbound/1.24.2: 59 files, 6.6MB
+==> Running `brew cleanup unbound`...
+Removing: /opt/homebrew/Cellar/unbound/1.24.1... (59 files, 6.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/unbound_bottle_manifest--1.24.1... (14KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/unbound--1.24.1... (3MB)
+==> Upgrading libngtcp2
+  1.17.0 -> 1.18.0 
+==> Pouring libngtcp2--1.18.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.18.0: 21 files, 1.4MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.17.0... (21 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.17.0... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.17.0... (400.4KB)
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/aribb24_bottle_manifest--1.0.4... (13.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/aribb24--1.0.4... (73.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/cairo_bottle_manifest--1.18.4... (30KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/cairo--1.18.4... (753.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/flac_bottle_manifest--1.5.0... (11KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/flac--1.5.0... (555.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fribidi_bottle_manifest--1.0.16... (8.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fribidi--1.0.16... (98.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/giflib_bottle_manifest--5.2.2... (9.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/giflib--5.2.2... (152.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gmp_bottle_manifest--6.3.0... (11.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gmp--6.3.0... (1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/graphite2_bottle_manifest--1.3.14... (13.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/graphite2--1.3.14... (91.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lame_bottle_manifest--3.100... (15KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lame--3.100... (794.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libass_bottle_manifest--0.17.4... (34.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libass--0.17.4... (232.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libb2_bottle_manifest--0.98.1... (14.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libb2--0.98.1... (36KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libevent_bottle_manifest--2.1.12_1... (15.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libevent--2.1.12_1... (715KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libidn2_bottle_manifest--2.3.8... (11.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libidn2--2.3.8... (311.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libmicrohttpd_bottle_manifest--1.0.2... (22KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libmicrohttpd--1.0.2... (482.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libogg_bottle_manifest--1.3.6... (8.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libogg--1.3.6... (234.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libsamplerate_bottle_manifest--0.2.2-1... (8.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libsamplerate--0.2.2... (2.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libsndfile_bottle_manifest--1.2.2_1... (15.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libsndfile--1.2.2_1... (616.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libsodium_bottle_manifest--1.0.20... (9.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libsodium--1.0.20... (307.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libsoxr_bottle_manifest--0.1.3-1... (14.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libsoxr--0.1.3... (79.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libtasn1_bottle_manifest--4.20.0... (9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libtasn1--4.20.0... (167.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libunibreak_bottle_manifest--6.1... (9.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libunibreak--6.1... (65.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvidstab_bottle_manifest--1.1.1... (11.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvidstab--1.1.1... (47.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvmaf_bottle_manifest--3.0.0-1... (10.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvmaf--3.0.0... (1.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvorbis_bottle_manifest--1.3.7-1... (13KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvorbis--1.3.7... (590.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvpx_bottle_manifest--1.15.2... (8.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvpx--1.15.2... (1.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libx11_bottle_manifest--1.8.12... (16KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libx11--1.8.12... (2.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxau_bottle_manifest--1.0.12... (9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxau--1.0.12... (33.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxcb_bottle_manifest--1.17.0-1... (16.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxcb--1.17.0... (1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxdmcp_bottle_manifest--1.1.5... (10.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxdmcp--1.1.5... (37.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxext_bottle_manifest--1.3.6... (15KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxext--1.3.6... (108.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxrender_bottle_manifest--0.9.12... (12.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxrender--0.9.12... (54.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/little-cms2_bottle_manifest--2.17... (13.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/little-cms2--2.17... (433.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lzo_bottle_manifest--2.10... (15.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lzo--2.10... (148.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/nettle_bottle_manifest--3.10.2... (10.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/nettle--3.10.2... (988.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/opencore-amr_bottle_manifest--0.1.6... (12.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/opencore-amr--0.1.6... (306.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/opus_bottle_manifest--1.5.2... (9.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/opus--1.5.2... (482.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pixman_bottle_manifest--0.46.4... (8.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pixman--0.46.4... (195.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rav1e_bottle_manifest--0.8.1... (8.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rav1e--0.8.1... (13.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/readline_bottle_manifest--8.3.1... (10.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/readline--8.3.1... (758.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rubberband_bottle_manifest--4.0.0... (21.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rubberband--4.0.0... (637.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/snappy_bottle_manifest--1.2.2... (8.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/snappy--1.2.2... (46.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/speex_bottle_manifest--1.2.1... (13.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/speex--1.2.1... (549.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/srt_bottle_manifest--1.5.4... (11KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/srt--1.5.4... (1.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/x265_bottle_manifest--4.1-1... (8.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/x265--4.1... (4.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/xorgproto_bottle_manifest--2024.1... (18.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/xorgproto--2024.1... (717.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/xvid_bottle_manifest--1.3.7... (13.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/xvid--1.3.7... (439.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/zeromq_bottle_manifest--4.3.5_2... (9.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/zeromq--4.3.5_2... (1.7MB)
+==> Autoremoving 1 unneeded formula:
+mbedtls
+Uninstalling /opt/homebrew/Cellar/mbedtls/4.0.0... (172 files, 9.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/118b6dfb18563197d4ab01806eddb3405e8181f8c2dd7860c090a25be75be0f3... (675 files, 5.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/e480d26faefcc0649aee4a1b4bb5df1bf6ea887486b0f1485789bf3d26f5e27a... (645 files, 5.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/13e6bb57852f8ac8a403d12c1c0a4cb6c88ce6354b8b9b9de78434dca9b00d24... (672 files, 5.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/9a18177e19f3a66379884186e4d111fa0236bf8b873de2e480bdb13d2d10bdec... (676 files, 5.8MB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/mbedtls@3... (197 files, 14.0MB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/icu4c@78... (278 files, 87.9MB)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Upgrading 8 outdated packages:
+frei0r 2.5.0 -> 2.5.1
+python@3.14 3.14.0_1 -> 3.14.1
+python@3.13 3.13.9_1 -> 3.13.10
+libarchive 3.8.3 -> 3.8.4
+uv 0.9.13 -> 0.9.15
+ca-certificates 2025-11-04 -> 2025-12-02
+bat 0.26.0 -> 0.26.1
+docker-compose 2.40.3 -> 5.0.0
