@@ -4344,3 +4344,85 @@ uv 0.9.13 -> 0.9.15
 ca-certificates 2025-11-04 -> 2025-12-02
 bat 0.26.0 -> 0.26.1
 docker-compose 2.40.3 -> 5.0.0
+==> Fetching downloads for: libarchive, ca-certificates, python@3.14, python@3.13, uv, bat, frei0r and docker-compose
+==> Upgrading libarchive
+  3.8.3 -> 3.8.4 
+==> Pouring libarchive--3.8.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libarchive/3.8.4: 65 files, 4MB
+==> Running `brew cleanup libarchive`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libarchive/3.8.3... (65 files, 4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libarchive--3.8.3... (1.6MB)
+==> Upgrading ca-certificates
+  2025-11-04 -> 2025-12-02 
+==> Pouring ca-certificates--2025-12-02.all.bottle.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-12-02: 4 files, 236.4KB
+==> Running `brew cleanup ca-certificates`...
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-11-04... (4 files, 241.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-11-04-1... (2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates--2025-11-04... (134.7KB)
+==> Upgrading python@3.14
+  3.14.0_1 -> 3.14.1 
+==> Pouring python@3.14--3.14.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.1: 3,770 files, 73.2MB
+==> Running `brew cleanup python@3.14`...
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.0_1... (3,759 files, 73.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14_bottle_manifest--3.14.0_1... (29.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14--3.14.0_1... (18.7MB)
+==> Upgrading python@3.13
+  3.13.9_1 -> 3.13.10 
+==> Pouring python@3.13--3.13.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.10: 3,631 files, 70MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.9_1... (3,750 files, 73.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.9_1... (26.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.9_1... (18.0MB)
+==> Upgrading uv
+  0.9.13 -> 0.9.15 
+==> Pouring uv--0.9.15.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.15: 17 files, 43.3MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.9.13... (17 files, 43.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.13... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.13... (18.1MB)
+==> Upgrading bat
+  0.26.0 -> 0.26.1 
+==> Pouring bat--0.26.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bat/0.26.1: 15 files, 5MB
+==> Running `brew cleanup bat`...
+Removing: /opt/homebrew/Cellar/bat/0.26.0... (15 files, 5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bat_bottle_manifest--0.26.0... (12.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bat--0.26.0... (2.8MB)
+==> Upgrading frei0r
+  2.5.0 -> 2.5.1 
+==> Pouring frei0r--2.5.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/frei0r/2.5.1: 165 files, 6.0MB
+==> Running `brew cleanup frei0r`...
+Removing: /opt/homebrew/Cellar/frei0r/2.5.0... (164 files, 6.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/frei0r_bottle_manifest--2.5.0... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/frei0r--2.5.0... (689.8KB)
+==> Upgrading docker-compose
+  2.40.3 -> 5.0.0 
+==> Pouring docker-compose--5.0.0.arm64_sequoia.bottle.1.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/5.0.0: 8 files, 26.5MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/2.40.3... (8 files, 63MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--2.40.3... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--2.40.3... (18.5MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"etUWq3QSjcAI","time":1764889746,"expires":1764932946,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
