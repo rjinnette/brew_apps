@@ -4552,3 +4552,82 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jpeg-turbo--3.1.2... (1MB)
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"TQOQy7N85XWm","time":1765822232,"expires":1765865432,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 7 outdated packages:
+xorgproto 2024.1 -> 2025.1
+simdjson 4.2.3 -> 4.2.4
+opus 1.5.2 -> 1.6
+xz 5.8.1 -> 5.8.2
+uv 0.9.17 -> 0.9.18
+lazydocker 0.24.2 -> 0.24.3
+docker-compose 5.0.0 -> 5.0.1
+==> Fetching downloads for: xorgproto, simdjson, opus, xz, uv, lazydocker and docker-compose
+==> Upgrading xorgproto
+  2024.1 -> 2025.1 
+==> Pouring xorgproto--2025.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xorgproto/2025.1: 268 files, 4.1MB
+==> Running `brew cleanup xorgproto`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/xorgproto/2024.1... (268 files, 4.1MB)
+==> Upgrading simdjson
+  4.2.3 -> 4.2.4 
+==> Pouring simdjson--4.2.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.2.4: 19 files, 6.6MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.2.3... (19 files, 6.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.2.3... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.2.3... (1.2MB)
+==> Upgrading opus
+  1.5.2 -> 1.6 
+==> Pouring opus--1.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/opus/1.6: 16 files, 1.1MB
+==> Running `brew cleanup opus`...
+Removing: /opt/homebrew/Cellar/opus/1.5.2... (16 files, 1MB)
+==> Upgrading xz
+  5.8.1 -> 5.8.2 
+==> Pouring xz--5.8.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.8.2: 96 files, 2.7MB
+==> Running `brew cleanup xz`...
+Removing: /opt/homebrew/Cellar/xz/5.8.1... (96 files, 2.6MB)
+==> Upgrading uv
+  0.9.17 -> 0.9.18 
+==> Pouring uv--0.9.18.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.18: 17 files, 43.7MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.9.17... (17 files, 43.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.17... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.17... (18.5MB)
+==> Upgrading lazydocker
+  0.24.2 -> 0.24.3 
+==> Pouring lazydocker--0.24.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lazydocker/0.24.3: 6 files, 12.4MB
+==> Running `brew cleanup lazydocker`...
+Removing: /opt/homebrew/Cellar/lazydocker/0.24.2... (6 files, 12.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lazydocker_bottle_manifest--0.24.2... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lazydocker--0.24.2... (4.6MB)
+==> Upgrading docker-compose
+  5.0.0 -> 5.0.1 
+==> Pouring docker-compose--5.0.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/5.0.1: 8 files, 26.5MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/5.0.0... (8 files, 26.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.0.0-1... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.0.0... (9.4MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"N9zC2tJS9nvy","time":1766340918,"expires":1766384118,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 1 outdated package:
+mpg123 1.33.3 -> 1.33.4
