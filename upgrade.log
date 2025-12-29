@@ -4631,3 +4631,15 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
 Already up-to-date.
 ==> Upgrading 1 outdated package:
 mpg123 1.33.3 -> 1.33.4
+==> Fetching downloads for: mpg123
+==> Upgrading mpg123
+  1.33.3 -> 1.33.4 
+==> Pouring mpg123--1.33.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpg123/1.33.4: 34 files, 2MB
+==> Running `brew cleanup mpg123`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/mpg123/1.33.3... (34 files, 2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123_bottle_manifest--1.33.3... (8.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123--1.33.3... (649.2KB)
+error code: 1033
