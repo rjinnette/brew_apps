@@ -4642,4 +4642,74 @@ Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
 Removing: /opt/homebrew/Cellar/mpg123/1.33.3... (34 files, 2MB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123_bottle_manifest--1.33.3... (8.3KB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123--1.33.3... (649.2KB)
-error code: 1033
+error code: 1033==> Upgrading 7 outdated packages:
+harfbuzz 12.2.0_1 -> 12.3.0
+libnghttp3 1.13.1 -> 1.14.0
+tesseract 5.5.1_1 -> 5.5.2
+openexr 3.4.4 -> 3.4.4_1
+openjph 0.25.3 -> 0.26.0
+leptonica 1.86.0 -> 1.87.0
+libngtcp2 1.18.0 -> 1.19.0
+==> Fetching downloads for: harfbuzz, libnghttp3, leptonica, tesseract, openjph, openexr and libngtcp2
+==> Upgrading harfbuzz
+  12.2.0_1 -> 12.3.0 
+==> Pouring harfbuzz--12.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.3.0: 77 files, 12.4MB
+==> Running `brew cleanup harfbuzz`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/harfbuzz/12.2.0_1... (77 files, 12.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--12.2.0_1... (29.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--12.2.0_1... (3.3MB)
+==> Upgrading libnghttp3
+  1.13.1 -> 1.14.0 
+==> Pouring libnghttp3--1.14.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.14.0: 20 files, 617.8KB
+==> Running `brew cleanup libnghttp3`...
+Removing: /opt/homebrew/Cellar/libnghttp3/1.13.1... (20 files, 593.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3_bottle_manifest--1.13.1... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3--1.13.1... (187.4KB)
+==> Upgrading leptonica
+  1.86.0 -> 1.87.0 
+==> Pouring leptonica--1.87.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/leptonica/1.87.0: 55 files, 7.3MB
+==> Running `brew cleanup leptonica`...
+Removing: /opt/homebrew/Cellar/leptonica/1.86.0... (55 files, 7.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/leptonica_bottle_manifest--1.86.0... (17.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/leptonica--1.86.0... (2.7MB)
+==> Upgrading tesseract
+  5.5.1_1 -> 5.5.2 
+==> Pouring tesseract--5.5.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tesseract/5.5.2: 75 files, 34.9MB
+==> Running `brew cleanup tesseract`...
+Removing: /opt/homebrew/Cellar/tesseract/5.5.1_1... (75 files, 34.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/tesseract_bottle_manifest--5.5.1_1... (42.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/tesseract--5.5.1_1... (13.2MB)
+==> Upgrading openjph
+  0.25.3 -> 0.26.0 
+==> Pouring openjph--0.26.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.26.0: 25 files, 637.3KB
+==> Running `brew cleanup openjph`...
+Removing: /opt/homebrew/Cellar/openjph/0.25.3... (25 files, 637.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph_bottle_manifest--0.25.3... (12.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph--0.25.3... (158.0KB)
+==> Upgrading openexr
+  3.4.4 -> 3.4.4_1 
+==> Pouring openexr--3.4.4_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.4.4_1: 212 files, 4.6MB
+==> Running `brew cleanup openexr`...
+Removing: /opt/homebrew/Cellar/openexr/3.4.4... (212 files, 4.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr--3.4.4... (1MB)
+==> Upgrading libngtcp2
+  1.18.0 -> 1.19.0 
+==> Pouring libngtcp2--1.19.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.19.0: 21 files, 1.3MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.18.0... (21 files, 1.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.18.0... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.18.0... (406.0KB)
+{"id":"fqwks2szlxfP","time":1767031180,"expires":1767074380,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 2 outdated packages:
+ncurses 6.5 -> 6.6
+uv 0.9.18 -> 0.9.21

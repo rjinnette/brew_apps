@@ -265,4 +265,7 @@ branch 'main' set up to track 'origin/main'.
 [main 981270e] Apps: 12/22/2025
  2 files changed, 83 insertions(+)
 branch 'main' set up to track 'origin/main'.
-error code: 1033
+error code: 1033[main b021353] Apps: 12/29/2025
+ 2 files changed, 16 insertions(+)
+branch 'main' set up to track 'origin/main'.
+{"id":"iwDxmCJ7hMi2","time":1767031162,"expires":1767074362,"event":"message","topic":"brew","message":"Brewfile updated"}
