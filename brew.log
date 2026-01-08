@@ -269,3 +269,7 @@ error code: 1033[main b021353] Apps: 12/29/2025
  2 files changed, 16 insertions(+)
 branch 'main' set up to track 'origin/main'.
 {"id":"iwDxmCJ7hMi2","time":1767031162,"expires":1767074362,"event":"message","topic":"brew","message":"Brewfile updated"}
+[main 88bff42] Apps: 01/01/2026
+ 2 files changed, 75 insertions(+), 2 deletions(-)
+branch 'main' set up to track 'origin/main'.
+{"id":"mDIlQnRm6DZl","time":1767290706,"expires":1767333906,"event":"message","topic":"brew","message":"Brewfile updated"}

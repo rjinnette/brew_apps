@@ -4713,3 +4713,84 @@ Already up-to-date.
 ==> Upgrading 2 outdated packages:
 ncurses 6.5 -> 6.6
 uv 0.9.18 -> 0.9.21
+==> Fetching downloads for: ncurses and uv
+==> Upgrading ncurses
+  6.5 -> 6.6 
+==> Pouring ncurses--6.6.arm64_sequoia.bottle.tar.gz
+==> Caveats
+ncurses is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ncurses first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/ncurses/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find ncurses you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/ncurses/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/ncurses/include"
+==> Summary
+🍺  /opt/homebrew/Cellar/ncurses/6.6: 4,086 files, 10.6MB
+==> Running `brew cleanup ncurses`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/ncurses/6.5... (4,052 files, 10.3MB)
+==> Upgrading uv
+  0.9.18 -> 0.9.21 
+==> Pouring uv--0.9.21.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.21: 17 files, 43.7MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.9.18... (17 files, 43.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.18... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.18... (18.4MB)
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fontconfig_bottle_manifest--2.17.1... (15.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fontconfig--2.17.1... (245.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/highway_bottle_manifest--1.3.0... (8.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/highway--1.3.0... (897.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libudfread_bottle_manifest--1.2.0... (8.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libudfread--1.2.0... (43.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/speedtest-cli_bottle_manifest--2.1.3_2... (4.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/speedtest-cli--2.1.3_2... (23.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1_bottle_manifest--3.1.2... (8.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1--3.1.2... (1.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/theora_bottle_manifest--1.2.0... (10.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/theora--1.2.0... (752.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/webp_bottle_manifest--1.6.0... (17.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/webp--1.6.0... (903.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/zimg_bottle_manifest--3.0.6... (8.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/zimg--3.0.6... (353.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/portable-ruby-3.4.7.arm64_big_sur.bottle.tar.gz... (12.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/UnnaturalScrollWheels-1.3.0.dmg--1.3.0.dmg... (4.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/ente-auth-v4.4.4.dmg--4.4.4.dmg... (38.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/MullvadVPN-2025.8.pkg--2025.8.pkg... (242MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/d64201b07c1fb970f2f4dc05b2666597f242b4fdca1c0662b87bc597ff021d10... (673 files, 5.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/42e939983ed75547f42207cad9f1e0fde134291f63f94bcb8df8abbd25416d42... (680 files, 5.8MB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/glib... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/node... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/unbound... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/gnutls... (64B)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> ncurses
+ncurses is keg-only, which means it was not symlinked into /opt/homebrew,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+If you need to have ncurses first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/ncurses/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find ncurses you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/ncurses/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/ncurses/include"
+{"id":"zYR6oR6Kam8w","time":1767291067,"expires":1767334267,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 4 outdated packages:
+libarchive 3.8.4 -> 3.8.5
+uv 0.9.21 -> 0.9.22
+libsodium 1.0.20 -> 1.0.21
+dav1d 1.5.2 -> 1.5.3
