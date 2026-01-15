@@ -4794,3 +4794,40 @@ libarchive 3.8.4 -> 3.8.5
 uv 0.9.21 -> 0.9.22
 libsodium 1.0.20 -> 1.0.21
 dav1d 1.5.2 -> 1.5.3
+==> Fetching downloads for: libarchive, uv, libsodium and dav1d
+==> Upgrading libarchive
+  3.8.4 -> 3.8.5 
+==> Pouring libarchive--3.8.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libarchive/3.8.5: 65 files, 4MB
+==> Running `brew cleanup libarchive`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libarchive/3.8.4... (65 files, 4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libarchive_bottle_manifest--3.8.4... (12.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libarchive--3.8.4... (1.6MB)
+==> Upgrading uv
+  0.9.21 -> 0.9.22 
+==> Pouring uv--0.9.22.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.22: 17 files, 43.6MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.9.21... (17 files, 43.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.21... (18.3MB)
+==> Upgrading libsodium
+  1.0.20 -> 1.0.21 
+==> Pouring libsodium--1.0.21.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libsodium/1.0.21: 84 files, 1MB
+==> Running `brew cleanup libsodium`...
+Removing: /opt/homebrew/Cellar/libsodium/1.0.20... (78 files, 904.6KB)
+==> Upgrading dav1d
+  1.5.2 -> 1.5.3 
+==> Pouring dav1d--1.5.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dav1d/1.5.3: 16 files, 945.0KB
+==> Running `brew cleanup dav1d`...
+Removing: /opt/homebrew/Cellar/dav1d/1.5.2... (16 files, 944.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/dav1d_bottle_manifest--1.5.2... (7.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/dav1d--1.5.2... (364.6KB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"8HNXwULuNCiT","time":1767895345,"expires":1767938545,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
