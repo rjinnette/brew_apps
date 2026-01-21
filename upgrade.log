@@ -4831,3 +4831,11 @@ zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"8HNXwULuNCiT","time":1767895345,"expires":1767938545,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 Already up-to-date.
+{"id":"2rz1WOpLxKkg","time":1768500206,"expires":1768543406,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 5 outdated packages:
+opus 1.6 -> 1.6.1
+uv 0.9.25 -> 0.9.26
+lazydocker 0.24.3 -> 0.24.4
+libngtcp2 1.19.0 -> 1.20.0
+p11-kit 0.25.10 -> 0.26.1
