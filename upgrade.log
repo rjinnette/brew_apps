@@ -4839,3 +4839,56 @@ uv 0.9.25 -> 0.9.26
 lazydocker 0.24.3 -> 0.24.4
 libngtcp2 1.19.0 -> 1.20.0
 p11-kit 0.25.10 -> 0.26.1
+==> Fetching downloads for: opus, uv, lazydocker, libngtcp2 and p11-kit
+==> Upgrading opus
+  1.6 -> 1.6.1 
+==> Pouring opus--1.6.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/opus/1.6.1: 16 files, 1.1MB
+==> Running `brew cleanup opus`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/opus/1.6... (16 files, 1.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/opus_bottle_manifest--1.6... (7.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/opus--1.6... (505.2KB)
+==> Upgrading uv
+  0.9.25 -> 0.9.26 
+==> Pouring uv--0.9.26.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.26: 17 files, 44.6MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.9.25... (17 files, 43.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.25... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.25... (18.5MB)
+==> Upgrading lazydocker
+  0.24.3 -> 0.24.4 
+==> Pouring lazydocker--0.24.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lazydocker/0.24.4: 6 files, 12.4MB
+==> Running `brew cleanup lazydocker`...
+Removing: /opt/homebrew/Cellar/lazydocker/0.24.3... (6 files, 12.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lazydocker_bottle_manifest--0.24.3... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lazydocker--0.24.3... (4.6MB)
+==> Upgrading libngtcp2
+  1.19.0 -> 1.20.0 
+==> Pouring libngtcp2--1.20.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.20.0: 21 files, 1.3MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.19.0... (21 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.19.0... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.19.0... (401.8KB)
+==> Upgrading p11-kit
+  0.25.10 -> 0.26.1 
+==> Pouring p11-kit--0.26.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/p11-kit/0.26.1: 33 files, 4.9MB
+==> Running `brew cleanup p11-kit`...
+Removing: /opt/homebrew/Cellar/p11-kit/0.25.10... (33 files, 4.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/p11-kit_bottle_manifest--0.25.10... (9.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/p11-kit--0.25.10... (939.9KB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"oOyYLmtIMbPX","time":1768954252,"expires":1768997452,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 4 outdated packages:
+harfbuzz 12.3.0 -> 12.3.1
+libnghttp3 1.14.0 -> 1.15.0
+node 25.3.0 -> 25.4.0
+docker-compose 5.0.1 -> 5.0.2
