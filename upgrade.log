@@ -4892,3 +4892,67 @@ harfbuzz 12.3.0 -> 12.3.1
 libnghttp3 1.14.0 -> 1.15.0
 node 25.3.0 -> 25.4.0
 docker-compose 5.0.1 -> 5.0.2
+==> Fetching downloads for: harfbuzz, libnghttp3, node and docker-compose
+==> Upgrading harfbuzz
+  12.3.0 -> 12.3.1 
+==> Pouring harfbuzz--12.3.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.3.1: 77 files, 11.6MB
+==> Running `brew cleanup harfbuzz`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/harfbuzz/12.3.0... (77 files, 12.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--12.3.0... (29.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--12.3.0... (3.3MB)
+==> Upgrading libnghttp3
+  1.14.0 -> 1.15.0 
+==> Pouring libnghttp3--1.15.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.15.0: 20 files, 604.6KB
+==> Running `brew cleanup libnghttp3`...
+Removing: /opt/homebrew/Cellar/libnghttp3/1.14.0... (20 files, 617.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3_bottle_manifest--1.14.0... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3--1.14.0... (192.1KB)
+==> Upgrading node
+  25.3.0 -> 25.4.0 
+==> Pouring node--25.4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.4.0: 1,951 files, 74.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.3.0... (1,951 files, 74.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.3.0... (24KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.3.0... (17.7MB)
+==> Upgrading docker-compose
+  5.0.1 -> 5.0.2 
+==> Pouring docker-compose--5.0.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/5.0.2: 8 files, 26.5MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/5.0.1... (8 files, 26.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.0.1... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.0.1... (9.4MB)
+==> Caveats
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"j5Q8fPCjld0i","time":1769107074,"expires":1769150274,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 14 outdated packages:
+tree 2.2.1 -> 2.3.1
+ffmpeg 8.0.1_1 -> 8.0.1_2
+little-cms2 2.17 -> 2.18
+python@3.14 3.14.2 -> 3.14.2_1
+python@3.13 3.13.11 -> 3.13.11_1
+pango 1.57.0_1 -> 1.57.0_2
+harfbuzz 12.3.1 -> 12.3.2
+svt-av1 3.1.2 -> 4.0.1
+uv 0.9.26 -> 0.9.28
+openssl@3 3.6.0 -> 3.6.1
+gettext 0.26_1 -> 1.0
+libxext 1.3.6 -> 1.3.7
+node 25.4.0 -> 25.5.0
+python@3.11 3.11.14_1 -> 3.11.14_2
