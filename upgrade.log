@@ -4956,3 +4956,283 @@ gettext 0.26_1 -> 1.0
 libxext 1.3.6 -> 1.3.7
 node 25.4.0 -> 25.5.0
 python@3.11 3.11.14_1 -> 3.11.14_2
+==> Fetching downloads for: openssl@3, python@3.11, svt-av1, ffmpeg, little-cms2, python@3.14, python@3.13, gettext, libxext, harfbuzz, pango, uv, node and tree
+==> Upgrading openssl@3
+  3.6.0 -> 3.6.1 
+==> Pouring openssl@3--3.6.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.1: 7,624 files, 37.6MB
+==> Running `brew cleanup openssl@3`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/openssl@3/3.6.0... (7,609 files, 37.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.6.0... (11.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3--3.6.0... (10.9MB)
+==> Upgrading python@3.11
+  3.11.14_1 -> 3.11.14_2 
+==> Pouring python@3.11--3.11.14_2.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.14_2/bin/python3.11 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.14_2/bin/python3.11 -Im pip install -v[0m
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.14_2: 3,306 files, 65.0MB
+==> Running `brew cleanup python@3.11`...
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.14_1... (3,306 files, 65.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11_bottle_manifest--3.11.14_1... (21KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11--3.11.14_1... (15.8MB)
+==> Upgrading svt-av1
+  3.1.2 -> 4.0.1 
+==> Pouring svt-av1--4.0.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/4.0.1: 23 files, 3.1MB
+==> Running `brew cleanup svt-av1`...
+Removing: /opt/homebrew/Cellar/svt-av1/3.1.2... (19 files, 3.5MB)
+==> Upgrading ffmpeg
+  8.0.1_1 -> 8.0.1_2 
+==> Pouring ffmpeg--8.0.1_2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0.1_2: 284 files, 53.3MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0.1_1... (284 files, 53MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.0.1_1... (30.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.0.1_1... (21MB)
+==> Upgrading little-cms2
+  2.17 -> 2.18 
+==> Pouring little-cms2--2.18.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/little-cms2/2.18: 23 files, 1.5MB
+==> Running `brew cleanup little-cms2`...
+Removing: /opt/homebrew/Cellar/little-cms2/2.17... (23 files, 1.5MB)
+==> Upgrading python@3.14
+  3.14.2 -> 3.14.2_1 
+==> Pouring python@3.14--3.14.2_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.2_1: 3,754 files, 73MB
+==> Running `brew cleanup python@3.14`...
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.2... (3,772 files, 73.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14_bottle_manifest--3.14.2... (29.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14--3.14.2... (18.8MB)
+==> Upgrading python@3.13
+  3.13.11 -> 3.13.11_1 
+==> Pouring python@3.13--3.13.11_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.11_1: 3,613 files, 69.9MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.11... (3,751 files, 73.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.11... (26.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.11... (18MB)
+==> Upgrading gettext
+  0.26_1 -> 1.0 
+==> Pouring gettext--1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/1.0: 2,499 files, 35.4MB
+==> Running `brew cleanup gettext`...
+Removing: /opt/homebrew/Cellar/gettext/0.26_1... (2,428 files, 29.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gettext_bottle_manifest--0.26_1... (13.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gettext--0.26_1... (9.6MB)
+==> Upgrading libxext
+  1.3.6 -> 1.3.7 
+==> Pouring libxext--1.3.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libxext/1.3.7: 88 files, 473.2KB
+==> Running `brew cleanup libxext`...
+Removing: /opt/homebrew/Cellar/libxext/1.3.6... (88 files, 469.6KB)
+==> Upgrading harfbuzz
+  12.3.1 -> 12.3.2 
+==> Pouring harfbuzz--12.3.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.3.2: 77 files, 11.6MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/12.3.1... (77 files, 11.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--12.3.1... (29.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--12.3.1... (3.1MB)
+==> Upgrading pango
+  1.57.0_1 -> 1.57.0_2 
+==> Installing dependencies for pango: libdatrie and libthai
+==> Installing pango dependency: libdatrie
+==> Pouring libdatrie--0.2.14.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libdatrie/0.2.14: 20 files, 313.5KB
+==> Installing pango dependency: libthai
+==> Pouring libthai--0.1.30.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libthai/0.1.30: 30 files, 975.3KB
+==> Installing pango
+==> Pouring pango--1.57.0_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pango/1.57.0_2: 69 files, 3.8MB
+==> Running `brew cleanup pango`...
+Removing: /opt/homebrew/Cellar/pango/1.57.0_1... (69 files, 3.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pango_bottle_manifest--1.57.0_1... (31.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pango--1.57.0_1... (886.8KB)
+==> Upgrading uv
+  0.9.26 -> 0.9.28 
+==> Pouring uv--0.9.28.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.9.28: 17 files, 44.6MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.9.26... (17 files, 44.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.26... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.9.26... (18.8MB)
+==> Upgrading node
+  25.4.0 -> 25.5.0 
+==> Installing dependencies for node: fmt, ada-url, hdrhistogram_c and llhttp
+==> Installing node dependency: fmt
+==> Pouring fmt--12.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fmt/12.1.0: 29 files, 1MB
+==> Installing node dependency: ada-url
+==> Pouring ada-url--3.4.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ada-url/3.4.2: 55 files, 1.3MB
+==> Installing node dependency: hdrhistogram_c
+==> Pouring hdrhistogram_c--0.11.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/hdrhistogram_c/0.11.9: 22 files, 173KB
+==> Installing node dependency: llhttp
+==> Pouring llhttp--9.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/llhttp/9.3.0: 13 files, 160.4KB
+==> Installing node
+==> Pouring node--25.5.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.5.0: 1,932 files, 77.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.4.0... (1,951 files, 74.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.4.0... (24KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.4.0... (17.8MB)
+==> Upgrading tree
+  2.2.1 -> 2.3.1 
+==> Pouring tree--2.3.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tree/2.3.1: 9 files, 194.2KB
+==> Running `brew cleanup tree`...
+Removing: /opt/homebrew/Cellar/tree/2.2.1... (9 files, 192.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/tree_bottle_manifest--2.2.1... (8.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/tree--2.2.1... (65KB)
+==> Casks with 'auto_updates true' or 'version :latest' will not be upgraded; pass `--greedy` to upgrade them.
+==> Fetching downloads for: gimp
+==> Upgrading 1 outdated package:
+gimp 3.0.6 -> 3.0.8,1
+==> Upgrading gimp
+==> Backing App 'GIMP.app' up to '/opt/homebrew/Caskroom/gimp/3.0.6/GIMP.app'
+==> Removing App '/Applications/GIMP.app'
+==> Unlinking Binary '/opt/homebrew/bin/gimp'
+==> Moving App 'GIMP.app' to '/Applications/GIMP.app'
+==> Purging files for version 3.0.8,1 of Cask gimp
+==> Purging files for version 3.0.8,1 of Cask gimp
+==> Purging files for version 3.0.6 of Cask gimp
+{"id":"oAXzH3641DzZ","time":1769971200,"expires":1770014400,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/aom_bottle_manifest--3.13.1... (28.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/aom--3.13.1... (4.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/cjson_bottle_manifest--1.7.19... (11.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/cjson--1.7.19... (58.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/freetype_bottle_manifest--2.14.1_1... (9.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/freetype--2.14.1_1... (991KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jpeg-xl_bottle_manifest--0.11.1_3... (30.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jpeg-xl--0.11.1_3... (13.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh_bottle_manifest--0.11.3... (12.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh--0.11.3... (539.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libtiff_bottle_manifest--4.7.1... (12.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libtiff--4.7.1... (1.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjpeg_bottle_manifest--2.5.4... (14.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjpeg--2.5.4... (2.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl2_bottle_manifest--2.32.10... (21.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl2--2.32.10... (1.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uvwasi_bottle_manifest--0.0.23... (9.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uvwasi--0.0.23... (70.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/x264_bottle_manifest--r3222... (8.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/x264--r3222... (2MB)
+==> Autoremoving 78 unneeded formulae:
+aom
+aribb24
+cairo
+cjson
+flac
+fontconfig
+freetype
+frei0r
+fribidi
+giflib
+glib
+gmp
+gnutls
+graphite2
+harfbuzz
+highway
+icu4c@77
+imath
+jpeg-turbo
+jpeg-xl
+leptonica
+libarchive
+libass
+libb2
+libbluray
+libdatrie
+libdeflate
+libevent
+libidn2
+libmicrohttpd
+libogg
+libpng
+librist
+libsamplerate
+libsndfile
+libsodium
+libsoxr
+libssh
+libtasn1
+libthai
+libtiff
+libudfread
+libunibreak
+libvidstab
+libvmaf
+libvorbis
+libx11
+libxau
+libxcb
+libxdmcp
+libxext
+libxrender
+little-cms2
+lzo
+mbedtls@3
+mpg123
+nettle
+opencore-amr
+openexr
+openjpeg
+openjph
+p11-kit
+pango
+pcre2
+pixman
+rav1e
+rubberband
+snappy
+speex
+srt
+tesseract
+theora
+unbound
+webp
+xorgproto
+xvid
+zeromq
+zimg
+Uninstalling /opt/homebrew/Cellar/rubberband/4.0.0... (15 files, 2MB)
+Uninstalling /opt/homebrew/Cellar/aribb24/1.0.4... (15 files, 228.8KB)
+Uninstalling /opt/homebrew/Cellar/xvid/1.3.7... (11 files, 1.3MB)
+Uninstalling /opt/homebrew/Cellar/frei0r/2.5.1... (165 files, 6.0MB)
+Uninstalling /opt/homebrew/Cellar/zimg/3.0.6... (28 files, 1.2MB)
+Uninstalling /opt/homebrew/Cellar/speex/1.2.1... (26 files, 878.7KB)
+Uninstalling /opt/homebrew/Cellar/zeromq/4.3.5_2... (85 files, 6.7MB)
+Uninstalling /opt/homebrew/Cellar/libbluray/1.4.0_1... (22 files, 1.2MB)
+Uninstalling /opt/homebrew/Cellar/aom/3.13.1... (28 files, 10.7MB)
+Uninstalling /opt/homebrew/Cellar/srt/1.5.4... (21 files, 4.9MB)
+Uninstalling /opt/homebrew/Cellar/tesseract/5.5.2... (75 files, 34.9MB)
+Uninstalling /opt/homebrew/Cellar/librist/0.2.11_1... (29 files, 840.7KB)
+Uninstalling /opt/homebrew/Cellar/snappy/1.2.2... (19 files, 178.3KB)
+Uninstalling /opt/homebrew/Cellar/opencore-amr/0.1.6... (18 files, 675.9KB)
+Uninstalling /opt/homebrew/Cellar/rav1e/0.8.1... (15 files, 51MB)
+Uninstalling /opt/homebrew/Cellar/libssh/0.11.3... (25 files, 1.5MB)
+Uninstalling /opt/homebrew/Cellar/libvidstab/1.1.1... (26 files, 195KB)
+Uninstalling /opt/homebrew/Cellar/libsoxr/0.1.3... (30 files, 299.7KB)
+Uninstalling /opt/homebrew/Cellar/theora/1.2.0... (126 files, 2.6MB)
+Uninstalling /opt/homebrew/Cellar/libass/0.17.4... (12 files, 630.8KB)
+Uninstalling /opt/homebrew/Cellar/cjson/1.7.19... (24 files, 264.3KB)
+Uninstalling /opt/homebrew/Cellar/libunibreak/6.1... (19 files, 344.8KB)
+Uninstalling /opt/homebrew/Cellar/libsamplerate/0.2.2... (33 files, 3.2MB)
+Uninstalling /opt/homebrew/Cellar/pango/1.57.0_2... (69 files, 3.8MB)
+Uninstalling /opt/homebrew/Cellar/libarchive/3.8.5... (65 files, 4MB)
+Uninstalling /opt/homebrew/Cellar/mbedtls@3/3.6.5... (198 files, 14.0MB)
+Uninstalling /opt/homebrew/Cellar/libvmaf/3.0.0... (235 files, 7.5MB)
+Uninstalling /opt/homebrew/Cellar/libmicrohttpd/1.0.2... (26 files, 1.6MB)
