@@ -5296,3 +5296,8 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/684c26d8211c6bacd
 {"id":"XdbtZWdwUf9a","time":1769992292,"expires":1770035492,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 Already up-to-date.
 {"id":"ogeCSp2OU52E","time":1770076012,"expires":1770119212,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 2 outdated packages:
+python@3.13 3.13.11_1 -> 3.13.11_2
+python@3.11 3.11.14_2 -> 3.11.14_3
+==> Fetching downloads for: python@3.13 and python@3.11
