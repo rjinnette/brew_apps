@@ -5301,3 +5301,22 @@ Already up-to-date.
 python@3.13 3.13.11_1 -> 3.13.11_2
 python@3.11 3.11.14_2 -> 3.11.14_3
 ==> Fetching downloads for: python@3.13 and python@3.11
+==> Upgrading python@3.13
+  3.13.11_1 -> 3.13.11_2 
+==> Pouring python@3.13--3.13.11_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.11_2: 3,616 files, 69.9MB
+==> Running `brew cleanup python@3.13`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.11_1... (3,691 files, 72MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.11_1... (17.9MB)
+==> Upgrading python@3.11
+  3.11.14_2 -> 3.11.14_3 
+==> Pouring python@3.11--3.11.14_3.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.14_3/bin/python3.11 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.14_3/bin/python3.11 -Im pip install -v[0m
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.14_3: 3,306 files, 65.0MB
+==> Running `brew cleanup python@3.11`...
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.14_2... (3,306 files, 65.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11--3.11.14_2... (15.7MB)
+{"id":"pqQWZTjW5z5B","time":1770127572,"expires":1770170772,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
