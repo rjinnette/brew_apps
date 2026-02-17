@@ -5407,3 +5407,67 @@ python@3.14 3.14.3 -> 3.14.3_1
 uv 0.10.0 -> 0.10.2
 node 25.6.0 -> 25.6.1
 libzip 1.11.4 -> 1.11.4_1
+==> Fetching downloads for: llhttp, ffmpeg, libuv, python@3.14, uv, node and libzip
+==> Upgrading llhttp
+  9.3.0 -> 9.3.1 
+==> Pouring llhttp--9.3.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/llhttp/9.3.1: 13 files, 160.6KB
+==> Running `brew cleanup llhttp`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/llhttp/9.3.0... (13 files, 160.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/llhttp--9.3.0... (36.8KB)
+==> Upgrading ffmpeg
+  8.0.1_2 -> 8.0.1_3 
+==> Pouring ffmpeg--8.0.1_3.arm64_sequoia.bottle.tar.gz
+==> Caveats
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0.1_3: 284 files, 53.4MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0.1_2... (284 files, 53.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.0.1_2... (21.1MB)
+==> Upgrading libuv
+  1.51.0 -> 1.52.0 
+==> Pouring libuv--1.52.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libuv/1.52.0: 35 files, 1.3MB
+==> Running `brew cleanup libuv`...
+Removing: /opt/homebrew/Cellar/libuv/1.51.0... (20 files, 1.2MB)
+==> Upgrading python@3.14
+  3.14.3 -> 3.14.3_1 
+==> Pouring python@3.14--3.14.3_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.3_1: 3,764 files, 75.3MB
+==> Running `brew cleanup python@3.14`...
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.3... (3,764 files, 75.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14--3.14.3... (19.1MB)
+==> Upgrading uv
+  0.10.0 -> 0.10.2 
+==> Pouring uv--0.10.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.10.2: 17 files, 45MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.10.0... (17 files, 44.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.10.0... (18.7MB)
+==> Upgrading node
+  25.6.0 -> 25.6.1 
+==> Pouring node--25.6.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.6.1: 1,931 files, 77.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.6.0... (1,932 files, 77.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.6.0... (18.7MB)
+==> Upgrading libzip
+  1.11.4 -> 1.11.4_1 
+==> Pouring libzip--1.11.4_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libzip/1.11.4_1: 161 files, 957KB
+==> Running `brew cleanup libzip`...
+Removing: /opt/homebrew/Cellar/libzip/1.11.4... (161 files, 957KB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+{"id":"ioqVHZs4tG2n","time":1771189407,"expires":1771232607,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 3 outdated packages:
+ffmpeg 8.0.1_3 -> 8.0.1_4
+uv 0.10.2 -> 0.10.3
+libvpx 1.15.2 -> 1.16.0
