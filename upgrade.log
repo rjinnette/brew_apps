@@ -5471,3 +5471,40 @@ Already up-to-date.
 ffmpeg 8.0.1_3 -> 8.0.1_4
 uv 0.10.2 -> 0.10.3
 libvpx 1.15.2 -> 1.16.0
+==> Fetching downloads for: libvpx, ffmpeg and uv
+==> Upgrading libvpx
+  1.15.2 -> 1.16.0 
+==> Pouring libvpx--1.16.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvpx/1.16.0: 22 files, 4.4MB
+==> Running `brew cleanup libvpx`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libvpx/1.15.2... (22 files, 4.4MB)
+==> Upgrading ffmpeg
+  8.0.1_3 -> 8.0.1_4 
+==> Pouring ffmpeg--8.0.1_4.arm64_sequoia.bottle.tar.gz
+==> Caveats
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/ffmpeg/8.0.1_4: 284 files, 53.4MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0.1_3... (284 files, 53.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.0.1_2... (33.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.0.1_3... (34.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.0.1_3... (21.2MB)
+==> Upgrading uv
+  0.10.2 -> 0.10.3 
+==> Pouring uv--0.10.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.10.3: 17 files, 45.3MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.10.2... (17 files, 45MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.10.0... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.10.2... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.28... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.10.2... (18.9MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+{"id":"zP5SBF5uRyTW","time":1771370122,"expires":1771413322,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
