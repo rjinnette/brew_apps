@@ -5508,3 +5508,7 @@ zsh completions have been installed to:
 ==> ffmpeg
 ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
 {"id":"zP5SBF5uRyTW","time":1771370122,"expires":1771413322,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 2 outdated packages:
+uv 0.10.3 -> 0.10.4
+fzf 0.67.0 -> 0.68.0
