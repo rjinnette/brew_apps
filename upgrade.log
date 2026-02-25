@@ -5512,3 +5512,35 @@ Already up-to-date.
 ==> Upgrading 2 outdated packages:
 uv 0.10.3 -> 0.10.4
 fzf 0.67.0 -> 0.68.0
+==> Fetching downloads for: uv and fzf
+==> Upgrading uv
+  0.10.3 -> 0.10.4 
+==> Pouring uv--0.10.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.10.4: 17 files, 45.1MB
+==> Running `brew cleanup uv`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/uv/0.10.3... (17 files, 45.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.10.3... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.10.3... (19MB)
+==> Upgrading fzf
+  0.67.0 -> 0.68.0 
+==> Pouring fzf--0.68.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.68.0: 19 files, 4.9MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.67.0... (19 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.67.0... (1.9MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
