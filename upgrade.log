@@ -5544,3 +5544,76 @@ To set up shell integration, see:
   https://github.com/junegunn/fzf#setting-up-shell-integration
 To use fzf in Vim, add the following line to your .vimrc:
   set rtp+=/opt/homebrew/opt/fzf
+==> Upgrading 6 outdated packages:
+simdjson 4.2.4 -> 4.3.0
+uv 0.10.4 -> 0.10.6
+ada-url 3.4.2 -> 3.4.3
+node 25.6.1 -> 25.6.1_1
+docker-compose 5.0.2 -> 5.1.0
+wireguard-tools 1.0.20250521 -> 1.0.20260223
+==> Fetching downloads for: simdjson, uv, ada-url, node, docker-compose and wireguard-tools
+==> Upgrading simdjson
+  4.2.4 -> 4.3.0 
+==> Pouring simdjson--4.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.3.0: 19 files, 7.8MB
+==> Running `brew cleanup simdjson`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/simdjson/4.2.4... (19 files, 6.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.2.4... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.2.4... (1.2MB)
+==> Upgrading uv
+  0.10.4 -> 0.10.6 
+==> Pouring uv--0.10.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.10.6: 17 files, 45.2MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.10.4... (17 files, 45.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.10.4... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.10.4... (19.0MB)
+==> Upgrading ada-url
+  3.4.2 -> 3.4.3 
+==> Pouring ada-url--3.4.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ada-url/3.4.3: 55 files, 1.3MB
+==> Running `brew cleanup ada-url`...
+Removing: /opt/homebrew/Cellar/ada-url/3.4.2... (55 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ada-url_bottle_manifest--3.4.2... (8.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ada-url--3.4.2... (345.4KB)
+==> Upgrading node
+  25.6.1 -> 25.6.1_1 
+==> Pouring node--25.6.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.6.1_1: 1,931 files, 77.8MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.6.1... (1,931 files, 77.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.5.0... (27.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.6.0... (27.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.6.1... (27.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.6.1... (18.7MB)
+==> Upgrading docker-compose
+  5.0.2 -> 5.1.0 
+==> Pouring docker-compose--5.1.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/5.1.0: 8 files, 27.0MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/5.0.2... (8 files, 26.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.0.2... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.0.2... (9.4MB)
+==> Upgrading wireguard-tools
+  1.0.20250521 -> 1.0.20260223 
+==> Pouring wireguard-tools--1.0.20260223.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/wireguard-tools/1.0.20260223: 11 files, 182.1KB
+==> Running `brew cleanup wireguard-tools`...
+Removing: /opt/homebrew/Cellar/wireguard-tools/1.0.20250521... (11 files, 178.2KB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"tJd8mkXnyu3O","time":1772059150,"expires":1772102350,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
