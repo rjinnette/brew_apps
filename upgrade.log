@@ -5617,3 +5617,37 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
       "/opt/homebrew/lib/docker/cli-plugins"
   ]
 {"id":"tJd8mkXnyu3O","time":1772059150,"expires":1772102350,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 3 outdated packages:
+libunistring 1.4.1 -> 1.4.2
+uv 0.10.6 -> 0.10.7
+libngtcp2 1.20.0 -> 1.21.0
+==> Fetching downloads for: libunistring, uv and libngtcp2
+==> Upgrading libunistring
+  1.4.1 -> 1.4.2 
+==> Pouring libunistring--1.4.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libunistring/1.4.2: 59 files, 5.8MB
+==> Running `brew cleanup libunistring`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libunistring/1.4.1... (59 files, 5.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libunistring--1.4.1... (1.9MB)
+==> Upgrading uv
+  0.10.6 -> 0.10.7 
+==> Pouring uv--0.10.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.10.7: 17 files, 45.2MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.10.6... (17 files, 45.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.10.6... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.10.6... (19.0MB)
+==> Upgrading libngtcp2
+  1.20.0 -> 1.21.0 
+==> Pouring libngtcp2--1.21.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.21.0: 21 files, 1.3MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.20.0... (21 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.20.0... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.20.0... (397.5KB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"lmK7S9QMYpOx","time":1772398437,"expires":1772441637,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
