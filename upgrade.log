@@ -5651,3 +5651,42 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.20.0... (397.
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"lmK7S9QMYpOx","time":1772398437,"expires":1772441637,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 2 outdated packages:
+node 25.6.1_1 -> 25.7.0
+fzf 0.68.0 -> 0.70.0
+==> Fetching downloads for: node and fzf
+==> Upgrading node
+  25.6.1_1 -> 25.7.0 
+==> Pouring node--25.7.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.7.0: 1,919 files, 78.3MB
+==> Running `brew cleanup node`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/node/25.6.1_1... (1,931 files, 77.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.6.1_1... (27.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.6.1_1... (18.7MB)
+==> Upgrading fzf
+  0.68.0 -> 0.70.0 
+==> Pouring fzf--0.70.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.70.0: 19 files, 5.0MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.68.0... (19 files, 4.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.68.0... (7.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.68.0... (1.9MB)
+==> Caveats
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+{"id":"nhgyWfnqdDDB","time":1772579875,"expires":1772623075,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 3 outdated packages:
+uv 0.10.7 -> 0.10.8
+node 25.7.0 -> 25.8.0
+python@3.11 3.11.14_3 -> 3.11.15
