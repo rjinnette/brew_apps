@@ -5690,3 +5690,116 @@ To use fzf in Vim, add the following line to your .vimrc:
 uv 0.10.7 -> 0.10.8
 node 25.7.0 -> 25.8.0
 python@3.11 3.11.14_3 -> 3.11.15
+==> Fetching downloads for: uv, node and python@3.11
+==> Upgrading uv
+  0.10.7 -> 0.10.8 
+==> Pouring uv--0.10.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.10.8: 17 files, 45.4MB
+==> Running `brew cleanup uv`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/uv/0.10.7... (17 files, 45.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.10.7... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.10.7... (19.0MB)
+==> Upgrading node
+  25.7.0 -> 25.8.0 
+==> Pouring node--25.8.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.8.0: 1,927 files, 78.4MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.7.0... (1,919 files, 78.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.7.0... (27.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.7.0... (18.8MB)
+==> Upgrading python@3.11
+  3.11.14_3 -> 3.11.15 
+==> Pouring python@3.11--3.11.15.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.15/bin/python3.11 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.15/bin/python3.11 -Im pip install -v -[0m
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.15: 3,306 files, 64.9MB
+==> Running `brew cleanup python@3.11`...
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.14_3... (3,311 files, 65MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11_bottle_manifest--3.11.14_2... (21.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11_bottle_manifest--3.11.14_3... (21.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11--3.11.14_3... (15.6MB)
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2025.12.1... (6.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/brotli_bottle_manifest--1.2.0... (8.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/brotli--1.2.0... (793.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jc_bottle_manifest--1.25.6... (4.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jc--1.25.6... (1.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jq_bottle_manifest--1.8.1... (10.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jq--1.8.1... (424.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2_bottle_manifest--1.9.2... (10.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.68.0... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2--1.68.0... (220.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libyaml_bottle_manifest--0.2.5... (14.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libyaml--0.2.5... (110.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/llhttp_bottle_manifest--9.3.0... (7.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.11_1... (26.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.11_2... (26.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14_bottle_manifest--3.14.2_1... (29.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14_bottle_manifest--3.14.3... (29.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.51.2... (11.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gnutls--3.8.11... (3.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libarchive--3.8.5... (1.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libdeflate--1.25... (113.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr--3.4.4_1... (1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libdeflate_bottle_manifest--1.25... (7.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pcre2--10.47... (2.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libpng--1.6.54... (459.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/imath_bottle_manifest--3.2.2... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/leptonica--1.87.0... (2.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openjph--0.26.0... (158.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/frei0r--2.5.1... (691.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/imath--3.2.2... (194.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/glib--2.86.3... (9.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libbluray--1.4.0_1... (370.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pcre2_bottle_manifest--10.47... (10.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/p11-kit--0.26.1... (992.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/gimp-3.0.6-arm64.dmg--3.0.6.dmg... (223.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/2e654ee727608e789627b1650a5578555b79999f32c649f5867e41c3bd6a9883... (674 files, 5.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/b72e5134e0c29352f27278b0d0b535599d84c5338f6a429e709b448cf7d3721c... (681 files, 6.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/af1302dbf92394f6844c6728933903dc247921c87371c88c2f492e443b72b436... (680 files, 6.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/3f9aa844ce6daa83be4a0faaf7be6f4595fdf4b98f8be6536d9524120f6eec81... (680 files, 5.9MB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/llhttp... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/tree... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/ffmpeg... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/bitwarden-cli... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/little-cms2... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libpng... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libdatrie... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/opus... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/python@3.14... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/hdrhistogram_c... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/python@3.13... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/fmt... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/pango... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/harfbuzz... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libnghttp3... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/sqlite... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/svt-av1... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/uv... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/openssl@3... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/gettext... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/lazydocker... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libxext... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libthai... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libtasn1... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/ada-url... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/node... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/docker-compose... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/python@3.11... (2 files, 2.6KB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libngtcp2... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/icu4c@78... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/p11-kit... (64B)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"UiVQRDbwHpZ4","time":1772684607,"expires":1772727807,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 3 outdated packages:
+bitwarden-cli 2026.1.0 -> 2026.2.0
+libuv 1.52.0 -> 1.52.1
+uv 0.10.8 -> 0.10.9
+==> Fetching downloads for: libuv, bitwarden-cli and uv
