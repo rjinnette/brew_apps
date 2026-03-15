@@ -5803,3 +5803,33 @@ bitwarden-cli 2026.1.0 -> 2026.2.0
 libuv 1.52.0 -> 1.52.1
 uv 0.10.8 -> 0.10.9
 ==> Fetching downloads for: libuv, bitwarden-cli and uv
+==> Upgrading libuv
+  1.52.0 -> 1.52.1 
+==> Pouring libuv--1.52.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libuv/1.52.1: 35 files, 1.3MB
+==> Running `brew cleanup libuv`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libuv/1.52.0... (35 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libuv_bottle_manifest--1.52.0... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libuv--1.52.0... (375.2KB)
+==> Upgrading bitwarden-cli
+  2026.1.0 -> 2026.2.0 
+==> Pouring bitwarden-cli--2026.2.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2026.2.0: 10,136 files, 52.3MB
+==> Running `brew cleanup bitwarden-cli`...
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2026.1.0... (10,168 files, 51.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2026.1.0... (7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2026.1.0... (13MB)
+==> Upgrading uv
+  0.10.8 -> 0.10.9 
+==> Pouring uv--0.10.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.10.9: 17 files, 45.5MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.10.8... (17 files, 45.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.10.8... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.10.8... (19MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"4rEjtzPpJ4Zb","time":1772991064,"expires":1773034264,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
