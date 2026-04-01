@@ -5886,3 +5886,98 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.8.0... (18.9MB)
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"hUABYbLmlXzj","time":1773594412,"expires":1773637612,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 8 outdated packages:
+tree 2.3.1 -> 2.3.2
+ffmpeg 8.0.1_4 -> 8.1
+simdjson 4.4.0 -> 4.4.2
+libnghttp2 1.68.0 -> 1.68.1
+uv 0.10.10 -> 0.10.12
+ca-certificates 2025-12-02 -> 2026-03-19
+docker-compose 5.1.0 -> 5.1.1
+icu4c@78 78.2 -> 78.3
+==> Fetching downloads for: icu4c@78, ca-certificates, ffmpeg, simdjson, libnghttp2, tree, docker-compose and uv
+==> Upgrading icu4c@78
+  78.2 -> 78.3 
+==> Pouring icu4c@78--78.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@78/78.3: 279 files, 87.9MB
+==> Running `brew cleanup icu4c@78`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/icu4c@78/78.2... (279 files, 87.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/icu4c@78_bottle_manifest--78.2... (9.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/icu4c@78--78.2... (32.0MB)
+==> Upgrading ca-certificates
+  2025-12-02 -> 2026-03-19 
+==> Pouring ca-certificates--2026-03-19.all.bottle.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2026-03-19: 4 files, 237.5KB
+==> Running `brew cleanup ca-certificates`...
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-12-02... (4 files, 236.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-12-02... (2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates--2025-12-02... (131.8KB)
+==> Upgrading ffmpeg
+  8.0.1_4 -> 8.1 
+==> Pouring ffmpeg--8.1.arm64_sequoia.bottle.1.tar.gz
+==> Caveats
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/ffmpeg/8.1: 287 files, 54.2MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.0.1_4... (284 files, 53.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.0.1_4... (34.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.0.1_4... (21.2MB)
+==> Upgrading simdjson
+  4.4.0 -> 4.4.2 
+==> Pouring simdjson--4.4.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.4.2: 19 files, 7.9MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.4.0... (19 files, 7.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.4.0... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.4.0... (1.4MB)
+==> Upgrading libnghttp2
+  1.68.0 -> 1.68.1 
+==> Pouring libnghttp2--1.68.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.68.1: 14 files, 758KB
+==> Running `brew cleanup libnghttp2`...
+Removing: /opt/homebrew/Cellar/libnghttp2/1.68.0... (14 files, 788.7KB)
+==> Upgrading tree
+  2.3.1 -> 2.3.2 
+==> Pouring tree--2.3.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tree/2.3.2: 9 files, 196.6KB
+==> Running `brew cleanup tree`...
+Removing: /opt/homebrew/Cellar/tree/2.3.1... (9 files, 194.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/tree_bottle_manifest--2.3.1... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/tree--2.3.1... (65.6KB)
+==> Upgrading docker-compose
+  5.1.0 -> 5.1.1 
+==> Pouring docker-compose--5.1.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/5.1.1: 8 files, 27.0MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/5.1.0... (8 files, 27.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.1.0... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.1.0... (9.5MB)
+==> Upgrading uv
+  0.10.10 -> 0.10.12 
+==> Pouring uv--0.10.12.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.10.12: 17 files, 45.6MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.10.10... (17 files, 45.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.10.10... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.10.10... (19.2MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+{"id":"gdrL2QBtxkPB","time":1774199318,"expires":1774242518,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
