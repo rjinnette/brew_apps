@@ -5981,3 +5981,72 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
       "/opt/homebrew/lib/docker/cli-plugins"
   ]
 {"id":"gdrL2QBtxkPB","time":1774199318,"expires":1774242518,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 7 outdated packages:
+svt-av1 4.0.1 -> 4.1.0
+xz 5.8.2 -> 5.8.3
+uv 0.10.12 -> 0.11.2
+ada-url 3.4.3 -> 3.4.4
+node 25.8.1_1 -> 25.8.2
+jc 1.25.6 -> 1.25.6_1
+libngtcp2 1.21.0 -> 1.22.0
+==> Fetching downloads for: svt-av1, xz, uv, ada-url, libngtcp2, node and jc
+==> Upgrading svt-av1
+  4.0.1 -> 4.1.0 
+==> Pouring svt-av1--4.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/4.1.0: 23 files, 3.1MB
+==> Running `brew cleanup svt-av1`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/svt-av1/4.0.1... (23 files, 3.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1_bottle_manifest--4.0.1... (7.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1--4.0.1... (1.3MB)
+==> Upgrading xz
+  5.8.2 -> 5.8.3 
+==> Pouring xz--5.8.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.8.3: 96 files, 2.7MB
+==> Running `brew cleanup xz`...
+Removing: /opt/homebrew/Cellar/xz/5.8.2... (96 files, 2.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/xz_bottle_manifest--5.8.2... (11.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/xz--5.8.2... (764.9KB)
+==> Upgrading uv
+  0.10.12 -> 0.11.2 
+==> Pouring uv--0.11.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.11.2: 17 files, 47.9MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.10.12... (17 files, 45.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.10.12... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.10.12... (19.2MB)
+==> Upgrading ada-url
+  3.4.3 -> 3.4.4 
+==> Pouring ada-url--3.4.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ada-url/3.4.4: 55 files, 1.3MB
+==> Running `brew cleanup ada-url`...
+Removing: /opt/homebrew/Cellar/ada-url/3.4.3... (55 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ada-url_bottle_manifest--3.4.3... (8.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ada-url--3.4.3... (345.5KB)
+==> Upgrading libngtcp2
+  1.21.0 -> 1.22.0 
+==> Pouring libngtcp2--1.22.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.22.0: 21 files, 1.4MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.21.0... (21 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.21.0... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.21.0... (396.5KB)
+==> Upgrading node
+  25.8.1_1 -> 25.8.2 
+==> Pouring node--25.8.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.8.2: 1,927 files, 78.3MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.8.1_1... (1,927 files, 78.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.8.1_1... (27.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.8.1_1... (18.8MB)
+==> Upgrading jc
+  1.25.6 -> 1.25.6_1 
+==> Pouring jc--1.25.6_1.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jc/1.25.6_1: 714 files, 7.9MB
+==> Running `brew cleanup jc`...
+Removing: /opt/homebrew/Cellar/jc/1.25.6... (998 files, 10.9MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+{"id":"DmlR8vz9T5bn","time":1775062957,"expires":1775106157,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
