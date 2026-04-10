@@ -6050,3 +6050,124 @@ Removing: /opt/homebrew/Cellar/jc/1.25.6... (998 files, 10.9MB)
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 {"id":"DmlR8vz9T5bn","time":1775062957,"expires":1775106157,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 7 outdated packages:
+simdjson 4.4.2 -> 4.6.1
+node 25.8.2 -> 25.9.0_1
+bitwarden-cli 2026.2.0 -> 2026.3.0
+python@3.13 3.13.12_1 -> 3.13.13
+uv 0.11.2 -> 0.11.4
+fzf 0.70.0 -> 0.71.0
+unnaturalscrollwheels 1.3.0 -> 1.4.0
+==> Fetching downloads for: simdjson, node, bitwarden-cli, python@3.13, uv, fzf and unnaturalscrollwheels
+==> Upgrading simdjson
+  4.4.2 -> 4.6.1 
+==> Pouring simdjson--4.6.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.6.1: 19 files, 7.9MB
+==> Running `brew cleanup simdjson`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/simdjson/4.4.2... (19 files, 7.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.4.2... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.4.2... (1.4MB)
+==> Upgrading node
+  25.8.2 -> 25.9.0_1 
+==> Pouring node--25.9.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.9.0_1: 1,889 files, 78.5MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.8.2... (1,927 files, 78.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.8.2... (31KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.8.2... (18.8MB)
+==> Upgrading bitwarden-cli
+  2026.2.0 -> 2026.3.0 
+==> Pouring bitwarden-cli--2026.3.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2026.3.0: 10,136 files, 52.6MB
+==> Running `brew cleanup bitwarden-cli`...
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2026.2.0... (10,136 files, 52.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2026.2.0... (7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2026.2.0... (13.3MB)
+==> Upgrading python@3.13
+  3.13.12_1 -> 3.13.13 
+==> Pouring python@3.13--3.13.13.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.13: 3,626 files, 72.3MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.12_1... (3,745 files, 75.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.12_1... (26.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.12_1... (18.4MB)
+==> Upgrading uv
+  0.11.2 -> 0.11.4 
+==> Pouring uv--0.11.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.11.4: 17 files, 48.2MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.11.2... (17 files, 47.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.2... (8.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.2... (20.1MB)
+==> Upgrading fzf
+  0.70.0 -> 0.71.0 
+==> Pouring fzf--0.71.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.71.0: 19 files, 5.0MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.70.0... (19 files, 5.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.70.0... (7.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.70.0... (1.9MB)
+==> Casks with 'auto_updates true' or 'version :latest' will not be upgraded; pass `--greedy` to upgrade them.
+==> Upgrading unnaturalscrollwheels
+  1.3.0 -> 1.4.0
+==> Backing App 'UnnaturalScrollWheels.app' up to '/opt/homebrew/Caskroom/unnaturalscrollwheels/1.3.0/UnnaturalScrollWheels.app'
+==> Removing App '/Applications/UnnaturalScrollWheels.app'
+==> Moving App 'UnnaturalScrollWheels.app' to '/Applications/UnnaturalScrollWheels.app'
+==> Purging files for version 1.3.0 of Cask unnaturalscrollwheels
+🍺  unnaturalscrollwheels was successfully upgraded!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bat_bottle_manifest--0.26.1... (12KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bat--0.26.1... (2.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mbedtls@3_bottle_manifest--3.6.5... (13.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pango--1.57.0_2... (887.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/icu4c@77_bottle_manifest--77.1_1... (9.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/icu4c@77--77.1_1... (31.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/librist--0.2.11_1... (214.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mbedtls--4.0.0... (2.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mbedtls@3--3.6.5... (3.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/frei0r_bottle_manifest--2.5.1... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/portable-ruby-4.0.1.arm64_big_sur.bottle.tar.gz... (12.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jpeg-turbo--3.1.3... (1.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libbluray_bottle_manifest--1.4.0_1... (15.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/unbound_bottle_manifest--1.24.2... (14KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz--12.3.2... (3.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/unbound--1.24.2... (3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/7254371b3691b3bba70a998c45db1705be75b465b1315e4e92c9a3b34027c3ef... (674 files, 6.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/d5cd286ef4797f0335745a777e53aa167a06cf0ec824323c181c4d7011cac37d... (693 files, 7.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/b38d42e52e9127a8a1224c16ef7925f5d65ab960890bcad3ac3af6ca3d6a3fc6... (679 files, 5.9MB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/bitwarden-cli... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/simdjson... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libuv... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/popt... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/smartmontools... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libunistring... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/rsync... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/uv... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libvpx... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libssh2... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/zstd... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/xxhash... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libgit2... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libzip... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/wireguard-tools... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/fzf... (64B)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+{"id":"5kWYtQiZuFl3","time":1775668000,"expires":1775711200,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
