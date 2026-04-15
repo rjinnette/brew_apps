@@ -6226,3 +6226,44 @@ Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraD
       "/opt/homebrew/lib/docker/cli-plugins"
   ]
 {"id":"Tx6S5IY5dMB7","time":1775831194,"expires":1775874394,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 2 outdated packages:
+sqlite 3.52.0 -> 3.53.0
+node 25.9.0_1 -> 25.9.0_2
+==> Fetching downloads for: sqlite and node
+==> Upgrading sqlite
+  3.52.0 -> 3.53.0 
+==> Pouring sqlite--3.53.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.53.0: 13 files, 5.3MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.52.0... (13 files, 5.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.52.0... (11.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.52.0... (2.4MB)
+==> Upgrading node
+  25.9.0_1 -> 25.9.0_2 
+==> Installing dependencies for node: simdutf, merve and nbytes
+==> Installing node dependency: simdutf
+==> Pouring simdutf--8.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdutf/8.2.0: 61 files, 1.9MB
+==> Installing node dependency: merve
+==> Pouring merve--1.2.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/merve/1.2.2: 19 files, 154.8KB
+==> Installing node dependency: nbytes
+==> Pouring nbytes--0.1.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/nbytes/0.1.4: 9 files, 90.6KB
+==> Installing node
+==> Pouring node--25.9.0_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/25.9.0_2: 1,889 files, 78.5MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.9.0_1... (1,889 files, 78.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.9.0_1... (31KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.9.0_1... (18.9MB)
+{"id":"1cgkDRow5LyZ","time":1776178800,"expires":1776222000,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Upgrading 1 outdated package:
+docker-compose 5.1.2 -> 5.1.3
+==> Fetching downloads for: docker-compose
+==> Upgrading docker-compose
+  5.1.2 -> 5.1.3 
+==> Pouring docker-compose--5.1.3.arm64_sequoia.bottle.tar.gz
