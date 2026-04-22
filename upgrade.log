@@ -6267,3 +6267,17 @@ docker-compose 5.1.2 -> 5.1.3
 ==> Upgrading docker-compose
   5.1.2 -> 5.1.3 
 ==> Pouring docker-compose--5.1.3.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/5.1.3: 8 files, 27.6MB
+==> Running `brew cleanup docker-compose`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/docker-compose/5.1.2... (8 files, 27.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.1.2... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.1.2... (9.8MB)
+{"id":"khFUBNIPdxDq","time":1776273015,"expires":1776316215,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
