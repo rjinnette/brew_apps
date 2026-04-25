@@ -6281,3 +6281,98 @@ Removing: /opt/homebrew/Cellar/docker-compose/5.1.2... (8 files, 27.6MB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.1.2... (7.5KB)
 Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.1.2... (9.8MB)
 {"id":"khFUBNIPdxDq","time":1776273015,"expires":1776316215,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Upgrading 9 outdated packages:
+libngtcp2 1.22.0 -> 1.22.1
+simdutf 8.2.0 -> 9.0.0
+merve 1.2.2 -> 1.2.2_1
+simdjson 4.6.1 -> 4.6.3
+libnghttp2 1.68.1 -> 1.69.0
+uv 0.11.6 -> 0.11.7
+lazydocker 0.25.0 -> 0.25.2
+x265 4.1 -> 4.2
+ffmpeg 8.1 -> 8.1_1
+==> Fetching downloads for: libngtcp2, simdutf, merve, simdjson, libnghttp2, uv, lazydocker, x265 and ffmpeg
+==> Upgrading libngtcp2
+  1.22.0 -> 1.22.1 
+==> Pouring libngtcp2--1.22.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.22.1: 21 files, 1.3MB
+==> Running `brew cleanup libngtcp2`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libngtcp2/1.22.0... (21 files, 1.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.22.0... (9.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.22.0... (407.5KB)
+==> Upgrading simdutf
+  8.2.0 -> 9.0.0 
+==> Pouring simdutf--9.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdutf/9.0.0: 65 files, 2MB
+==> Running `brew cleanup simdutf`...
+Removing: /opt/homebrew/Cellar/simdutf/8.2.0... (61 files, 1.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf_bottle_manifest--8.2.0... (8.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf--8.2.0... (335.2KB)
+==> Upgrading merve
+  1.2.2 -> 1.2.2_1 
+==> Pouring merve--1.2.2_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/merve/1.2.2_1: 19 files, 154.8KB
+==> Running `brew cleanup merve`...
+Removing: /opt/homebrew/Cellar/merve/1.2.2... (19 files, 154.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/merve_bottle_manifest--1.2.2... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/merve--1.2.2... (33.4KB)
+==> Upgrading simdjson
+  4.6.1 -> 4.6.3 
+==> Pouring simdjson--4.6.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.6.3: 19 files, 8.0MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.6.1... (19 files, 7.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.6.1... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.6.1... (1.4MB)
+==> Upgrading libnghttp2
+  1.68.1 -> 1.69.0 
+==> Pouring libnghttp2--1.69.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.69.0: 14 files, 850.5KB
+==> Running `brew cleanup libnghttp2`...
+Removing: /opt/homebrew/Cellar/libnghttp2/1.68.1... (14 files, 758KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.68.1... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2--1.68.1... (214.7KB)
+==> Upgrading uv
+  0.11.6 -> 0.11.7 
+==> Pouring uv--0.11.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.11.7: 17 files, 48.5MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.11.6... (17 files, 48.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.6... (8.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.6... (20.5MB)
+==> Upgrading lazydocker
+  0.25.0 -> 0.25.2 
+==> Pouring lazydocker--0.25.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lazydocker/0.25.2: 6 files, 12.6MB
+==> Running `brew cleanup lazydocker`...
+Removing: /opt/homebrew/Cellar/lazydocker/0.25.0... (6 files, 12.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lazydocker_bottle_manifest--0.25.0... (7.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/lazydocker--0.25.0... (4.7MB)
+==> Upgrading x265
+  4.1 -> 4.2 
+==> Pouring x265--4.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/x265/4.2: 12 files, 17.1MB
+==> Running `brew cleanup x265`...
+Removing: /opt/homebrew/Cellar/x265/4.1... (12 files, 13.2MB)
+==> Upgrading ffmpeg
+  8.1 -> 8.1_1 
+==> Installing ffmpeg dependency: libvmaf
+==> Pouring libvmaf--3.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvmaf/3.1.0: 235 files, 7.5MB
+==> Pouring ffmpeg--8.1_1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/ffmpeg/8.1_1: 287 files, 54.2MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.1... (287 files, 54.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.1-1... (34.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.1... (21.5MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+{"id":"Fus8eL3yJooN","time":1776879333,"expires":1776922533,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
