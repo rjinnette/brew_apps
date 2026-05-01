@@ -6376,3 +6376,4 @@ zsh completions have been installed to:
 ==> ffmpeg
 ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
 {"id":"Fus8eL3yJooN","time":1776879333,"expires":1776922533,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
