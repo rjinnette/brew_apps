@@ -6488,3 +6488,81 @@ To set up shell integration, see:
 To use fzf in Vim, add the following line to your .vimrc:
   set rtp+=/opt/homebrew/opt/fzf
 {"id":"E3w52lOubvyc","time":1777655157,"expires":1777698357,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Fetching dependencies metadata
+==> Upgrading 5 outdated packages:
+ffmpeg 8.1_1 -> 8.1.1
+simdjson 4.6.3 -> 4.6.4
+uv 0.11.8 -> 0.11.11
+libgit2 1.9.2_2 -> 1.9.3
+node 25.9.0_3 -> 26.0.0
+==> Fetching downloads for: ffmpeg, simdjson, uv, libgit2 and node
+==> Upgrading ffmpeg
+  8.1_1 -> 8.1.1 
+==> Pouring ffmpeg--8.1.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/ffmpeg/8.1.1: 287 files, 54.2MB
+==> Running `brew cleanup ffmpeg`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/ffmpeg/8.1_1... (287 files, 54.2MB)
+==> Upgrading simdjson
+  4.6.3 -> 4.6.4 
+==> Pouring simdjson--4.6.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.6.4: 19 files, 8.0MB
+==> Running `brew cleanup simdjson`...
+Removing: /opt/homebrew/Cellar/simdjson/4.6.3... (19 files, 8.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.6.3... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.6.3... (1.4MB)
+==> Upgrading uv
+  0.11.8 -> 0.11.11 
+==> Pouring uv--0.11.11.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/uv/0.11.11: 17 files, 48.8MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.11.8... (17 files, 48.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.8... (8.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.8... (20.4MB)
+==> Upgrading libgit2
+  1.9.2_2 -> 1.9.3 
+==> Pouring libgit2--1.9.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.9.3: 109 files, 5MB
+==> Running `brew cleanup libgit2`...
+Removing: /opt/homebrew/Cellar/libgit2/1.9.2_2... (109 files, 5.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2_bottle_manifest--1.9.2_2... (13.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2--1.9.2_2... (1.9MB)
+==> Upgrading node
+  25.9.0_3 -> 26.0.0 
+==> Pouring node--26.0.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.0.0: 1,889 files, 82.9MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/25.9.0_3... (1,889 files, 78.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.9.0_3... (33.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--25.9.0_3... (18.9MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgraded 5 outdated packages
+ffmpeg 8.1_1 -> 8.1.1
+simdjson 4.6.3 -> 4.6.4
+uv 0.11.8 -> 0.11.11
+libgit2 1.9.2_2 -> 1.9.3
+node 25.9.0_3 -> 26.0.0
+{"id":"KmhwCKXWf5Jg","time":1778259653,"expires":1778302853,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
