@@ -6704,3 +6704,91 @@ ca-certificates 2026-03-19 -> 2026-05-14
 python@3.14 3.14.4_1 -> 3.14.5
 uv 0.11.11 -> 0.11.14
 balenaetcher 2.1.4 -> 2.1.6
+Already up-to-date.
+==> Downloading bottle manifests
+==> Upgrading 5 outdated packages:
+bitwarden-cli 2026.4.1 -> 2026.4.2
+rsync 3.4.2 -> 3.4.3
+uv 0.11.14 -> 0.11.16
+libgit2 1.9.3 -> 1.9.4
+docker-compose 5.1.3 -> 5.1.4
+==> Fetching downloads for: bitwarden-cli, rsync, uv, libgit2 and docker-compose
+==> Upgrading bitwarden-cli
+  2026.4.1 -> 2026.4.2 
+==> Pouring bitwarden-cli--2026.4.2.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2026.4.2: 10,090 files, 52.9MB
+==> Running `brew cleanup bitwarden-cli`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2026.4.1... (10,136 files, 52.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2026.4.1... (8.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2026.4.1... (13.3MB)
+==> Upgrading rsync
+  3.4.2 -> 3.4.3 
+==> Pouring rsync--3.4.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/rsync/3.4.3: 13 files, 1.1MB
+==> Running `brew cleanup rsync`...
+Removing: /opt/homebrew/Cellar/rsync/3.4.2... (13 files, 1.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rsync_bottle_manifest--3.4.2... (14.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rsync--3.4.2... (419.7KB)
+==> Upgrading uv
+  0.11.14 -> 0.11.16 
+==> Pouring uv--0.11.16.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/uv/0.11.16: 17 files, 48.7MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.11.14... (17 files, 48.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.14... (8.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.14... (20.4MB)
+==> Upgrading libgit2
+  1.9.3 -> 1.9.4 
+==> Pouring libgit2--1.9.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.9.4: 109 files, 5MB
+==> Running `brew cleanup libgit2`...
+Removing: /opt/homebrew/Cellar/libgit2/1.9.3... (109 files, 5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2_bottle_manifest--1.9.3... (13KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2--1.9.3... (1.9MB)
+==> Upgrading docker-compose
+  5.1.3 -> 5.1.4 
+==> Pouring docker-compose--5.1.4.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/5.1.4: 8 files, 27.7MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/5.1.3... (8 files, 27.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.1.3... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.1.3... (9.8MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Upgraded 5 outdated packages
+bitwarden-cli 2026.4.1 -> 2026.4.2
+rsync 3.4.2 -> 3.4.3
+uv 0.11.14 -> 0.11.16
+libgit2 1.9.3 -> 1.9.4
+docker-compose 5.1.3 -> 5.1.4
+{"id":"T4JQbkWrKnm0","time":1779470136,"expires":1779513336,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
