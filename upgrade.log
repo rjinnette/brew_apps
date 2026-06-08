@@ -6792,3 +6792,118 @@ libgit2 1.9.3 -> 1.9.4
 docker-compose 5.1.3 -> 5.1.4
 {"id":"T4JQbkWrKnm0","time":1779470136,"expires":1779513336,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 Already up-to-date.
+==> Downloading bottle manifests
+==> Upgrading 5 outdated packages:
+libnghttp3 1.15.0 -> 1.16.0
+libngtcp2 1.22.1 -> 1.23.0
+bitwarden-cli 2026.4.2 -> 2026.5.0
+uv 0.11.16 -> 0.11.17
+fzf 0.72.0 -> 0.73.1
+==> Fetching downloads for: libnghttp3, libngtcp2, bitwarden-cli, uv and fzf
+==> Upgrading libnghttp3
+  1.15.0 -> 1.16.0 
+==> Pouring libnghttp3--1.16.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.16.0: 20 files, 626.5KB
+==> Running `brew cleanup libnghttp3`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libnghttp3/1.15.0... (20 files, 604.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3_bottle_manifest--1.15.0... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3--1.15.0... (189.0KB)
+==> Upgrading libngtcp2
+  1.22.1 -> 1.23.0 
+==> Pouring libngtcp2--1.23.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.23.0: 21 files, 1.5MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.22.1... (21 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.22.1... (9.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.22.1... (396.3KB)
+==> Upgrading bitwarden-cli
+  2026.4.2 -> 2026.5.0 
+==> Pouring bitwarden-cli--2026.5.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2026.5.0: 10,095 files, 54MB
+==> Running `brew cleanup bitwarden-cli`...
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2026.4.2... (10,090 files, 52.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2026.4.2... (7.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2026.4.2... (13.4MB)
+==> Upgrading uv
+  0.11.16 -> 0.11.17 
+==> Pouring uv--0.11.17.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/uv/0.11.17: 17 files, 49MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.11.16... (17 files, 48.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.16... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.16... (20.3MB)
+==> Upgrading fzf
+  0.72.0 -> 0.73.1 
+==> Pouring fzf--0.73.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.73.1: 19 files, 5MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.72.0... (19 files, 5.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.72.0... (7.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.72.0... (1.9MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Upgraded 5 outdated packages
+libnghttp3 1.15.0 -> 1.16.0
+libngtcp2 1.22.1 -> 1.23.0
+bitwarden-cli 2026.4.2 -> 2026.5.0
+uv 0.11.16 -> 0.11.17
+fzf 0.72.0 -> 0.73.1
+{"id":"1Xz6NP2k72Rv","time":1780334150,"expires":1780377350,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Downloading bottle manifests
+==> Upgrading 4 outdated packages:
+sqlite 3.53.1 -> 3.53.2
+rsync 3.4.3 -> 3.4.4
+bash 5.3.9 -> 5.3.12
+uv 0.11.17 -> 0.11.19
+==> Fetching downloads for: sqlite, rsync, bash and uv
+==> Upgrading sqlite
+  3.53.1 -> 3.53.2 
+==> Pouring sqlite--3.53.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.53.2: 13 files, 5.4MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.53.1... (13 files, 5.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.53.1... (11.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.53.1... (2.5MB)
+==> Upgrading rsync
+  3.4.3 -> 3.4.4 
+==> Pouring rsync--3.4.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/rsync/3.4.4: 13 files, 1.1MB
+==> Running `brew cleanup rsync`...
+Removing: /opt/homebrew/Cellar/rsync/3.4.3... (13 files, 1.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rsync_bottle_manifest--3.4.3... (14.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rsync--3.4.3... (428.7KB)
+==> Upgrading bash
+  5.3.9 -> 5.3.12 
+==> Pouring bash--5.3.12.arm64_sequoia.bottle.tar.gz
