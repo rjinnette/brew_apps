@@ -6907,3 +6907,81 @@ Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rsync--3.4.3... (428.7KB)
 ==> Upgrading bash
   5.3.9 -> 5.3.12 
 ==> Pouring bash--5.3.12.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bash/5.3.12: 172 files, 13.8MB
+==> Running `brew cleanup bash`...
+Removing: /opt/homebrew/Cellar/bash/5.3.9... (172 files, 13.8MB)
+==> Upgrading uv
+  0.11.17 -> 0.11.19 
+==> Pouring uv--0.11.19.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/uv/0.11.19: 17 files, 49.3MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.11.17... (17 files, 49MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.17... (8.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.17... (20.5MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgraded 4 outdated packages
+sqlite 3.53.1 -> 3.53.2
+rsync 3.4.3 -> 3.4.4
+bash 5.3.9 -> 5.3.12
+uv 0.11.17 -> 0.11.19
+{"id":"AFUUy6jQ4G8C","time":1780938227,"expires":1780981427,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Downloading bottle manifests
+==> Would install 1 dependency for node:
+libffi 3.5.2
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 16 outdated packages
+python@3.14 3.14.5 -> 3.14.6 (19.2MB)
+bash 5.3.12 -> 5.3.15 (3.4MB)
+uv 0.11.19 -> 0.11.21 (20.6MB)
+node 26.0.0 -> 26.3.0 (20.2MB)
+python@3.11 3.11.15_1 -> 3.11.15_3 (15.6MB)
+bitwarden 2024.12.1 -> 2026.5.0
+discord 0.0.331 -> 0.0.394
+google-chrome 131.0.6778.265 -> 149.0.7827.115
+handbrake-app 1.9.0 -> 1.11.2
+netspot 4.0.4462 -> 5.1.4971
+omnidisksweeper 1.15.1b -> 1.16
+orion 0.99,130.2 -> 1.0.8,147.1
+postman 11.27.1 -> 12.15.0
+rocket 1.9.3,85 -> 1.9.5,88
+vienna 3.9.5 -> 3.10.6
+visual-studio-code 1.96.2 -> 1.124.2
+==> Upgrading 16 outdated packages:
+python@3.14 3.14.5 -> 3.14.6 (19.2MB)
+bash 5.3.12 -> 5.3.15 (3.4MB)
+uv 0.11.19 -> 0.11.21 (20.6MB)
+node 26.0.0 -> 26.3.0 (20.2MB)
+python@3.11 3.11.15_1 -> 3.11.15_3 (15.6MB)
+bitwarden 2024.12.1 -> 2026.5.0
+discord 0.0.331 -> 0.0.394
+google-chrome 131.0.6778.265 -> 149.0.7827.115
+handbrake-app 1.9.0 -> 1.11.2
+netspot 4.0.4462 -> 5.1.4971
+omnidisksweeper 1.15.1b -> 1.16
+orion 0.99,130.2 -> 1.0.8,147.1
+postman 11.27.1 -> 12.15.0
+rocket 1.9.3,85 -> 1.9.5,88
+vienna 3.9.5 -> 3.10.6
+visual-studio-code 1.96.2 -> 1.124.2
