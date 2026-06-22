@@ -6985,3 +6985,276 @@ postman 11.27.1 -> 12.15.0
 rocket 1.9.3,85 -> 1.9.5,88
 vienna 3.9.5 -> 3.10.6
 visual-studio-code 1.96.2 -> 1.124.2
+==> Fetching downloads for: python@3.14, bash, uv, node, python@3.11, bitwarden, discord, docker-desktop, google-chrome, handbrake-app, netspot, omnidisksweeper, orion, postman, rocket, vienna and visual-studio-code
+==> Fetching downloads for: python@3.14, bash, uv, node and python@3.11
+==> Upgrading python@3.14
+  3.14.5 -> 3.14.6 
+==> Pouring python@3.14--3.14.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.6: 3,748 files, 75.7MB
+==> Running `brew cleanup python@3.14`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.5... (3,745 files, 75.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14_bottle_manifest--3.14.5... (31KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14--3.14.5... (19.2MB)
+==> Upgrading bash
+  5.3.12 -> 5.3.15 
+==> Pouring bash--5.3.15.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bash/5.3.15: 172 files, 13.8MB
+==> Running `brew cleanup bash`...
+Removing: /opt/homebrew/Cellar/bash/5.3.12... (172 files, 13.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bash_bottle_manifest--5.3.12... (11.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bash--5.3.12... (3.4MB)
+==> Upgrading uv
+  0.11.19 -> 0.11.21 
+==> Pouring uv--0.11.21.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/uv/0.11.21: 17 files, 49.4MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.11.19... (17 files, 49.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.19... (8.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.19... (20.6MB)
+==> Upgrading node
+  26.0.0 -> 26.3.0 
+==> Installing node dependency: libffi
+==> Pouring libffi--3.5.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libffi/3.5.2: 18 files, 830.3KB
+==> Pouring node--26.3.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.3.0: 2,066 files, 85.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/26.0.0... (1,889 files, 82.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.0.0... (33.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.0.0... (19.5MB)
+==> Upgrading python@3.11
+  3.11.15_1 -> 3.11.15_3 
+==> Pouring python@3.11--3.11.15_3.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.15_3/bin/python3.11 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.15_3/bin/python3.11 -Im pip install -v[0m
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.15_3: 3,306 files, 64.9MB
+==> Running `brew cleanup python@3.11`...
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.15_1... (3,306 files, 65.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11_bottle_manifest--3.11.15_1... (26.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11--3.11.15_1... (15.6MB)
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Fetching downloads for: bitwarden, discord, google-chrome, handbrake-app, netspot, omnidisksweeper, orion, postman, rocket, vienna and visual-studio-code
+==> Upgrading bitwarden
+  2024.12.1 -> 2026.5.0
+==> Purging files for version 2026.5.0 of Cask bitwarden
+==> Upgrading discord
+  0.0.331 -> 0.0.394
+==> Backing App 'Discord.app' up to '/opt/homebrew/Caskroom/discord/0.0.331/Discord.app'
+==> Removing App '/Applications/Discord.app'
+==> Moving App 'Discord.app' to '/Applications/Discord.app'
+==> Purging files for version 0.0.394 of Cask discord
+==> Purging files for version 0.0.394 of Cask discord
+==> Purging files for version 0.0.331 of Cask discord
+==> Upgrading google-chrome
+  131.0.6778.265 -> 149.0.7827.115
+==> Backing App 'Google Chrome.app' up to '/opt/homebrew/Caskroom/google-chrome/131.0.6778.265/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 131.0.6778.265 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Upgrading handbrake-app
+  1.9.0 -> 1.11.2
+==> Backing App 'HandBrake.app' up to '/opt/homebrew/Caskroom/handbrake-app/1.9.0/HandBrake.app'
+==> Removing App '/Applications/HandBrake.app'
+==> Moving App 'HandBrake.app' to '/Applications/HandBrake.app'
+==> Purging files for version 1.9.0 of Cask handbrake-app
+🍺  handbrake-app was successfully upgraded!
+==> Upgrading netspot
+  4.0.4462 -> 5.1.4971
+==> Backing App 'NetSpot.app' up to '/opt/homebrew/Caskroom/netspot/4.0.4462/NetSpot.app'
+==> Removing App '/Applications/NetSpot.app'
+==> Moving App 'NetSpot.app' to '/Applications/NetSpot.app'
+==> Purging files for version 4.0.4462 of Cask netspot
+🍺  netspot was successfully upgraded!
+==> Upgrading omnidisksweeper
+  1.15.1b -> 1.16
+==> Backing App 'OmniDiskSweeper.app' up to '/opt/homebrew/Caskroom/omnidisksweeper/1.15.1b/OmniDiskSweeper.app'
+==> Removing App '/Applications/OmniDiskSweeper.app'
+==> Moving App 'OmniDiskSweeper.app' to '/Applications/OmniDiskSweeper.app'
+==> Purging files for version 1.15.1b of Cask omnidisksweeper
+🍺  omnidisksweeper was successfully upgraded!
+==> Upgrading orion
+  0.99,130.2 -> 1.0.8,147.1
+==> Backing App 'Orion.app' up to '/opt/homebrew/Caskroom/orion/0.99,130.2/Orion.app'
+==> Removing App '/Applications/Orion.app'
+==> Moving App 'Orion.app' to '/Applications/Orion.app'
+==> Purging files for version 0.99,130.2 of Cask orion
+🍺  orion was successfully upgraded!
+==> Upgrading postman
+  11.27.1 -> 12.15.0
+==> Backing App 'Postman.app' up to '/opt/homebrew/Caskroom/postman/11.27.1/Postman.app'
+==> Removing App '/Applications/Postman.app'
+==> Moving App 'Postman.app' to '/Applications/Postman.app'
+==> Purging files for version 11.27.1 of Cask postman
+🍺  postman was successfully upgraded!
+==> Upgrading rocket
+  1.9.3,85 -> 1.9.5,88
+==> Quitting application 'net.matthewpalmer.Rocket'...
+Application 'net.matthewpalmer.Rocket' quit successfully.
+==> Backing App 'Rocket.app' up to '/opt/homebrew/Caskroom/rocket/1.9.3,85/Rocket.app'
+==> Removing App '/Applications/Rocket.app'
+==> Moving App 'Rocket.app' to '/Applications/Rocket.app'
+==> Purging files for version 1.9.3,85 of Cask rocket
+🍺  rocket was successfully upgraded!
+==> Reopening 1 application closed during upgrade:
+net.matthewpalmer.Rocket
+==> Upgrading vienna
+  3.9.5 -> 3.10.6
+==> Backing App 'Vienna.app' up to '/opt/homebrew/Caskroom/vienna/3.9.5/Vienna.app'
+==> Removing App '/Applications/Vienna.app'
+==> Moving App 'Vienna.app' to '/Applications/Vienna.app'
+==> Purging files for version 3.9.5 of Cask vienna
+🍺  vienna was successfully upgraded!
+==> Upgrading visual-studio-code
+  1.96.2 -> 1.124.2
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing App 'Visual Studio Code.app' up to '/opt/homebrew/Caskroom/visual-studio-code/1.96.2/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.96.2 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.1_1... (39.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.1_1... (21.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fmt_bottle_manifest--12.1.0... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fmt--12.1.0... (283KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gettext_bottle_manifest--1.0... (13.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gettext--1.0... (10.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/hdrhistogram_c_bottle_manifest--0.11.9... (7.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/hdrhistogram_c--0.11.9... (43.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh2_bottle_manifest--1.11.1_1... (12.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh2--1.11.1_1... (423.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/opus_bottle_manifest--1.6.1... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/opus--1.6.1... (505.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/zstd_bottle_manifest--1.5.7_1... (13.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/zstd--1.5.7_1... (794.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libthai_bottle_manifest--0.1.30... (8.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/little-cms2_bottle_manifest--2.18... (12.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxext--1.3.7... (109.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libdatrie--0.2.14... (70.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/harfbuzz_bottle_manifest--12.3.2... (29.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/portable-ruby-4.0.5.arm64_big_sur.bottle.tar.gz... (12.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/pango_bottle_manifest--1.57.0_2... (33.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libxext_bottle_manifest--1.3.7... (11.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libthai--0.1.30... (277.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/p11-kit_bottle_manifest--0.26.1... (10.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libdatrie_bottle_manifest--0.2.14... (7.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/gimp-3.0.8-arm64-1.dmg--3.0.8,1.dmg... (231.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/b652ffca4415f01425a6d96d80cd16a3089b004d15edd0b0b2523e68e8d422ed... (773 files, 6.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/ef2555df5dcbaacf64096a0cf3397f7e94ff38d2dfe5dacc95041f0235047ee3... (758 files, 6.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/54c651fab847519fa1f288e87be1b6a9ebe5f59be20529037edabecf18c17b46... (753 files, 6.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/901322dc6519043c0dc5100dc16cf5e4e2663478e9d1fc35fa74caa85406536e... (757 files, 6.5MB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/llhttp... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/bitwarden-cli... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/simdjson... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/rsync... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libvmaf... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/libgit2... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/x265... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/python@3.11... (2 files, 2.3KB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/fzf... (64B)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> python@3.11
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Upgraded 14 outdated packages
+python@3.14 3.14.5 -> 3.14.6
+bash 5.3.12 -> 5.3.15
+uv 0.11.19 -> 0.11.21
+node 26.0.0 -> 26.3.0
+python@3.11 3.11.15_1 -> 3.11.15_3
+google-chrome 131.0.6778.265 -> 149.0.7827.115
+handbrake-app 1.9.0 -> 1.11.2
+netspot 4.0.4462 -> 5.1.4971
+omnidisksweeper 1.15.1b -> 1.16
+orion 0.99,130.2 -> 1.0.8,147.1
+postman 11.27.1 -> 12.15.0
+rocket 1.9.3,85 -> 1.9.5,88
+vienna 3.9.5 -> 3.10.6
+visual-studio-code 1.96.2 -> 1.124.2
+Already up-to-date.
+==> Downloading bottle manifests
+==> Would install 1 dependency for sdl2-compat:
+sdl3 3.4.10
+==> Would install 1 dependency for ffmpeg:
+sdl3 3.4.10
