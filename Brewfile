@@ -67,8 +67,6 @@ cask "netspot"
 cask "omnidisksweeper"
 # WebKit based web browser
 cask "orion"
-# Collaboration platform for API development
-cask "postman"
 # Emoji picker optimised for blind people
 cask "rocket"
 # Team communication and collaboration software

@@ -7258,3 +7258,265 @@ Already up-to-date.
 sdl3 3.4.10
 ==> Would install 1 dependency for ffmpeg:
 sdl3 3.4.10
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 15 outdated packages
+libffi 3.5.2 -> 3.6.0 (242KB)
+libvmaf 3.1.0 -> 3.2.0 (1.2MB)
+sdl2-compat 2.32.70 (638.4KB)
+ffmpeg 8.1.1 -> 8.1.2 (21.5MB)
+python@3.13 3.13.13_1 -> 3.13.14 (18.5MB)
+fmt 12.1.0 -> 12.2.0 (288.3KB)
+uv 0.11.21 -> 0.11.23 (21.0MB)
+llhttp 9.4.1 -> 9.4.2 (38.6KB)
+node 26.3.0 -> 26.3.1 (20.2MB)
+jc 1.25.6_1 -> 1.25.7 (1.7MB)
+jq 1.8.1 -> 1.8.2 (443.0KB)
+bitwarden 2024.12.1 -> 2026.5.0
+google-chrome 149.0.7827.115 -> 149.0.7827.156
+postman 12.15.0 -> 12.15.6
+visual-studio-code 1.124.2 -> 1.125.1
+==> Upgrading 15 outdated packages:
+libffi 3.5.2 -> 3.6.0 (242KB)
+libvmaf 3.1.0 -> 3.2.0 (1.2MB)
+sdl2-compat 2.32.70 (638.4KB)
+ffmpeg 8.1.1 -> 8.1.2 (21.5MB)
+python@3.13 3.13.13_1 -> 3.13.14 (18.5MB)
+fmt 12.1.0 -> 12.2.0 (288.3KB)
+uv 0.11.21 -> 0.11.23 (21.0MB)
+llhttp 9.4.1 -> 9.4.2 (38.6KB)
+node 26.3.0 -> 26.3.1 (20.2MB)
+jc 1.25.6_1 -> 1.25.7 (1.7MB)
+jq 1.8.1 -> 1.8.2 (443.0KB)
+bitwarden 2024.12.1 -> 2026.5.0
+google-chrome 149.0.7827.115 -> 149.0.7827.156
+postman 12.15.0 -> 12.15.6
+visual-studio-code 1.124.2 -> 1.125.1
+==> Fetching downloads for: libffi, libvmaf, sdl2-compat, ffmpeg, python@3.13, fmt, uv, llhttp, node, jc, jq, bitwarden, docker-desktop, google-chrome, postman and visual-studio-code
+==> Fetching downloads for: libffi, libvmaf, sdl2-compat, ffmpeg, python@3.13, fmt, uv, llhttp, node, jc and jq
+==> Upgrading libffi
+  3.5.2 -> 3.6.0 
+==> Pouring libffi--3.6.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libffi/3.6.0: 18 files, 884.3KB
+==> Running `brew cleanup libffi`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libffi/3.5.2... (18 files, 830.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libffi_bottle_manifest--3.5.2... (9.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libffi--3.5.2... (221.8KB)
+==> Upgrading libvmaf
+  3.1.0 -> 3.2.0 
+==> Pouring libvmaf--3.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvmaf/3.2.0: 243 files, 8.2MB
+==> Running `brew cleanup libvmaf`...
+Removing: /opt/homebrew/Cellar/libvmaf/3.1.0... (235 files, 7.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvmaf_bottle_manifest--3.1.0... (7.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvmaf--3.1.0... (1.1MB)
+==> Upgrading sdl2-compat
+  -> 2.32.70 
+==> Installing sdl2-compat dependency: sdl3
+==> Pouring sdl3--3.4.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl3/3.4.10: 103 files, 6.3MB
+==> Pouring sdl2-compat--2.32.70.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl2-compat/2.32.70: 117 files, 3.3MB
+==> Running `brew cleanup sdl2-compat`...
+Removing: /opt/homebrew/Cellar/sdl2/2.32.10... (94 files, 6.7MB)
+==> Upgrading ffmpeg
+  8.1.1 -> 8.1.2 
+==> Pouring ffmpeg--8.1.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/ffmpeg/8.1.2: 287 files, 54.3MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.1.1... (287 files, 54.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.1.1... (38.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.1.1... (21.5MB)
+==> Upgrading python@3.13
+  3.13.13_1 -> 3.13.14 
+==> Pouring python@3.13--3.13.14.arm64_sequoia.bottle.1.tar.gz
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.14: 3,622 files, 72.6MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.13_1... (3,800 files, 76.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.13_1... (28.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.13_1... (18.4MB)
+==> Upgrading fmt
+  12.1.0 -> 12.2.0 
+==> Pouring fmt--12.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fmt/12.2.0: 31 files, 1.1MB
+==> Running `brew cleanup fmt`...
+Removing: /opt/homebrew/Cellar/fmt/12.1.0... (29 files, 1MB)
+==> Upgrading uv
+  0.11.21 -> 0.11.23 
+==> Pouring uv--0.11.23.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/uv/0.11.23: 17 files, 50.2MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.11.21... (17 files, 49.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.21... (8.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.21... (20.6MB)
+==> Upgrading llhttp
+  9.4.1 -> 9.4.2 
+==> Pouring llhttp--9.4.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/llhttp/9.4.2: 15 files, 164.4KB
+==> Running `brew cleanup llhttp`...
+Removing: /opt/homebrew/Cellar/llhttp/9.4.1... (15 files, 165.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/llhttp_bottle_manifest--9.4.1... (7.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/llhttp--9.4.1... (38.6KB)
+==> Upgrading node
+  26.3.0 -> 26.3.1 
+==> Pouring node--26.3.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.3.1: 2,066 files, 85.7MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/26.3.0... (2,066 files, 85.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.3.0-1... (34.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.3.0... (20.2MB)
+==> Upgrading jc
+  1.25.6_1 -> 1.25.7 
+==> Pouring jc--1.25.7.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jc/1.25.7: 721 files, 7.9MB
+==> Running `brew cleanup jc`...
+Removing: /opt/homebrew/Cellar/jc/1.25.6_1... (714 files, 7.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jc_bottle_manifest--1.25.6_1... (5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jc--1.25.6_1... (1.7MB)
+==> Upgrading jq
+  1.8.1 -> 1.8.2 
+==> Pouring jq--1.8.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jq/1.8.2: 20 files, 1.3MB
+==> Running `brew cleanup jq`...
+Removing: /opt/homebrew/Cellar/jq/1.8.1... (20 files, 1.2MB)
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Fetching downloads for: bitwarden, google-chrome, postman and visual-studio-code
+==> Upgrading bitwarden
+  2024.12.1 -> 2026.5.0
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Backing App 'Bitwarden.app' up to '/opt/homebrew/Caskroom/bitwarden/2024.12.1/Bitwarden.app'
+==> Removing App '/Applications/Bitwarden.app'
+==> Purging files for version 2026.5.0 of Cask bitwarden
+==> Upgrading google-chrome
+  149.0.7827.115 -> 149.0.7827.156
+==> Backing App 'Google Chrome.app' up to '/opt/homebrew/Caskroom/google-chrome/149.0.7827.115/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 149.0.7827.115 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Upgrading postman
+  12.15.0 -> 12.15.6
+==> Backing App 'Postman.app' up to '/opt/homebrew/Caskroom/postman/12.15.0/Postman.app'
+==> Removing App '/Applications/Postman.app'
+==> Moving App 'Postman.app' to '/Applications/Postman.app'
+==> Purging files for version 12.15.6 of Cask postman
+==> Purging files for version 12.15.6 of Cask postman
+==> Purging files for version 12.15.0 of Cask postman
+==> Upgrading visual-studio-code
+  1.124.2 -> 1.125.1
+==> Purging files for version 1.125.1 of Cask visual-studio-code
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> python@3.13
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgraded 12 outdated packages
+libffi 3.5.2 -> 3.6.0
+libvmaf 3.1.0 -> 3.2.0
+sdl2-compat 2.32.70
+ffmpeg 8.1.1 -> 8.1.2
+python@3.13 3.13.13_1 -> 3.13.14
+fmt 12.1.0 -> 12.2.0
+uv 0.11.21 -> 0.11.23
+llhttp 9.4.1 -> 9.4.2
+node 26.3.0 -> 26.3.1
+jc 1.25.6_1 -> 1.25.7
+jq 1.8.1 -> 1.8.2
+google-chrome 149.0.7827.115 -> 149.0.7827.156
+{"id":"jgPMVSCUiAmC","time":1782152023,"expires":1782195223,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Downloading bottle manifests
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 11 outdated packages
+sqlite              3.53.2    -> 3.53.3 (2.5MB)
+hdrhistogram_c      0.11.9    -> 0.11.10 (43.6KB)
+libnghttp3          1.16.0    -> 1.17.0 (191.4KB)
+uv                  0.11.23   -> 0.11.26 (21.7MB)
+openssl@3           3.6.2     -> 3.6.3 (10.9MB)
+libngtcp2           1.23.0    -> 1.24.0 (425.2KB)
+node                26.3.1    -> 26.4.0 (22.7MB)
+docker-compose      5.1.4     -> 5.2.0 (9.7MB)
+bitwarden-cli       2026.5.0  -> 2026.6.0 (13.9MB)
+bitwarden           2024.12.1 -> 2026.6.1
+visual-studio-code  1.124.2   -> 1.127.0
+==> Upgrading 11 outdated packages:
+sqlite              3.53.2    -> 3.53.3 (2.5MB)
+hdrhistogram_c      0.11.9    -> 0.11.10 (43.6KB)
+libnghttp3          1.16.0    -> 1.17.0 (191.4KB)
+uv                  0.11.23   -> 0.11.26 (21.7MB)
+openssl@3           3.6.2     -> 3.6.3 (10.9MB)
+libngtcp2           1.23.0    -> 1.24.0 (425.2KB)
+node                26.3.1    -> 26.4.0 (22.7MB)
+docker-compose      5.1.4     -> 5.2.0 (9.7MB)
+bitwarden-cli       2026.5.0  -> 2026.6.0 (13.9MB)
+bitwarden           2024.12.1 -> 2026.6.1
+visual-studio-code  1.124.2   -> 1.127.0
