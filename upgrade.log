@@ -7520,3 +7520,70 @@ docker-compose      5.1.4     -> 5.2.0 (9.7MB)
 bitwarden-cli       2026.5.0  -> 2026.6.0 (13.9MB)
 bitwarden           2024.12.1 -> 2026.6.1
 visual-studio-code  1.124.2   -> 1.127.0
+==> Fetching downloads for: sqlite, hdrhistogram_c, libnghttp3, uv, openssl@3, libngtcp2, node, docker-compose, bitwarden-cli, bitwarden, docker-desktop and visual-studio-code
+==> Fetching downloads for: sqlite, hdrhistogram_c, libnghttp3, uv, openssl@3, libngtcp2, node, docker-compose and bitwarden-cli
+==> Upgrading sqlite
+  3.53.2 -> 3.53.3 
+==> Pouring sqlite--3.53.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.53.3: 13 files, 5.4MB
+==> Running `brew cleanup sqlite`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/sqlite/3.53.2... (13 files, 5.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.53.2... (11.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.53.2... (2.5MB)
+==> Upgrading hdrhistogram_c
+  0.11.9 -> 0.11.10 
+==> Pouring hdrhistogram_c--0.11.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/hdrhistogram_c/0.11.10: 22 files, 172.0KB
+==> Running `brew cleanup hdrhistogram_c`...
+Removing: /opt/homebrew/Cellar/hdrhistogram_c/0.11.9... (22 files, 173KB)
+==> Upgrading libnghttp3
+  1.16.0 -> 1.17.0 
+==> Pouring libnghttp3--1.17.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.17.0: 20 files, 617.3KB
+==> Running `brew cleanup libnghttp3`...
+Removing: /opt/homebrew/Cellar/libnghttp3/1.16.0... (20 files, 626.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3_bottle_manifest--1.16.0... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3--1.16.0... (193.2KB)
+==> Upgrading uv
+  0.11.23 -> 0.11.26 
+==> Pouring uv--0.11.26.arm64_sequoia.bottle.tar.gz
+{"id":"Gytqc5Df5IIW","time":1782927644,"expires":1782970844,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Downloading bottle manifests
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 14 outdated packages
+fzf                 0.73.1    -> 0.74.0 (2.0MB)
+c-ares              1.34.6    -> 1.34.8 (307.6KB)
+openssl@3           3.6.2     -> 3.6.3 (10.9MB)
+libngtcp2           1.23.0    -> 1.24.0 (425.2KB)
+node                26.3.1    -> 26.4.0 (21.6MB)
+bitwarden-cli       2026.5.0  -> 2026.6.0 (13.9MB)
+python@3.13         3.13.14   -> 3.13.14_1 (18.5MB)
+uv                  0.11.23   -> 0.11.28 (22.5MB)
+sdl3                3.4.10    -> 3.4.12 (1.6MB)
+docker-compose      5.1.4     -> 5.3.1 (9.8MB)
+ffmpeg              8.1.2     -> 8.1.2_1 (21.5MB)
+bitwarden           2024.12.1 -> 2026.6.1
+vienna              3.10.6    -> 3.10.7
+visual-studio-code  1.124.2   -> 1.128.0
+==> Upgrading 14 outdated packages:
+fzf                 0.73.1    -> 0.74.0 (2.0MB)
+c-ares              1.34.6    -> 1.34.8 (307.6KB)
+openssl@3           3.6.2     -> 3.6.3 (10.9MB)
+libngtcp2           1.23.0    -> 1.24.0 (425.2KB)
+node                26.3.1    -> 26.4.0 (21.6MB)
+bitwarden-cli       2026.5.0  -> 2026.6.0 (13.9MB)
+python@3.13         3.13.14   -> 3.13.14_1 (18.5MB)
+uv                  0.11.23   -> 0.11.28 (22.5MB)
+sdl3                3.4.10    -> 3.4.12 (1.6MB)
+docker-compose      5.1.4     -> 5.3.1 (9.8MB)
+ffmpeg              8.1.2     -> 8.1.2_1 (21.5MB)
+bitwarden           2024.12.1 -> 2026.6.1
+vienna              3.10.6    -> 3.10.7
+visual-studio-code  1.124.2   -> 1.128.0
