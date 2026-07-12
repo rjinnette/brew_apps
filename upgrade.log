@@ -7587,3 +7587,224 @@ ffmpeg              8.1.2     -> 8.1.2_1 (21.5MB)
 bitwarden           2024.12.1 -> 2026.6.1
 vienna              3.10.6    -> 3.10.7
 visual-studio-code  1.124.2   -> 1.128.0
+==> Fetching downloads for: fzf, c-ares, openssl@3, libngtcp2, node, bitwarden-cli, python@3.13, uv, sdl3, docker-compose, ffmpeg, bitwarden, docker-desktop, vienna and visual-studio-code
+==> Upgrading fzf
+  0.73.1 -> 0.74.0 
+==> Pouring fzf--0.74.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.74.0: 19 files, 5.1MB
+==> Running `brew cleanup fzf`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/fzf/0.73.1... (19 files, 5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.67.0... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.73.1... (7.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.73.1... (1.9MB)
+==> Upgrading c-ares
+  1.34.6 -> 1.34.8 
+==> Pouring c-ares--1.34.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/c-ares/1.34.8: 176 files, 1MB
+==> Running `brew cleanup c-ares`...
+Removing: /opt/homebrew/Cellar/c-ares/1.34.6... (176 files, 1MB)
+==> Upgrading openssl@3
+  3.6.2 -> 3.6.3 
+==> Pouring openssl@3--3.6.3.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.3: 7,633 files, 37.8MB
+==> Running `brew cleanup openssl@3`...
+Removing: /opt/homebrew/Cellar/openssl@3/3.6.2... (7,627 files, 37.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.6.2... (12.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3--3.6.2... (10.9MB)
+==> Upgrading libngtcp2
+  1.23.0 -> 1.24.0 
+==> Pouring libngtcp2--1.24.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.24.0: 21 files, 1.4MB
+==> Running `brew cleanup libngtcp2`...
+Removing: /opt/homebrew/Cellar/libngtcp2/1.23.0... (21 files, 1.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.23.0... (9.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.23.0... (431.4KB)
+==> Upgrading node
+  26.3.1 -> 26.4.0 
+==> Pouring node--26.4.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.4.0: 2,071 files, 89.2MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/26.3.1... (2,066 files, 85.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--25.2.1... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.3.1... (34KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.3.1... (20.2MB)
+==> Upgrading bitwarden-cli
+  2026.5.0 -> 2026.6.0 
+==> Pouring bitwarden-cli--2026.6.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2026.6.0: 10,130 files, 54.7MB
+==> Running `brew cleanup bitwarden-cli`...
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2026.5.0... (10,095 files, 54MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2026.5.0... (7.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2026.5.0... (13.7MB)
+==> Upgrading python@3.13
+  3.13.14 -> 3.13.14_1 
+==> Pouring python@3.13--3.13.14_1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.14_1: 3,622 files, 72.6MB
+==> Running `brew cleanup python@3.13`...
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.14... (3,700 files, 74.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.14-1... (27.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.14... (18.5MB)
+==> Upgrading uv
+  0.11.23 -> 0.11.28 
+==> Pouring uv--0.11.28.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/uv/0.11.28: 17 files, 54.1MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.11.23... (17 files, 50.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.23... (8.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.26... (8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.9.11... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.23... (21.0MB)
+==> Upgrading sdl3
+  3.4.10 -> 3.4.12 
+==> Pouring sdl3--3.4.12.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/sdl3/3.4.12: 103 files, 6.3MB
+==> Running `brew cleanup sdl3`...
+Removing: /opt/homebrew/Cellar/sdl3/3.4.10... (103 files, 6.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl3_bottle_manifest--3.4.10... (24.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl3--3.4.10... (1.6MB)
+==> Upgrading docker-compose
+  5.1.4 -> 5.3.1 
+==> Pouring docker-compose--5.3.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/5.3.1: 8 files, 27.4MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/5.1.4... (8 files, 27.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.1.4... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.2.0... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.1.4... (9.8MB)
+==> Upgrading ffmpeg
+  8.1.2 -> 8.1.2_1 
+==> Pouring ffmpeg--8.1.2_1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Summary
+🍺  /opt/homebrew/Cellar/ffmpeg/8.1.2_1: 287 files, 54.3MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/8.1.2... (287 files, 54.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.0.1... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--8.1.2... (38.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--8.1.2... (21.5MB)
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgrading bitwarden
+  2024.12.1 -> 2026.6.1
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Purging files for version 2026.6.1 of Cask bitwarden
+==> Upgrading vienna
+  3.10.6 -> 3.10.7
+==> Backing up App 'Vienna.app' to '/opt/homebrew/Caskroom/vienna/3.10.6/Vienna.app'
+==> Removing App '/Applications/Vienna.app'
+==> Moving App 'Vienna.app' to '/Applications/Vienna.app'
+==> Purging files for version 3.10.6 of Cask vienna
+🍺  vienna was successfully upgraded!
+==> Upgrading visual-studio-code
+  1.124.2 -> 1.128.0
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.124.2/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.124.2 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> python@3.13
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Upgraded 13 outdated packages
+fzf                 0.73.1   -> 0.74.0
+c-ares              1.34.6   -> 1.34.8
+openssl@3           3.6.2    -> 3.6.3
+libngtcp2           1.23.0   -> 1.24.0
+node                26.3.1   -> 26.4.0
+bitwarden-cli       2026.5.0 -> 2026.6.0
+python@3.13         3.13.14  -> 3.13.14_1
+uv                  0.11.23  -> 0.11.28
+sdl3                3.4.10   -> 3.4.12
+docker-compose      5.1.4    -> 5.3.1
+ffmpeg              8.1.2    -> 8.1.2_1
+vienna              3.10.6   -> 3.10.7
+visual-studio-code  1.124.2  -> 1.128.0
+{"id":"FRAzQVcEeJec","time":1783530703,"expires":1783573903,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
