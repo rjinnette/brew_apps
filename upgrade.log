@@ -7808,3 +7808,77 @@ ffmpeg              8.1.2    -> 8.1.2_1
 vienna              3.10.6   -> 3.10.7
 visual-studio-code  1.124.2  -> 1.128.0
 {"id":"FRAzQVcEeJec","time":1783530703,"expires":1783573903,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Downloading bottle manifests
+==> Would install 1 dependency for lame:
+mpg123 1.33.6
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 5 outdated packages
+libffi     3.6.0     -> 3.7.1 (258.2KB)
+lame       3.100     -> 4.0 (669.4KB)
+libssh2    1.11.1_1  -> 1.11.1_3 (424.8KB)
+node       26.4.0    -> 26.5.0 (21.6MB)
+bitwarden  2024.12.1 -> 2026.6.1
+==> Upgrading 5 outdated packages:
+libffi     3.6.0     -> 3.7.1 (258.2KB)
+lame       3.100     -> 4.0 (669.4KB)
+libssh2    1.11.1_1  -> 1.11.1_3 (424.8KB)
+node       26.4.0    -> 26.5.0 (21.6MB)
+bitwarden  2024.12.1 -> 2026.6.1
+==> Fetching downloads for: libffi, lame, libssh2, node, bitwarden and docker-desktop
+==> Upgrading libffi
+  3.6.0 -> 3.7.1 
+==> Pouring libffi--3.7.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libffi/3.7.1: 18 files, 932.9KB
+==> Running `brew cleanup libffi`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libffi/3.6.0... (18 files, 884.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libffi_bottle_manifest--3.6.0... (7.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libffi--3.6.0... (242KB)
+==> Upgrading lame
+  3.100 -> 4.0 
+==> Installing lame dependency: mpg123
+==> Pouring mpg123--1.33.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpg123/1.33.6: 34 files, 2MB
+==> Installing lame
+==> Pouring lame--4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lame/4.0: 29 files, 2.0MB
+==> Running `brew cleanup lame`...
+Removing: /opt/homebrew/Cellar/lame/3.100... (28 files, 2.3MB)
+==> Upgrading libssh2
+  1.11.1_1 -> 1.11.1_3 
+==> Pouring libssh2--1.11.1_3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.11.1_3: 201 files, 1.3MB
+==> Running `brew cleanup libssh2`...
+Removing: /opt/homebrew/Cellar/libssh2/1.11.1_1... (201 files, 1.3MB)
+==> Upgrading node
+  26.4.0 -> 26.5.0 
+==> Pouring node--26.5.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.5.0: 2,071 files, 89.2MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/26.4.0... (2,071 files, 89.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.4.0... (33.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.4.0-1... (176.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.4.0... (21.6MB)
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgrading bitwarden
+  2024.12.1 -> 2026.6.1
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Purging files for version 2026.6.1 of Cask bitwarden
+==> Upgraded 4 outdated packages
+libffi   3.6.0    -> 3.7.1
+lame     3.100    -> 4.0
+libssh2  1.11.1_1 -> 1.11.1_3
+node     26.4.0   -> 26.5.0
+{"id":"8nlFe0YokptC","time":1783876371,"expires":1783919571,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Downloading bottle manifests
