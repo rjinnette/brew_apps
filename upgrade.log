@@ -7882,3 +7882,135 @@ node     26.4.0   -> 26.5.0
 {"id":"8nlFe0YokptC","time":1783876371,"expires":1783919571,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 Already up-to-date.
 ==> Downloading bottle manifests
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 6 outdated packages
+svt-av1             4.1.0          -> 4.2.0 (1.4MB)
+dav1d               1.5.3          -> 1.5.4 (393.3KB)
+python@3.11         3.11.15_3      -> 3.11.15_4 (15.5MB)
+bitwarden           2024.12.1      -> 2026.6.1
+google-chrome       149.0.7827.156 -> 150.0.7871.125
+visual-studio-code  1.128.0        -> 1.128.1
+==> Upgrading 6 outdated packages:
+svt-av1             4.1.0          -> 4.2.0 (1.4MB)
+dav1d               1.5.3          -> 1.5.4 (393.3KB)
+python@3.11         3.11.15_3      -> 3.11.15_4 (15.5MB)
+bitwarden           2024.12.1      -> 2026.6.1
+google-chrome       149.0.7827.156 -> 150.0.7871.125
+visual-studio-code  1.128.0        -> 1.128.1
+==> Fetching downloads for: svt-av1, dav1d, python@3.11, bitwarden, docker-desktop, google-chrome and visual-studio-code
+==> Upgrading svt-av1
+  4.1.0 -> 4.2.0 
+==> Pouring svt-av1--4.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/4.2.0: 23 files, 3.3MB
+==> Running `brew cleanup svt-av1`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/svt-av1/4.1.0... (23 files, 3.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1_bottle_manifest--4.1.0... (7.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1--4.1.0... (1.3MB)
+==> Upgrading dav1d
+  1.5.3 -> 1.5.4 
+==> Pouring dav1d--1.5.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dav1d/1.5.4: 16 files, 976KB
+==> Running `brew cleanup dav1d`...
+Removing: /opt/homebrew/Cellar/dav1d/1.5.3... (16 files, 945.0KB)
+==> Upgrading python@3.11
+  3.11.15_3 -> 3.11.15_4 
+==> Pouring python@3.11--3.11.15_4.arm64_sequoia.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.15_4/bin/python3.11 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.11/3.11.15_4/bin/python3.11 -Im pip install -v[0m
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.15_4: 3,304 files, 64.3MB
+==> Running `brew cleanup python@3.11`...
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.15_3... (3,306 files, 64.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11_bottle_manifest--3.11.15_3... (26.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11--3.11.15_3... (15.6MB)
+==> Upgrading bitwarden
+  2024.12.1 -> 2026.6.1
+==> Purging files for version 2026.6.1 of Cask bitwarden
+==> Upgrading google-chrome
+  149.0.7827.156 -> 150.0.7871.125
+==> Backing up App 'Google Chrome.app' to '/opt/homebrew/Caskroom/google-chrome/149.0.7827.156/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 149.0.7827.156 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Upgrading visual-studio-code
+  1.128.0 -> 1.128.1
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.128.0/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.128.0 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Caveats
+==> python@3.11
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Upgraded 5 outdated packages
+svt-av1             4.1.0          -> 4.2.0
+dav1d               1.5.3          -> 1.5.4
+python@3.11         3.11.15_3      -> 3.11.15_4
+google-chrome       149.0.7827.156 -> 150.0.7871.125
+visual-studio-code  1.128.0        -> 1.128.1
+{"id":"JNsg3AAOvA8L","time":1784134905,"expires":1784178105,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+==> Downloading bottle manifests
