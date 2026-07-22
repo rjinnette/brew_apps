@@ -8014,3 +8014,137 @@ google-chrome       149.0.7827.156 -> 150.0.7871.125
 visual-studio-code  1.128.0        -> 1.128.1
 {"id":"JNsg3AAOvA8L","time":1784134905,"expires":1784178105,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 ==> Downloading bottle manifests
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 5 outdated packages
+uv                  0.11.28        -> 0.11.29 (22.4MB)
+ca-certificates     2026-05-14     -> 2026-07-16 (110.5KB)
+bitwarden           2024.12.1      -> 2026.6.1
+google-chrome       150.0.7871.125 -> 150.0.7871.129
+visual-studio-code  1.128.1        -> 1.129.1
+==> Upgrading 5 outdated packages:
+uv                  0.11.28        -> 0.11.29 (22.4MB)
+ca-certificates     2026-05-14     -> 2026-07-16 (110.5KB)
+bitwarden           2024.12.1      -> 2026.6.1
+google-chrome       150.0.7871.125 -> 150.0.7871.129
+visual-studio-code  1.128.1        -> 1.129.1
+==> Fetching downloads for: uv, ca-certificates, bitwarden, docker-desktop, google-chrome and visual-studio-code
+==> Upgrading uv
+  0.11.28 -> 0.11.29 
+==> Pouring uv--0.11.29.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/uv/0.11.29: 17 files, 54.2MB
+==> Running `brew cleanup uv`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/uv/0.11.28... (17 files, 54.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.28... (18.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.28... (22.5MB)
+==> Upgrading ca-certificates
+  2026-05-14 -> 2026-07-16 
+==> Pouring ca-certificates--2026-07-16.all.bottle.tar.gz
+[34m==>[0m [1mRegenerating CA certificate bundle from keychain, this may take a while...[0m
+🍺  /opt/homebrew/Cellar/ca-certificates/2026-07-16: 4 files, 197.9KB
+==> Running `brew cleanup ca-certificates`...
+Removing: /opt/homebrew/Cellar/ca-certificates/2026-05-14... (4 files, 200.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2026-05-14... (1.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates--2026-05-14... (112KB)
+==> Upgrading bitwarden
+  2024.12.1 -> 2026.6.1
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Purging files for version 2026.6.1 of Cask bitwarden
+==> Upgrading google-chrome
+  150.0.7871.125 -> 150.0.7871.129
+==> Backing up App 'Google Chrome.app' to '/opt/homebrew/Caskroom/google-chrome/150.0.7871.125/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 150.0.7871.125 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Upgrading visual-studio-code
+  1.128.1 -> 1.129.1
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.128.1/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.128.1 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libunistring_bottle_manifest--1.4.2... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libunistring--1.4.2... (1.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libuv_bottle_manifest--1.52.1... (7.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libuv--1.52.1... (376.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvpx_bottle_manifest--1.16.0... (7.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvpx--1.16.0... (1.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libzip_bottle_manifest--1.11.4_1... (11.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libzip--1.11.4_1... (145.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/popt_bottle_manifest--1.19... (13.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/popt--1.19... (59.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/smartmontools_bottle_manifest--7.5... (11.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/smartmontools--7.5... (813.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/wireguard-tools_bottle_manifest--1.0.20260223... (12.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/wireguard-tools--1.0.20260223... (56.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/xxhash_bottle_manifest--0.8.3... (10.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/xxhash--0.8.3... (149KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/portable-ruby-4.0.5_1.arm64_big_sur.bottle.tar.gz... (12.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libarchive_bottle_manifest--3.8.3... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openexr_bottle_manifest--3.4.4... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/librist_bottle_manifest--0.2.11_1... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/glib_bottle_manifest--2.86.2... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gnutls_bottle_manifest--3.8.11... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mbedtls_bottle_manifest--4.0.0... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/balenaEtcher-2.1.4-arm64.dmg--2.1.4.dmg... (156.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/ideamaker--5.1.4.8480.dmg... (0B)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.128.0... (285.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.128.1... (285.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/docker-desktop--4.81.0,232925.dmg... (565MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/google-chrome--150.0.7871.125.dmg... (272.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/014f436979ae1b304cd2982d2a500b3eb214b50f/Cask/docker-desktop.rb... (5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/2bf4fd1e2c359c1147b6562de4a384c7e6ad29f3/Cask/docker-desktop.rb... (5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/389dfbfc72535b4bcd9c68dbc9aaa34d3823d4b1/Cask/docker-desktop.rb... (5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/a44001735d4446c4352d53bbf257f3042f06812b/Cask/docker-desktop.rb... (5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/a64d9a96c533c3f144d9b86f8fa411f03bd3de2b/Cask/docker-desktop.rb... (5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/api-source/Homebrew/homebrew-cask/c04c7a63bf6d1b8fd7812ef8e7514f092454df37/Cask/docker-desktop.rb... (5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/googlechrome.dmg--149.0.7827.115.dmg... (272.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/googlechrome.dmg--149.0.7827.156.dmg... (272.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/stable--1.124.2... (249.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/16e4b77f396cb05f9c9d7cc3db325ed737f1a41f52ffbca011c77ad70f50850b... (776 files, 6.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/4d4f04dd5cb2b3d1cc2088fdde2e7ea415ab6a872c50a809c9bfa164253517b3... (777 files, 6.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/14e9983d8f21ebd1759b5d12e5a0f648a2e5b645d0e27f72867e9cb6262257d9... (778 files, 6.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/148d3a0082c45793313d4cfa2955969a9805ea8fb6e34e5cf51ee0d39c52a728... (1,043 files, 9.4MB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/uv... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/node... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/docker-compose... (64B)
+Pruned 1 symbolic links from /opt/homebrew
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgraded 4 outdated packages
+uv                  0.11.28        -> 0.11.29
+ca-certificates     2026-05-14     -> 2026-07-16
+google-chrome       150.0.7871.125 -> 150.0.7871.129
+visual-studio-code  1.128.1        -> 1.129.1
+Already up-to-date.
