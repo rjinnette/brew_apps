@@ -8148,3 +8148,144 @@ ca-certificates     2026-05-14     -> 2026-07-16
 google-chrome       150.0.7871.125 -> 150.0.7871.129
 visual-studio-code  1.128.1        -> 1.129.1
 Already up-to-date.
+==> Downloading bottle manifests
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 6 outdated packages
+uv             0.11.29        -> 0.11.31 (22.1MB)
+libgit2        1.9.4          -> 1.9.6 (1.9MB)
+fzf            0.74.0         -> 0.74.1 (2.0MB)
+bitwarden      2024.12.1      -> 2026.6.1
+google-chrome  150.0.7871.129 -> 150.0.7871.182
+vienna         3.10.7         -> 3.10.8
+==> Upgrading 6 outdated packages:
+uv             0.11.29        -> 0.11.31 (22.1MB)
+libgit2        1.9.4          -> 1.9.6 (1.9MB)
+fzf            0.74.0         -> 0.74.1 (2.0MB)
+bitwarden      2024.12.1      -> 2026.6.1
+google-chrome  150.0.7871.129 -> 150.0.7871.182
+vienna         3.10.7         -> 3.10.8
+==> Fetching downloads for: uv, libgit2, fzf, bitwarden, docker-desktop, google-chrome and vienna
+==> Upgrading uv
+  0.11.29 -> 0.11.31 
+==> Pouring uv--0.11.31.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/uv/0.11.31: 17 files, 53.7MB
+==> Running `brew cleanup uv`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/uv/0.11.29... (17 files, 54.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.11.29... (18.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.11.29... (22.4MB)
+==> Upgrading libgit2
+  1.9.4 -> 1.9.6 
+==> Pouring libgit2--1.9.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.9.6: 109 files, 5.0MB
+==> Running `brew cleanup libgit2`...
+Removing: /opt/homebrew/Cellar/libgit2/1.9.4... (109 files, 5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2_bottle_manifest--1.9.4... (13.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2--1.9.4... (1.9MB)
+==> Upgrading fzf
+  0.74.0 -> 0.74.1 
+==> Pouring fzf--0.74.1.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.74.1: 19 files, 5.1MB
+==> Running `brew cleanup fzf`...
+Removing: /opt/homebrew/Cellar/fzf/0.74.0... (19 files, 5.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.74.0... (16.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.74.0... (2.0MB)
+==> Upgrading bitwarden
+  2024.12.1 -> 2026.6.1
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Purging files for version 2026.6.1 of Cask bitwarden
+==> Upgrading google-chrome
+  150.0.7871.129 -> 150.0.7871.182
+==> Backing up App 'Google Chrome.app' to '/opt/homebrew/Caskroom/google-chrome/150.0.7871.129/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 150.0.7871.129 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Upgrading vienna
+  3.10.7 -> 3.10.8
+==> Backing up App 'Vienna.app' to '/opt/homebrew/Caskroom/vienna/3.10.7/Vienna.app'
+==> Removing App '/Applications/Vienna.app'
+==> Moving App 'Vienna.app' to '/Applications/Vienna.app'
+==> Purging files for version 3.10.7 of Cask vienna
+🍺  vienna was successfully upgraded!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Upgraded 5 outdated packages
+uv             0.11.29        -> 0.11.31
+libgit2        1.9.4          -> 1.9.6
+fzf            0.74.0         -> 0.74.1
+google-chrome  150.0.7871.129 -> 150.0.7871.182
+vienna         3.10.7         -> 3.10.8
+{"id":"wjcnlstkKoUi","time":1784739749,"expires":1784782949,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Downloading bottle manifests
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 15 outdated packages
+sqlite                 3.53.3         -> 3.53.4 (2.5MB)
+ada-url                3.4.4          -> 4.0.0 (340.9KB)
+libnghttp2             1.69.0         -> 1.70.0 (235KB)
+libnghttp3             1.17.0         -> 1.18.0 (189.7KB)
+libngtcp2              1.24.0         -> 1.25.0 (428.9KB)
+llhttp                 9.4.2          -> 9.4.3 (38.6KB)
+simdjson               4.6.4          -> 4.6.6 (1.4MB)
+node                   26.5.0         -> 26.5.1 (21.7MB)
+bitwarden-cli          2026.6.0       -> 2026.7.0 (14MB)
+uv                     0.11.31        -> 0.12.1 (18MB)
+libssh2                1.11.1_3       -> 1.11.1_4 (424KB)
+fzf                    0.74.1         -> 0.74.2 (2.0MB)
+google-chrome          150.0.7871.182 -> 151.0.7922.72
+unnaturalscrollwheels  1.4.0          -> 1.4.2
+visual-studio-code     1.129.1        -> 1.131.0
+==> Upgrading 15 outdated packages:
+sqlite                 3.53.3         -> 3.53.4 (2.5MB)
+ada-url                3.4.4          -> 4.0.0 (340.9KB)
+libnghttp2             1.69.0         -> 1.70.0 (235KB)
+libnghttp3             1.17.0         -> 1.18.0 (189.7KB)
+libngtcp2              1.24.0         -> 1.25.0 (428.9KB)
+llhttp                 9.4.2          -> 9.4.3 (38.6KB)
+simdjson               4.6.4          -> 4.6.6 (1.4MB)
+node                   26.5.0         -> 26.5.1 (21.7MB)
+bitwarden-cli          2026.6.0       -> 2026.7.0 (14MB)
+uv                     0.11.31        -> 0.12.1 (18MB)
+libssh2                1.11.1_3       -> 1.11.1_4 (424KB)
+fzf                    0.74.1         -> 0.74.2 (2.0MB)
+google-chrome          150.0.7871.182 -> 151.0.7922.72
+unnaturalscrollwheels  1.4.0          -> 1.4.2
+visual-studio-code     1.129.1        -> 1.131.0
