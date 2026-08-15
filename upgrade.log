@@ -8469,3 +8469,202 @@ visual-studio-code     1.129.1        -> 1.131.0
 {"id":"qL1kTc4zUBgr","time":1785609694,"expires":1785652894,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 Already up-to-date.
 ==> Downloading bottle manifests
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 8 outdated packages
+python@3.13         3.13.14_1     -> 3.13.15 (18.4MB)
+mpg123              1.33.6        -> 1.33.7 (651.3KB)
+uv                  0.12.1        -> 0.12.3 (18.0MB)
+sdl3                3.4.12        -> 3.4.14 (1.6MB)
+node                26.5.1        -> 26.7.0 (21.7MB)
+docker-compose      5.3.1         -> 5.4.0 (13.6MB)
+google-chrome       151.0.7922.72 -> 151.0.7922.109
+visual-studio-code  1.131.0       -> 1.132.0
+==> Upgrading 8 outdated packages:
+python@3.13         3.13.14_1     -> 3.13.15 (18.4MB)
+mpg123              1.33.6        -> 1.33.7 (651.3KB)
+uv                  0.12.1        -> 0.12.3 (18.0MB)
+sdl3                3.4.12        -> 3.4.14 (1.6MB)
+node                26.5.1        -> 26.7.0 (21.7MB)
+docker-compose      5.3.1         -> 5.4.0 (13.6MB)
+google-chrome       151.0.7922.72 -> 151.0.7922.109
+visual-studio-code  1.131.0       -> 1.132.0
+==> Fetching downloads for: python@3.13, mpg123, uv, sdl3, node, docker-compose, docker-desktop, google-chrome and visual-studio-code
+==> Upgrading python@3.13
+  3.13.14_1 -> 3.13.15 
+==> Pouring python@3.13--3.13.15.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.15: 3,641 files, 71.2MB
+==> Running `brew cleanup python@3.13`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.14_1... (3,700 files, 74.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.14_1... (91.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.14_1... (18.5MB)
+==> Upgrading mpg123
+  1.33.6 -> 1.33.7 
+==> Pouring mpg123--1.33.7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpg123/1.33.7: 34 files, 1.9MB
+==> Running `brew cleanup mpg123`...
+Removing: /opt/homebrew/Cellar/mpg123/1.33.6... (34 files, 2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123_bottle_manifest--1.33.6... (8.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/mpg123--1.33.6... (650.4KB)
+==> Upgrading uv
+  0.12.1 -> 0.12.3 
+==> Pouring uv--0.12.3.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/uv/0.12.3: 17 files, 43.3MB
+==> Running `brew cleanup uv`...
+Removing: /opt/homebrew/Cellar/uv/0.12.1... (17 files, 43.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.12.1... (18.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.12.1... (18MB)
+==> Upgrading sdl3
+  3.4.12 -> 3.4.14 
+==> Pouring sdl3--3.4.14.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl3/3.4.14: 103 files, 6.3MB
+==> Running `brew cleanup sdl3`...
+Removing: /opt/homebrew/Cellar/sdl3/3.4.12... (103 files, 6.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl3_bottle_manifest--3.4.12-1... (22.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl3--3.4.12... (1.6MB)
+==> Upgrading node
+  26.5.1 -> 26.7.0 
+==> Pouring node--26.7.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.7.0: 2,077 files, 89.4MB
+==> Running `brew cleanup node`...
+Removing: /opt/homebrew/Cellar/node/26.5.1... (2,071 files, 89.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.5.1... (176.0KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.5.1... (21.7MB)
+==> Upgrading docker-compose
+  5.3.1 -> 5.4.0 
+==> Pouring docker-compose--5.4.0.arm64_sequoia.bottle.tar.gz
+==> Caveats
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Summary
+🍺  /opt/homebrew/Cellar/docker-compose/5.4.0: 8 files, 41.9MB
+==> Running `brew cleanup docker-compose`...
+Removing: /opt/homebrew/Cellar/docker-compose/5.3.1... (8 files, 27.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.3.1... (15.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.3.1... (9.8MB)
+==> Upgrading google-chrome
+  151.0.7922.72 -> 151.0.7922.109
+==> Backing up App 'Google Chrome.app' to '/opt/homebrew/Caskroom/google-chrome/151.0.7922.72/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 151.0.7922.72 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Upgrading visual-studio-code
+  1.131.0 -> 1.132.0
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.131.0/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.131.0 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> python@3.13
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Upgraded 8 outdated packages
+python@3.13         3.13.14_1     -> 3.13.15
+mpg123              1.33.6        -> 1.33.7
+uv                  0.12.1        -> 0.12.3
+sdl3                3.4.12        -> 3.4.14
+node                26.5.1        -> 26.7.0
+docker-compose      5.3.1         -> 5.4.0
+google-chrome       151.0.7922.72 -> 151.0.7922.109
+visual-studio-code  1.131.0       -> 1.132.0
+{"id":"82ZUxGAtwBqd","time":1786208523,"expires":1786251723,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 10 outdated packages
+libffi              3.7.1      -> 3.8.0 (271.0KB)
+simdjson            4.6.6      -> 4.6.7 (1.4MB)
+ca-certificates     2026-07-16 -> 2026-08-13 (112.2KB)
+python@3.14         3.14.6     -> 3.14.7 (19.2MB)
+rsync               3.4.4      -> 3.5.0 (479.3KB)
+ffmpeg              8.1.2_1    -> 9.0.1 (21.7MB)
+libgit2             1.9.6      -> 1.9.7 (2.0MB)
+python@3.11         3.11.15_4  -> 3.11.16 (15.3MB)
+uv                  0.12.3     -> 0.12.5 (19.1MB)
+visual-studio-code  1.132.0    -> 1.133.0
+==> Upgrading 12 outdated packages:
+libffi              3.7.1      -> 3.8.0 (271.0KB)
+simdjson            4.6.6      -> 4.6.7 (1.4MB)
+ca-certificates     2026-07-16 -> 2026-08-13 (112.2KB)
+python@3.14         3.14.6     -> 3.14.7 (19.2MB)
+rsync               3.4.4      -> 3.5.0 (479.3KB)
+ffmpeg              8.1.2_1    -> 9.0.1 (21.7MB)
+libgit2             1.9.6      -> 1.9.7 (2.0MB)
+python@3.11         3.11.15_4  -> 3.11.16 (15.3MB)
+uv                  0.12.3     -> 0.12.5 (19.1MB)
+python@3.11         3.11.15_4  -> 3.11.16 (15.3MB)
+python@3.14         3.14.6     -> 3.14.7 (19.2MB)
+visual-studio-code  1.132.0    -> 1.133.0
