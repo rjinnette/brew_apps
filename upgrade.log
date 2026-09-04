@@ -9054,3 +9054,126 @@ google-chrome       151.0.7922.109 -> 151.0.7922.174
 orion               1.0.8,147.1    -> 1.1.2,151
 visual-studio-code  1.133.0        -> 1.134.0
 {"id":"iGMO6LWweL5T","time":1787424289,"expires":1787467489,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 9 outdated packages
+libvpx              1.16.0   -> 1.17.0 (1.9MB)
+openssl@3           3.6.3    -> 3.6.4 (11.0MB)
+x265                4.2      -> 4.3 (5.6MB)
+ffmpeg              9.0.1    -> 9.0.1_1 (21.7MB)
+simdjson            4.6.7    -> 4.6.9 (1.4MB)
+uv                  0.12.5   -> 0.12.8 (18.3MB)
+node                26.7.0   -> 26.8.1 (19.9MB)
+bitwarden           2026.7.0 -> 2026.8.0
+visual-studio-code  1.134.0  -> 1.135.0
+==> 1 Deprecated or disabled package
+macdown (disabled)
+==> Upgrading libvpx
+  1.16.0 -> 1.17.0 
+==> Pouring libvpx--1.17.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvpx/1.17.0: 22 files, 4.4MB
+==> Upgrading openssl@3
+  3.6.3 -> 3.6.4 
+==> Pouring openssl@3--3.6.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.4: 7,639 files, 37.8MB
+==> Upgrading x265
+  4.2 -> 4.3 
+==> Pouring x265--4.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/x265/4.3: 12 files, 17.4MB
+==> Upgrading ffmpeg
+  9.0.1 -> 9.0.1_1 
+==> Pouring ffmpeg--9.0.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/9.0.1_1: 290 files, 54.4MB
+==> Upgrading simdjson
+  4.6.7 -> 4.6.9 
+==> Pouring simdjson--4.6.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.6.9: 19 files, 8.0MB
+==> Upgrading uv
+  0.12.5 -> 0.12.8 
+==> Pouring uv--0.12.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.12.8: 17 files, 44.6MB
+==> Upgrading node
+  26.7.0 -> 26.8.1 
+==> Pouring node--26.8.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.8.1: 2,077 files, 70.7MB
+==> Upgrading bitwarden
+  2026.7.0 -> 2026.8.0
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Purging files for version 2026.8.0 of Cask bitwarden
+==> Upgrading visual-studio-code
+  1.134.0 -> 1.135.0
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.134.0/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.134.0 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Cleanup
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.134.0... (317MB)
+Removing: /opt/homebrew/Cellar/simdjson/4.6.7... (19 files, 8.0MB)
+Removing: /opt/homebrew/Cellar/x265/4.2... (12 files, 17.1MB)
+Removing: /opt/homebrew/Cellar/uv/0.12.5... (17 files, 45.8MB)
+Removing: /opt/homebrew/Cellar/libvpx/1.16.0... (22 files, 4.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.6.7... (1.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.6.7... (15.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.12.5... (19.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.12.5... (18.7KB)
+Removing: /opt/homebrew/Cellar/ffmpeg/9.0.1... (290 files, 54.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--9.0.1... (21.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--9.0.1... (191.6KB)
+Removing: /opt/homebrew/Cellar/node/26.7.0... (2,077 files, 89.4MB)
+Removing: /opt/homebrew/Cellar/openssl@3/3.6.3... (7,633 files, 37.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.7.0... (21.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.7.0... (176.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3--3.6.3... (10.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.6.3... (11.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.6.3-1... (12.0KB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgraded 8 outdated packages
+libvpx              1.16.0  -> 1.17.0
+openssl@3           3.6.3   -> 3.6.4
+x265                4.2     -> 4.3
+ffmpeg              9.0.1   -> 9.0.1_1
+simdjson            4.6.7   -> 4.6.9
+uv                  0.12.5  -> 0.12.8
+node                26.7.0  -> 26.8.1
+visual-studio-code  1.134.0 -> 1.135.0
+{"id":"xx4m04IN2LUg","time":1788283832,"expires":1788327032,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 7 outdated packages
+simdjson            4.6.9          -> 4.6.10 (1.4MB)
+uv                  0.12.8         -> 0.12.9 (18.3MB)
+sdl3                3.4.14         -> 3.4.16 (1.6MB)
+sdl2-compat         2.32.70        -> 2.32.72 (641.4KB)
+docker-compose      5.5.0          -> 5.5.1 (9.7MB)
+google-chrome       151.0.7922.174 -> 152.0.7977.83
+visual-studio-code  1.135.0        -> 1.136.1
+==> 1 Deprecated or disabled package
+macdown (disabled)
