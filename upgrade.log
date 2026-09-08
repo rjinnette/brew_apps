@@ -9177,3 +9177,86 @@ google-chrome       151.0.7922.174 -> 152.0.7977.83
 visual-studio-code  1.135.0        -> 1.136.1
 ==> 1 Deprecated or disabled package
 macdown (disabled)
+==> Upgrading simdjson
+  4.6.9 -> 4.6.10 
+==> Pouring simdjson--4.6.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.6.10: 19 files, 8.0MB
+==> Upgrading uv
+  0.12.8 -> 0.12.9 
+==> Pouring uv--0.12.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.12.9: 17 files, 44.4MB
+==> Upgrading sdl3
+  3.4.14 -> 3.4.16 
+==> Pouring sdl3--3.4.16.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl3/3.4.16: 103 files, 6.3MB
+==> Upgrading sdl2-compat
+  2.32.70 -> 2.32.72 
+==> Pouring sdl2-compat--2.32.72.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl2-compat/2.32.72: 117 files, 3.3MB
+==> Upgrading docker-compose
+  5.5.0 -> 5.5.1 
+==> Pouring docker-compose--5.5.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/docker-compose/5.5.1: 8 files, 27MB
+==> Upgrading google-chrome
+  151.0.7922.174 -> 152.0.7977.83
+==> Backing up App 'Google Chrome.app' to '/opt/homebrew/Caskroom/google-chrome/151.0.7922.174/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 151.0.7922.174 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Upgrading visual-studio-code
+  1.135.0 -> 1.136.1
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.135.0/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.135.0 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Cleanup
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.135.0... (317.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/google-chrome--151.0.7922.174.dmg... (277.0MB)
+Removing: /opt/homebrew/Cellar/docker-compose/5.5.0... (8 files, 42.0MB)
+Removing: /opt/homebrew/Cellar/simdjson/4.6.9... (19 files, 8.0MB)
+Removing: /opt/homebrew/Cellar/uv/0.12.8... (17 files, 44.6MB)
+Removing: /opt/homebrew/Cellar/sdl3/3.4.14... (103 files, 6.3MB)
+Removing: /opt/homebrew/Cellar/sdl2-compat/2.32.70... (117 files, 3.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.5.0... (13.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.6.9... (1.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.5.0... (15.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.6.9... (13.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.12.8... (18.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.12.8... (16.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl3--3.4.14... (1.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl3_bottle_manifest--3.4.14... (110.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl2-compat--2.32.70... (638.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sdl2-compat_bottle_manifest--2.32.70... (25.9KB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Upgraded 7 outdated packages
+simdjson            4.6.9          -> 4.6.10
+uv                  0.12.8         -> 0.12.9
+sdl3                3.4.14         -> 3.4.16
+sdl2-compat         2.32.70        -> 2.32.72
+docker-compose      5.5.0          -> 5.5.1
+google-chrome       151.0.7922.174 -> 152.0.7977.83
+visual-studio-code  1.135.0        -> 1.136.1
+{"id":"6J0IFFSRxzFT","time":1788527564,"expires":1788570764,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
