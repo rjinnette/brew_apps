@@ -9337,3 +9337,153 @@ google-chrome       152.0.7977.83 -> 153.0.8010.37
 visual-studio-code  1.136.1       -> 1.136.2
 {"id":"S4ZGL3JicVas","time":1788911346,"expires":1788954546,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 Already up-to-date.
+==> Would install 1 dependency:
+json-c 0.19
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 10 outdated packages
+readline            8.3.3    -> 8.3.6 (757.3KB)
+xz                  5.8.3    -> 5.8.4 (789.7KB)
+bash                5.3.15   -> 5.3.20 (3.4MB)
+uv                  0.12.10  -> 0.12.15 (18.5MB)
+libvmaf             3.2.0    -> 3.2.1 (1.3MB)
+libssh2             1.11.1_4 -> 1.11.1_5 (424.4KB)
+simdutf             9.1.1    -> 9.1.2 (394.9KB)
+node                26.8.1   -> 26.8.2 (19.9MB)
+fzf                 0.74.3   -> 0.74.4 (2.2MB)
+visual-studio-code  1.136.2  -> 1.137.0
+==> 1 Deprecated or disabled package
+macdown (disabled)
+==> Upgrading readline
+  8.3.3 -> 8.3.6 
+==> Pouring readline--8.3.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.3.6: 56 files, 2.6MB
+==> Upgrading xz
+  5.8.3 -> 5.8.4 
+==> Pouring xz--5.8.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.8.4: 96 files, 2.7MB
+==> Upgrading bash
+  5.3.15 -> 5.3.20 
+==> Installing bash dependency: json-c
+==> Pouring json-c--0.19.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/json-c/0.19: 34 files, 362.3KB
+==> Installing bash
+==> Pouring bash--5.3.20.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bash/5.3.20: 172 files, 13MB
+==> Upgrading uv
+  0.12.10 -> 0.12.15 
+==> Pouring uv--0.12.15.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.12.15: 17 files, 44.4MB
+==> Upgrading libvmaf
+  3.2.0 -> 3.2.1 
+==> Pouring libvmaf--3.2.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvmaf/3.2.1: 243 files, 8.2MB
+==> Upgrading libssh2
+  1.11.1_4 -> 1.11.1_5 
+==> Pouring libssh2--1.11.1_5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.11.1_5: 201 files, 1.3MB
+==> Upgrading simdutf
+  9.1.1 -> 9.1.2 
+==> Pouring simdutf--9.1.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdutf/9.1.2: 65 files, 2MB
+==> Upgrading node
+  26.8.1 -> 26.8.2 
+==> Pouring node--26.8.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.8.2: 2,077 files, 70.8MB
+==> Upgrading fzf
+  0.74.3 -> 0.74.4 
+==> Pouring fzf--0.74.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fzf/0.74.4: 19 files, 5.7MB
+==> Upgrading visual-studio-code
+  1.136.2 -> 1.137.0
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.136.2/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.136.2 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Cleanup
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.136.2... (324.5MB)
+Removing: /opt/homebrew/Cellar/uv/0.12.10... (17 files, 44.2MB)
+Removing: /opt/homebrew/Cellar/fzf/0.74.3... (19 files, 5.2MB)
+Removing: /opt/homebrew/Cellar/xz/5.8.3... (96 files, 2.7MB)
+Removing: /opt/homebrew/Cellar/readline/8.3.3... (56 files, 2.7MB)
+Removing: /opt/homebrew/Cellar/simdutf/9.1.1... (65 files, 2MB)
+Removing: /opt/homebrew/Cellar/libssh2/1.11.1_4... (201 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.74.3... (2.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.12.10... (18.3MB)
+Removing: /opt/homebrew/Cellar/bash/5.3.15... (172 files, 13.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.74.3... (16.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.12.10... (16.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf--9.1.1... (394.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf_bottle_manifest--9.1.1... (19.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bash--5.3.15... (3.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh2--1.11.1_4... (424KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh2_bottle_manifest--1.11.1_4... (38.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bash_bottle_manifest--5.3.15... (11.6KB)
+Removing: /opt/homebrew/Cellar/libvmaf/3.2.0... (243 files, 8.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvmaf--3.2.0... (1.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libvmaf_bottle_manifest--3.2.0... (7.7KB)
+Removing: /opt/homebrew/Cellar/node/26.8.1... (2,077 files, 70.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.8.1... (19.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.8.1... (150.1KB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Upgraded 10 outdated packages
+readline            8.3.3    -> 8.3.6
+xz                  5.8.3    -> 5.8.4
+bash                5.3.15   -> 5.3.20
+uv                  0.12.10  -> 0.12.15
+libvmaf             3.2.0    -> 3.2.1
+libssh2             1.11.1_4 -> 1.11.1_5
+simdutf             9.1.1    -> 9.1.2
+node                26.8.1   -> 26.8.2
+fzf                 0.74.3   -> 0.74.4
+visual-studio-code  1.136.2  -> 1.137.0
+{"id":"tUQVrTL7dL9f","time":1789491682,"expires":1789534882,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+==> Would install 3 dependencies:
+abseil   20260817.0
+highway  1.4.0
+libidn2  2.3.8
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 11 outdated packages
+jc                  1.25.7   -> 1.26.0 (1.7MB)
+simdutf             9.1.2    -> 9.2.0 (397.7KB)
+merve               1.2.2_2  -> 1.2.2_3 (33.4KB)
+node                26.8.2   -> 26.9.0 (20.0MB)
+bitwarden-cli       2026.8.0 -> 2026.9.0 (14.2MB)
+xxhash              0.8.3    -> 0.8.4 (155.0KB)
+rsync               3.5.0    -> 3.5.1 (484.9KB)
+uv                  0.12.15  -> 0.12.17 (18.8MB)
+ffmpeg              9.0.1_1  -> 9.0.2 (21.7MB)
+bitwarden           2026.7.0 -> 2026.9.0
+visual-studio-code  1.137.0  -> 1.138.0
+==> 1 Deprecated or disabled package
+macdown (disabled)
