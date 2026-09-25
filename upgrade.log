@@ -9487,3 +9487,160 @@ bitwarden           2026.7.0 -> 2026.9.0
 visual-studio-code  1.137.0  -> 1.138.0
 ==> 1 Deprecated or disabled package
 macdown (disabled)
+==> Upgrading jc
+  1.25.7 -> 1.26.0 
+==> Pouring jc--1.26.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jc/1.26.0: 731 files, 8MB
+==> Upgrading simdutf
+  9.1.2 -> 9.2.0 
+==> Pouring simdutf--9.2.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdutf/9.2.0: 65 files, 2MB
+==> Upgrading merve
+  1.2.2_2 -> 1.2.2_3 
+==> Pouring merve--1.2.2_3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/merve/1.2.2_3: 19 files, 137.3KB
+==> Upgrading node
+  26.8.2 -> 26.9.0 
+==> Installing dependencies for node: abseil and highway
+==> Installing node dependency: abseil
+==> Pouring abseil--20260817.0.arm64_sequoia.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/abseil/20260817.0: 832 files, 11.8MB
+==> Installing node dependency: highway
+==> Pouring highway--1.4.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/highway/1.4.0: 87 files, 5.7MB
+==> Installing node
+==> Pouring node--26.9.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.9.0: 2,077 files, 71.2MB
+==> Upgrading bitwarden-cli
+  2026.8.0 -> 2026.9.0 
+==> Pouring bitwarden-cli--2026.9.0.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2026.9.0: 10,167 files, 56MB
+==> Upgrading xxhash
+  0.8.3 -> 0.8.4 
+==> Pouring xxhash--0.8.4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xxhash/0.8.4: 28 files, 583.3KB
+==> Upgrading rsync
+  3.5.0 -> 3.5.1 
+==> Installing rsync dependency: libidn2
+==> Pouring libidn2--2.3.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libidn2/2.3.8: 80 files, 912.4KB
+==> Installing rsync
+==> Pouring rsync--3.5.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/rsync/3.5.1: 14 files, 1.3MB
+==> Upgrading uv
+  0.12.15 -> 0.12.17 
+==> Pouring uv--0.12.17.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.12.17: 17 files, 45.2MB
+==> Upgrading ffmpeg
+  9.0.1_1 -> 9.0.2 
+==> Pouring ffmpeg--9.0.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/9.0.2: 290 files, 54.4MB
+==> Upgrading bitwarden
+  2026.7.0 -> 2026.9.0
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Purging files for version 2026.9.0 of Cask bitwarden
+==> Upgrading visual-studio-code
+  1.137.0 -> 1.138.0
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.137.0/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.137.0 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Cleanup
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.137.0... (315.6MB)
+Removing: /opt/homebrew/Cellar/rsync/3.5.0... (14 files, 1.3MB)
+Removing: /opt/homebrew/Cellar/merve/1.2.2_2... (19 files, 137.3KB)
+Removing: /opt/homebrew/Cellar/uv/0.12.15... (17 files, 44.4MB)
+Removing: /opt/homebrew/Cellar/xxhash/0.8.3... (28 files, 557KB)
+Removing: /opt/homebrew/Cellar/simdutf/9.1.2... (65 files, 2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.12.15... (18.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rsync--3.5.0... (479.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/merve--1.2.2_2... (33.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/rsync_bottle_manifest--3.5.0... (59.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.12.15... (18.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/merve_bottle_manifest--1.2.2_2... (27.8KB)
+Removing: /opt/homebrew/Cellar/ffmpeg/9.0.1_1... (290 files, 54.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf--9.1.2... (394.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf_bottle_manifest--9.1.2... (19.6KB)
+Removing: /opt/homebrew/Cellar/jc/1.25.7... (721 files, 7.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--9.0.1_1... (21.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--9.0.1_1... (196KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jc--1.25.7... (1.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jc_bottle_manifest--1.25.7... (4.6KB)
+Removing: /opt/homebrew/Cellar/node/26.8.2... (2,077 files, 70.8MB)
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2026.8.0... (10,135 files, 55.6MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.8.2... (19.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.8.2... (176.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2026.8.0... (14.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2026.8.0... (155.6KB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/bitwarden--2026.8.0.dmg... (281.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/docker-desktop--4.89.0,238018.dmg... (583.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/docker-desktop--4.90.0,238679.dmg... (582.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/docker-desktop--4.91.0,239619.dmg... (584.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/google-chrome--153.0.8010.37.dmg... (280.7MB)
+==> Autoremoving 2 unneeded formulae:
+libnghttp3
+libngtcp2
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/portable-ruby-4.0.6.arm64_big_sur.bottle.tar.gz... (12.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/balenaEtcher-2.1.6-arm64.dmg--2.1.6.dmg... (156.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/5ecc29be6aa2f31f7bf1c46176c0187e6e7c51ffeebb2cc3c14add8482589732... (801 files, 7.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/.DS_Store... (10.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/594bde2688ae0e214ed8caf8e08e59e27961a21e8acf43669c33525caa3fbce2... (807 files, 7.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/3ea7a0586bc257cba05570896d02a5170e4307793361c243ffcc81f0006f9ae6... (42 files, 279.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/d2fe20dcaac1dfd932074d89a3fa98c61e62ad39b80bee7a6f7886937aaa92c0... (822 files, 7.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bootsnap/34de6cb0fb04e1502e337b70e77119dd5ca691bf4ebe0c8a8a0aecd4430c66e7... (788 files, 7.2MB)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/python@3.14... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/python@3.13... (64B)
+Removing: /Users/ryanjinnette/Library/Logs/Homebrew/node... (64B)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> Upgraded 10 outdated packages
+jc                  1.25.7   -> 1.26.0
+simdutf             9.1.2    -> 9.2.0
+merve               1.2.2_2  -> 1.2.2_3
+node                26.8.2   -> 26.9.0
+bitwarden-cli       2026.8.0 -> 2026.9.0
+xxhash              0.8.3    -> 0.8.4
+rsync               3.5.0    -> 3.5.1
+uv                  0.12.15  -> 0.12.17
+ffmpeg              9.0.1_1  -> 9.0.2
+visual-studio-code  1.137.0  -> 1.138.0
+{"id":"TNYei7UiqnVx","time":1790097721,"expires":1790140921,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 9 outdated packages
+libuv               1.52.1        -> 1.53.0 (381.9KB)
+simdutf             9.2.0         -> 9.2.1_1 (398.3KB)
+uv                  0.12.17       -> 0.12.19 (18.8MB)
+ca-certificates     2026-08-13    -> 2026-09-25 (112.2KB)
+node                26.9.0        -> 26.10.0_1 (21.3MB)
+appcleaner          3.6.8         -> 3.7
+bitwarden           2026.7.0      -> 2026.9.0
+google-chrome       153.0.8010.37 -> 154.0.8037.58
+visual-studio-code  1.138.0       -> 1.139.1
+==> 1 Deprecated or disabled package
+macdown (disabled)
