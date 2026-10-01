@@ -9644,3 +9644,117 @@ google-chrome       153.0.8010.37 -> 154.0.8037.58
 visual-studio-code  1.138.0       -> 1.139.1
 ==> 1 Deprecated or disabled package
 macdown (disabled)
+==> Upgrading libuv
+  1.52.1 -> 1.53.0 
+==> Pouring libuv--1.53.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libuv/1.53.0: 35 files, 1.3MB
+==> Upgrading simdutf
+  9.2.0 -> 9.2.1_1 
+==> Pouring simdutf--9.2.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdutf/9.2.1_1: 65 files, 2MB
+==> Upgrading uv
+  0.12.17 -> 0.12.19 
+==> Pouring uv--0.12.19.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.12.19: 17 files, 45.2MB
+==> Upgrading ca-certificates
+  2026-08-13 -> 2026-09-25 
+==> Pouring ca-certificates--2026-09-25.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ca-certificates/2026-09-25: 5 files, 204.4KB
+==> Upgrading node
+  26.9.0 -> 26.10.0_1 
+==> Pouring node--26.10.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.10.0_1: 2,077 files, 75.0MB
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgrading appcleaner
+  3.6.8 -> 3.7
+==> Removing launchctl service net.freemacsoft.AppCleaner-SmartDelete
+==> Backing up App 'AppCleaner.app' to '/opt/homebrew/Caskroom/appcleaner/3.6.8/AppCleaner.app'
+==> Removing App '/Applications/AppCleaner.app'
+==> Moving App 'AppCleaner.app' to '/Applications/AppCleaner.app'
+==> Purging files for version 3.6.8 of Cask appcleaner
+🍺  appcleaner was successfully upgraded!
+==> Upgrading bitwarden
+  2026.7.0 -> 2026.9.0
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Purging files for version 2026.9.0 of Cask bitwarden
+==> Upgrading google-chrome
+  153.0.8010.37 -> 154.0.8037.58
+==> Backing up App 'Google Chrome.app' to '/opt/homebrew/Caskroom/google-chrome/153.0.8010.37/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 153.0.8010.37 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Upgrading visual-studio-code
+  1.138.0 -> 1.139.1
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.138.0/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.138.0 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Cleanup
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.138.0... (316.7MB)
+Removing: /opt/homebrew/Cellar/ca-certificates/2026-08-13... (5 files, 204.3KB)
+Removing: /opt/homebrew/Cellar/uv/0.12.17... (17 files, 45.2MB)
+Removing: /opt/homebrew/Cellar/libuv/1.52.1... (35 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates--2026-08-13... (112.2KB)
+Removing: /opt/homebrew/Cellar/simdutf/9.2.0... (65 files, 2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2026-08-13... (9.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.12.17... (18.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.12.17... (16.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf--9.2.0... (397.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf_bottle_manifest--9.2.0... (19.6KB)
+Removing: /opt/homebrew/Cellar/node/26.9.0... (2,077 files, 71.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.9.0... (20.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.9.0... (148.1KB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgraded 8 outdated packages
+libuv               1.52.1        -> 1.53.0
+simdutf             9.2.0         -> 9.2.1_1
+uv                  0.12.17       -> 0.12.19
+ca-certificates     2026-08-13    -> 2026-09-25
+node                26.9.0        -> 26.10.0_1
+appcleaner          3.6.8         -> 3.7
+google-chrome       153.0.8010.37 -> 154.0.8037.58
+visual-studio-code  1.138.0       -> 1.139.1
+==> 1 Deprecated or disabled package
+macdown (disabled)
+{"id":"hARCwNth0hTS","time":1790355433,"expires":1790398633,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 9 outdated packages
+openssl@3           3.6.4         -> 3.6.5 (11.0MB)
+python@3.14         3.14.7        -> 3.14.8 (19.3MB)
+python@3.13         3.13.15       -> 3.13.16 (18.5MB)
+uv                  0.12.19       -> 0.12.21 (18.9MB)
+libssh2             1.11.1_5      -> 1.11.1_6 (421.8KB)
+python@3.11         3.11.16       -> 3.11.17 (15.3MB)
+google-chrome       154.0.8037.58 -> 154.0.8037.93
+orion               1.1.2,151     -> 1.1.3,152
+visual-studio-code  1.139.1       -> 1.140.0
+==> 1 Deprecated or disabled package
+macdown (disabled)
