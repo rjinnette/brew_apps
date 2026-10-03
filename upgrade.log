@@ -9758,3 +9758,171 @@ orion               1.1.2,151     -> 1.1.3,152
 visual-studio-code  1.139.1       -> 1.140.0
 ==> 1 Deprecated or disabled package
 macdown (disabled)
+==> Upgrading openssl@3
+  3.6.4 -> 3.6.5 
+==> Pouring openssl@3--3.6.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.5: 7,642 files, 37.8MB
+==> Upgrading python@3.14
+  3.14.7 -> 3.14.8 
+==> Pouring python@3.14--3.14.8.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.8: 3,777 files, 74.7MB
+==> Upgrading python@3.13
+  3.13.15 -> 3.13.16 
+==> Pouring python@3.13--3.13.16.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.16: 3,640 files, 71.4MB
+==> Upgrading uv
+  0.12.19 -> 0.12.21 
+==> Pouring uv--0.12.21.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.12.21: 17 files, 45.4MB
+==> Upgrading libssh2
+  1.11.1_5 -> 1.11.1_6 
+==> Pouring libssh2--1.11.1_6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.11.1_6: 201 files, 1.3MB
+==> Upgrading python@3.11
+  3.11.16 -> 3.11.17 
+==> Pouring python@3.11--3.11.17.arm64_sequoia.bottle.tar.gz
+Looking in links: /private/tmp/s-7aAYik5F/tmps6wldbag
+Processing ./tmps6wldbag/setuptools-84.0.0-py3-none-any.whl
+Processing ./tmps6wldbag/pip-26.2.1-py3-none-any.whl
+Installing collected packages: setuptools, pip
+  WARNING: The scripts pip3 and pip3.11 are installed in '/opt/homebrew/Cellar/python@3.11/3.11.17/Frameworks/Python.framework/Versions/3.11/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+Successfully installed pip-26.2.1 setuptools-84.0.0
+Using pip 26.2.1 from /opt/homebrew/lib/python3.11/site-packages/pip (python 3.11)
+Processing /opt/homebrew/Cellar/python@3.11/3.11.17/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ensurepip/_bundled/setuptools-84.0.0-py3-none-any.whl
+Processing /opt/homebrew/Cellar/python@3.11/3.11.17/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ensurepip/_bundled/pip-26.2.1-py3-none-any.whl
+Processing /opt/homebrew/Cellar/python@3.11/3.11.17/libexec/wheel-0.48.0-py3-none-any.whl
+Installing collected packages: wheel, setuptools, pip
+  Creating /private/tmp/s-7aAYik5F/pip-target-p9mc_xmt/bin
+  changing mode of /private/tmp/s-7aAYik5F/pip-target-p9mc_xmt/bin/wheel to 755
+  changing mode of /private/tmp/s-7aAYik5F/pip-target-p9mc_xmt/bin/pip to 755
+  changing mode of /private/tmp/s-7aAYik5F/pip-target-p9mc_xmt/bin/pip3 to 755
+  changing mode of /private/tmp/s-7aAYik5F/pip-target-p9mc_xmt/bin/pip3.11 to 755
+
+Successfully installed pip-26.2.1 setuptools-84.0.0 wheel-0.48.0
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.17: 3,304 files, 64.2MB
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgrading orion
+  1.1.2,151 -> 1.1.3,152
+==> Backing up App 'Orion.app' to '/opt/homebrew/Caskroom/orion/1.1.2,151/Orion.app'
+==> Removing App '/Applications/Orion.app'
+==> Moving App 'Orion.app' to '/Applications/Orion.app'
+==> Purging files for version 1.1.2,151 of Cask orion
+🍺  orion was successfully upgraded!
+==> Upgrading visual-studio-code
+  1.139.1 -> 1.140.0
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.139.1/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.139.1 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Cleanup
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.139.1... (313.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/orion--1.1.2,151.zip... (222.7MB)
+Removing: /opt/homebrew/Cellar/uv/0.12.19... (17 files, 45.2MB)
+Removing: /opt/homebrew/Cellar/libssh2/1.11.1_5... (201 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.12.19... (18.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.12.19... (16.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh2--1.11.1_5... (424.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh2_bottle_manifest--1.11.1_5... (25.7KB)
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.16... (3,304 files, 64.2MB)
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.15... (3,719 files, 73.4MB)
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.7... (3,795 files, 74.8MB)
+Removing: /opt/homebrew/Cellar/openssl@3/3.6.4... (7,639 files, 37.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11--3.11.16... (15.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11_bottle_manifest--3.11.16... (103.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.15... (18.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.15... (91.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14--3.14.7... (19.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14_bottle_manifest--3.14.7... (108.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3--3.6.4... (11.0MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.6.4... (20.2KB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> python@3.13
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> uv
+The following uv executables are shadowed by other commands earlier in your PATH:
+  uv (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uv)
+  uvx (shadowed by /Library/Frameworks/Python.framework/Versions/3.12/bin/uvx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> python@3.11
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Upgraded 8 outdated packages
+openssl@3           3.6.4     -> 3.6.5
+python@3.14         3.14.7    -> 3.14.8
+python@3.13         3.13.15   -> 3.13.16
+uv                  0.12.19   -> 0.12.21
+libssh2             1.11.1_5  -> 1.11.1_6
+python@3.11         3.11.16   -> 3.11.17
+orion               1.1.2,151 -> 1.1.3,152
+visual-studio-code  1.139.1   -> 1.140.0
+==> 1 Deprecated or disabled package
+macdown (disabled)
+{"id":"yP4NeyiB8NdU","time":1790876697,"expires":1790919897,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 1 outdated package
+bitwarden 2026.7.0 -> 2026.9.1
+==> 1 Deprecated or disabled package
+macdown (disabled)
