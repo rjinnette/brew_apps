@@ -9926,3 +9926,8 @@ Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
 bitwarden 2026.7.0 -> 2026.9.1
 ==> 1 Deprecated or disabled package
 macdown (disabled)
+==> Upgrading bitwarden
+  2026.7.0 -> 2026.9.1
+==> Purging files for version 2026.9.1 of Cask bitwarden
+{"id":"uFuKqOAfQZeC","time":1791046144,"expires":1791089344,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.

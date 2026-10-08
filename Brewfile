@@ -3,6 +3,8 @@ tap "homebrew/bundle"
 brew "ncurses"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
 # Secure and free password manager for all of your devices
 brew "bitwarden-cli"
 # Isolated development environments using Docker
@@ -11,6 +13,8 @@ brew "docker-compose"
 brew "ffmpeg"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
+brew "gh"
 # Serializes the output of command-line tools to structured JSON output
 brew "jc"
 # Lightweight and flexible command-line JSON processor
@@ -37,6 +41,8 @@ brew "tree"
 brew "uv"
 # Tools for the WireGuard secure network tunnel
 brew "wireguard-tools"
+# JavaScript package manager
+brew "yarn"
 # Sends audio from computer to outputs
 cask "airfoil"
 # Application uninstaller
@@ -103,6 +109,7 @@ vscode "ms-azuretools.vscode-azurevirtualmachines"
 vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-cosmosdb"
 vscode "ms-azuretools.vscode-docker"
+vscode "ms-playwright.playwright"
 vscode "ms-python.debugpy"
 vscode "ms-python.isort"
 vscode "ms-python.pylint"
@@ -122,15 +129,15 @@ vscode "ms-vscode.cpptools"
 vscode "ms-vscode.remote-explorer"
 vscode "ms-vscode.remote-server"
 vscode "ms-vscode.vscode-node-azure-pack"
-vscode "ms-windows-ai-studio.windows-ai-studio"
 vscode "njpwerner.autodocstring"
+vscode "oxc.oxc-vscode"
 vscode "platformio.platformio-ide"
 vscode "redhat.vscode-yaml"
 vscode "rifi2k.format-html-in-php"
 vscode "ritwickdey.liveserver"
 vscode "shd101wyy.markdown-preview-enhanced"
 vscode "tamasfe.even-better-toml"
-vscode "teamsdevapp.vscode-ai-foundry"
+vscode "vitest.explorer"
 vscode "vscode-icons-team.vscode-icons"
 vscode "yzane.markdown-pdf"
 vscode "yzhang.markdown-all-in-one"
