@@ -9931,3 +9931,92 @@ macdown (disabled)
 ==> Purging files for version 2026.9.1 of Cask bitwarden
 {"id":"uFuKqOAfQZeC","time":1791046144,"expires":1791089344,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 Already up-to-date.
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 7 outdated packages
+simdjson       5.0.2         -> 5.0.3 (2.1MB)
+uv             0.12.22       -> 0.12.23 (18.8MB)
+libgit2        1.9.7         -> 1.9.7_1 (2MB)
+node           26.10.0_2     -> 26.11.0 (21.3MB)
+libzip         1.11.4_1      -> 1.12 (149.4KB)
+bitwarden      2026.7.0      -> 2026.9.1
+google-chrome  154.0.8037.98 -> 155.0.8059.40
+==> 1 Deprecated or disabled package
+macdown (disabled)
+==> Upgrading simdjson
+  5.0.2 -> 5.0.3 
+==> Pouring simdjson--5.0.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/5.0.3: 19 files, 10.7MB
+==> Upgrading uv
+  0.12.22 -> 0.12.23 
+==> Pouring uv--0.12.23.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.12.23: 17 files, 42.9MB
+==> Upgrading libgit2
+  1.9.7 -> 1.9.7_1 
+==> Pouring libgit2--1.9.7_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.9.7_1: 109 files, 5MB
+==> Upgrading node
+  26.10.0_2 -> 26.11.0 
+==> Pouring node--26.11.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.11.0: 2,077 files, 75.2MB
+==> Upgrading libzip
+  1.11.4_1 -> 1.12 
+==> Pouring libzip--1.12.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libzip/1.12: 162 files, 908.2KB
+==> Upgrading bitwarden
+  2026.7.0 -> 2026.9.1
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Purging files for version 2026.9.1 of Cask bitwarden
+==> Upgrading google-chrome
+  154.0.8037.98 -> 155.0.8059.40
+==> Backing up App 'Google Chrome.app' to '/opt/homebrew/Caskroom/google-chrome/154.0.8037.98/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 154.0.8037.98 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Cleanup
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/google-chrome--154.0.8037.98.dmg... (282.3MB)
+Removing: /opt/homebrew/Cellar/uv/0.12.22... (17 files, 42.9MB)
+Removing: /opt/homebrew/Cellar/libzip/1.11.4_1... (161 files, 957KB)
+Removing: /opt/homebrew/Cellar/simdjson/4.6.11... (19 files, 8MB)
+Removing: /opt/homebrew/Cellar/libgit2/1.9.7... (109 files, 5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.12.22... (18.9MB)
+Removing: /opt/homebrew/Cellar/simdjson/5.0.2... (19 files, 10.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.12.22... (16.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--4.6.11... (1.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--5.0.2... (2.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--4.6.11... (13.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--5.0.2... (13.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2--1.9.7... (2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2_bottle_manifest--1.9.7... (46.6KB)
+Removing: /opt/homebrew/Cellar/node/26.10.0_2... (2,077 files, 75MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.10.0_2... (21.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.10.0_2... (150.7KB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> uv
+The following uv executables are shadowed by commands in /Library/Frameworks/Python.framework/Versions/3.12/bin:
+uv
+uvx
+Running these by name will not invoke the version provided by Homebrew
+because the shadowing commands come earlier in your PATH.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> node
+Single Executable Application is disabled as it doesn't work with shared libnode.
+==> Upgraded 6 outdated packages
+simdjson       5.0.2         -> 5.0.3
+uv             0.12.22       -> 0.12.23
+libgit2        1.9.7         -> 1.9.7_1
+node           26.10.0_2     -> 26.11.0
+libzip         1.11.4_1      -> 1.12
+google-chrome  154.0.8037.98 -> 155.0.8059.40
+{"id":"2lkEkeMslNkG","time":1791478932,"expires":1791522132,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
