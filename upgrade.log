@@ -10020,3 +10020,212 @@ libzip         1.11.4_1      -> 1.12
 google-chrome  154.0.8037.98 -> 155.0.8059.40
 {"id":"2lkEkeMslNkG","time":1791478932,"expires":1791522132,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 Already up-to-date.
+==> Would install 1 dependency:
+openssl@4 4.0.3
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 18 outdated packages
+sqlite              3.53.4        -> 3.54.0 (2.5MB)
+openssl@3           3.6.5         -> 3.5.9 (10.8MB)
+ffmpeg              9.0.2         -> 9.0.2_1 (21.7MB)
+simdutf             9.2.1_1       -> 9.3.0 (414.1KB)
+merve               1.2.2_3       -> 1.2.2_4 (33.4KB)
+simdjson            5.0.3         -> 5.0.5 (2.1MB)
+python@3.14         3.14.8        -> 3.14.8_2 (19.2MB)
+uv                  0.12.23       -> 0.13.1 (15.3MB)
+libssh2             1.11.1_6      -> 1.11.1_7 (421.8KB)
+libgit2             1.9.7_1       -> 1.9.7_2 (2MB)
+ada-url             4.0.0         -> 4.0.0_1 (341.1KB)
+node                26.11.0       -> 26.11.1_1 (21.3MB)
+libzip              1.12          -> 1.12.1 (149.6KB)
+libngtcp2           1.25.0        -> 1.25.0_1 (429KB)
+fzf                 0.74.4        -> 0.74.5 (2.2MB)
+bitwarden           2026.7.0      -> 2026.9.1
+google-chrome       155.0.8059.40 -> 155.0.8059.80
+visual-studio-code  1.140.0       -> 1.142.0
+==> 1 Deprecated or disabled package
+macdown (disabled)
+==> Upgrading sqlite
+  3.53.4 -> 3.54.0 
+==> Pouring sqlite--3.54.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.54.0: 13 files, 5.4MB
+==> Upgrading openssl@3
+  3.6.5 -> 3.5.9 
+==> Pouring openssl@3--3.5.9.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.5.9: 7,596 files, 37.3MB
+==> Upgrading ffmpeg
+  9.0.2 -> 9.0.2_1 
+==> Installing ffmpeg dependency: openssl@4 (4.0.3)
+==> Pouring openssl@4--4.0.3.arm64_sequoia.bottle.tar.gz
+Unlinking /opt/homebrew/Cellar/openssl@3/3.5.9... 6529 symlinks removed.
+🍺  /opt/homebrew/Cellar/openssl@4/4.0.3: 6,820 files, 23.8MB
+==> Installing ffmpeg
+==> Pouring ffmpeg--9.0.2_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/9.0.2_1: 290 files, 54.4MB
+==> Upgrading simdutf
+  9.2.1_1 -> 9.3.0 
+==> Pouring simdutf--9.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdutf/9.3.0: 66 files, 2.1MB
+==> Upgrading merve
+  1.2.2_3 -> 1.2.2_4 
+==> Pouring merve--1.2.2_4.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/merve/1.2.2_4: 19 files, 137.4KB
+==> Upgrading simdjson
+  5.0.3 -> 5.0.5 
+==> Pouring simdjson--5.0.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/5.0.5: 19 files, 10.7MB
+==> Upgrading python@3.14
+  3.14.8 -> 3.14.8_2 
+==> Pouring python@3.14--3.14.8_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.8_2: 3,767 files, 74.5MB
+==> Upgrading uv
+  0.12.23 -> 0.13.1 
+==> Pouring uv--0.13.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.13.1: 17 files, 34.3MB
+==> Upgrading libssh2
+  1.11.1_6 -> 1.11.1_7 
+==> Pouring libssh2--1.11.1_7.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.11.1_7: 201 files, 1.3MB
+==> Upgrading libgit2
+  1.9.7_1 -> 1.9.7_2 
+==> Pouring libgit2--1.9.7_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.9.7_2: 109 files, 5MB
+==> Upgrading ada-url
+  4.0.0 -> 4.0.0_1 
+==> Pouring ada-url--4.0.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ada-url/4.0.0_1: 56 files, 1.1MB
+==> Upgrading node
+  26.11.0 -> 26.11.1_1 
+==> Pouring node--26.11.1_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.11.1_1: 2,077 files, 75.2MB
+==> Upgrading libzip
+  1.12 -> 1.12.1 
+==> Pouring libzip--1.12.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libzip/1.12.1: 162 files, 908.7KB
+==> Upgrading libngtcp2
+  1.25.0 -> 1.25.0_1 
+==> Pouring libngtcp2--1.25.0_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.25.0_1: 21 files, 1.4MB
+==> Upgrading fzf
+  0.74.4 -> 0.74.5 
+==> Pouring fzf--0.74.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fzf/0.74.5: 19 files, 5.7MB
+==> Upgrading bitwarden
+  2026.7.0 -> 2026.9.1
+==> Purging files for version 2026.9.1 of Cask bitwarden
+==> Upgrading google-chrome
+  155.0.8059.40 -> 155.0.8059.80
+==> Backing up App 'Google Chrome.app' to '/opt/homebrew/Caskroom/google-chrome/155.0.8059.40/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 155.0.8059.40 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Upgrading visual-studio-code
+  1.140.0 -> 1.142.0
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Quitting application 'com.microsoft.VSCode'...
+Application 'com.microsoft.VSCode' quit successfully.
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.140.0/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.140.0 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Reopening 1 application closed during upgrade:
+com.microsoft.VSCode
+==> Cleanup
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/google-chrome--155.0.8059.40.dmg... (276MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.140.0... (317.9MB)
+Removing: /opt/homebrew/Cellar/merve/1.2.2_3... (19 files, 137.3KB)
+Removing: /opt/homebrew/Cellar/sqlite/3.53.4... (13 files, 5.3MB)
+Removing: /opt/homebrew/Cellar/simdjson/5.0.3... (19 files, 10.7MB)
+Removing: /opt/homebrew/Cellar/fzf/0.74.4... (19 files, 5.7MB)
+Removing: /opt/homebrew/Cellar/uv/0.12.23... (17 files, 42.9MB)
+Removing: /opt/homebrew/Cellar/libngtcp2/1.25.0... (21 files, 1.4MB)
+Removing: /opt/homebrew/Cellar/ada-url/4.0.0... (56 files, 1.1MB)
+Removing: /opt/homebrew/Cellar/simdutf/9.2.1_1... (65 files, 2.1MB)
+Removing: /opt/homebrew/Cellar/libgit2/1.9.7_1... (109 files, 5MB)
+Removing: /opt/homebrew/Cellar/libzip/1.12... (162 files, 908.2KB)
+Removing: /opt/homebrew/Cellar/libssh2/1.11.1_6... (201 files, 1.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/merve--1.2.2_3... (33.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf--0.74.4... (2.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite--3.53.4... (2.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/merve_bottle_manifest--1.2.2_3... (23.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2--1.25.0... (428.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ada-url--4.0.0... (340.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.12.23... (18.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--5.0.3... (2.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/sqlite_bottle_manifest--3.53.4... (32KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/fzf_bottle_manifest--0.74.4... (14.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.12.23... (16.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ada-url_bottle_manifest--4.0.0... (21.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.25.0... (27.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2--1.9.7_1... (2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--5.0.3... (13.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libgit2_bottle_manifest--1.9.7_1... (41KB)
+Removing: /opt/homebrew/Cellar/ffmpeg/9.0.2... (290 files, 54.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf--9.2.1_1... (398.3KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf_bottle_manifest--9.2.1_1... (19.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh2--1.11.1_6... (421.9KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libssh2_bottle_manifest--1.11.1_6... (25.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libzip--1.12... (149.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libzip_bottle_manifest--1.12... (37.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg--9.0.2... (21.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/ffmpeg_bottle_manifest--9.0.2... (177.9KB)
+Removing: /opt/homebrew/Cellar/openssl@3/3.6.5... (7,642 files, 37.8MB)
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.8... (3,777 files, 74.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14--3.14.8... (19.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3--3.6.5... (11MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14_bottle_manifest--3.14.8... (108.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.6.5... (20.2KB)
+Removing: /opt/homebrew/Cellar/node/26.11.0... (2,077 files, 75.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.11.0... (21.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.11.0... (150.5KB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+==> uv
+The following uv executables are shadowed by commands in /Library/Frameworks/Python.framework/Versions/3.12/bin:
+uv
+uvx
+Running these by name will not invoke the version provided by Homebrew
+because the shadowing commands come earlier in your PATH.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> node
+Single Executable Application is disabled as it doesn't work with shared libnode.
+==> fzf
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Upgraded 17 outdated packages
+sqlite              3.53.4        -> 3.54.0
+openssl@3           3.6.5         -> 3.5.9
+ffmpeg              9.0.2         -> 9.0.2_1
+simdutf             9.2.1_1       -> 9.3.0
+merve               1.2.2_3       -> 1.2.2_4
+simdjson            5.0.3         -> 5.0.5
+python@3.14         3.14.8        -> 3.14.8_2
+uv                  0.12.23       -> 0.13.1
+libssh2             1.11.1_6      -> 1.11.1_7
+libgit2             1.9.7_1       -> 1.9.7_2
+ada-url             4.0.0         -> 4.0.0_1
+node                26.11.0       -> 26.11.1_1
+libzip              1.12          -> 1.12.1
+libngtcp2           1.25.0        -> 1.25.0_1
+fzf                 0.74.4        -> 0.74.5
+google-chrome       155.0.8059.40 -> 155.0.8059.80
+visual-studio-code  1.140.0       -> 1.142.0
+{"id":"inLexdeMih5x","time":1792085355,"expires":1792128555,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
