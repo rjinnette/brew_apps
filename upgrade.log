@@ -10543,3 +10543,289 @@ visual-studio-code  1.142.0       -> 1.143.0
 macdown (disabled)
 {"id":"CT8HC4VOD8AJ","time":1792691400,"expires":1792734600,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
 Already up-to-date.
+==> Would install 1 dependency:
+icu4c@79 79.1
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 17 outdated packages
+icu4c@78            78.3          -> 78.3_1         (32MB)
+simdutf             9.3.2         -> 9.3.3          (415KB)
+openssl@4           4.0.3         -> 4.1.0          (11.5MB)
+simdjson            5.0.5         -> 5.1.1          (2.1MB)
+node                26.12.1       -> 26.13.0_2      (21.4MB)
+bitwarden-cli       2026.10.0     -> 2026.10.1      (14.5MB)
+gh                  2.103.0       -> 2.103.3        (13.8MB)
+python@3.14         3.14.9        -> 3.14.10        (19.2MB)
+python@3.13         3.13.17       -> 3.13.18        (18.5MB)
+python@3.15         3.15.0_1      -> 3.15.2         (20.3MB)
+uv                  0.13.5        -> 0.13.6         (15.2MB)
+jc                  1.26.1        -> 1.26.2         (1.8MB)
+python@3.11         3.11.17_1     -> 3.11.18        (15.4MB)
+bitwarden           2026.7.0      -> 2026.10.2
+ghostty             1.0.1         -> 1.4.0
+google-chrome       156.0.8078.48 -> 156.0.8078.80
+visual-studio-code  1.143.0       -> 1.144.0
+==> 2 Deprecated or disabled packages
+icu4c@78 (deprecated)
+macdown (disabled)
+==> Upgrading icu4c@78
+  78.3 -> 78.3_1 
+==> Pouring icu4c@78--78.3_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@78/78.3_1: 279 files, 87.5MB
+==> Upgrading simdutf
+  9.3.2 -> 9.3.3 
+==> Installing simdutf dependency: icu4c@79 (79.1)
+==> Pouring icu4c@79--79.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@79/79.1: 279 files, 88.6MB
+==> Installing simdutf
+==> Pouring simdutf--9.3.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdutf/9.3.3: 66 files, 2.1MB
+==> Upgrading openssl@4
+  4.0.3 -> 4.1.0 
+==> Pouring openssl@4--4.1.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@4/4.1.0: 6,869 files, 24.6MB
+==> Upgrading simdjson
+  5.0.5 -> 5.1.1 
+==> Pouring simdjson--5.1.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/5.1.1: 19 files, 10.5MB
+==> Upgrading node
+  26.12.1 -> 26.13.0_2 
+==> Pouring node--26.13.0_2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/26.13.0_2: 2,077 files, 75.3MB
+==> Upgrading bitwarden-cli
+  2026.10.0 -> 2026.10.1 
+==> Pouring bitwarden-cli--2026.10.1.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bitwarden-cli/2026.10.1: 10,166 files, 56.8MB
+==> Upgrading gh
+  2.103.0 -> 2.103.3 
+==> Pouring gh--2.103.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gh/2.103.3: 245 files, 39.5MB
+==> Upgrading python@3.14
+  3.14.9 -> 3.14.10 
+==> Pouring python@3.14--3.14.10.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.14/3.14.10: 3,774 files, 74.8MB
+==> Upgrading python@3.13
+  3.13.17 -> 3.13.18 
+==> Pouring python@3.13--3.13.18.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.18: 3,643 files, 71.5MB
+==> Upgrading python@3.15
+  3.15.0_1 -> 3.15.2 
+==> Pouring python@3.15--3.15.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.15/3.15.2: 3,995 files, 79.7MB
+==> Upgrading uv
+  0.13.5 -> 0.13.6 
+==> Pouring uv--0.13.6.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uv/0.13.6: 17 files, 33.8MB
+==> Upgrading jc
+  1.26.1 -> 1.26.2 
+==> Pouring jc--1.26.2.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jc/1.26.2: 737 files, 8.4MB
+==> Upgrading python@3.11
+  3.11.17_1 -> 3.11.18 
+==> Pouring python@3.11--3.11.18.arm64_sequoia.bottle.tar.gz
+Looking in links: /private/tmp/s-b8wgddRi/tmpxkio3_l7
+Processing ./tmpxkio3_l7/setuptools-84.2.1-py3-none-any.whl
+Processing ./tmpxkio3_l7/pip-26.2.2-py3-none-any.whl
+Installing collected packages: setuptools, pip
+  WARNING: The scripts pip3 and pip3.11 are installed in '/opt/homebrew/Cellar/python@3.11/3.11.18/Frameworks/Python.framework/Versions/3.11/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+
+Successfully installed pip-26.2.2 setuptools-84.2.1
+Using pip 26.2.2 from /opt/homebrew/lib/python3.11/site-packages/pip (python 3.11)
+Processing /opt/homebrew/Cellar/python@3.11/3.11.18/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ensurepip/_bundled/setuptools-84.2.1-py3-none-any.whl
+Processing /opt/homebrew/Cellar/python@3.11/3.11.18/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ensurepip/_bundled/pip-26.2.2-py3-none-any.whl
+Processing /opt/homebrew/Cellar/python@3.11/3.11.18/libexec/wheel-0.48.0-py3-none-any.whl
+Installing collected packages: wheel, setuptools, pip
+  Creating /private/tmp/s-b8wgddRi/pip-target-4gcr988w/bin
+  changing mode of /private/tmp/s-b8wgddRi/pip-target-4gcr988w/bin/wheel to 755
+  changing mode of /private/tmp/s-b8wgddRi/pip-target-4gcr988w/bin/pip to 755
+  changing mode of /private/tmp/s-b8wgddRi/pip-target-4gcr988w/bin/pip3 to 755
+  changing mode of /private/tmp/s-b8wgddRi/pip-target-4gcr988w/bin/pip3.11 to 755
+
+Successfully installed pip-26.2.2 setuptools-84.2.1 wheel-0.48.0
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.18: 3,305 files, 64.3MB
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Upgrading bitwarden
+  2026.7.0 -> 2026.10.2
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Purging files for version 2026.10.2 of Cask bitwarden
+==> Upgrading ghostty
+  1.0.1 -> 1.4.0
+==> Backing up App 'Ghostty.app' to '/opt/homebrew/Caskroom/ghostty/1.0.1/Ghostty.app'
+==> Removing App '/Applications/Ghostty.app'
+==> Unlinking Binary '/opt/homebrew/bin/ghostty'
+==> Unlinking Binary '/opt/homebrew/etc/bash_completion.d/ghostty'
+==> Unlinking Binary '/opt/homebrew/share/fish/vendor_completions.d/ghostty.fish'
+==> Unlinking Binary '/opt/homebrew/share/zsh/site-functions/_ghostty'
+==> Unlinking Manpage '/opt/homebrew/share/man/man1/ghostty.1'
+==> Unlinking Manpage '/opt/homebrew/share/man/man5/ghostty.5'
+==> Moving App 'Ghostty.app' to '/Applications/Ghostty.app'
+==> Linking Manpage 'ghostty.5' to '/opt/homebrew/share/man/man5/ghostty.5'
+==> Linking Manpage 'ghostty.1' to '/opt/homebrew/share/man/man1/ghostty.1'
+==> Linking Zsh Completion '_ghostty' to '/opt/homebrew/share/zsh/site-functions/_ghostty'
+==> Linking Bash Completion 'ghostty.bash' to '/opt/homebrew/etc/bash_completion.d/ghostty'
+==> Linking Fish Completion 'ghostty.fish' to '/opt/homebrew/share/fish/vendor_completions.d/ghostty.fish'
+==> Purging files for version 1.0.1 of Cask ghostty
+🍺  ghostty was successfully upgraded!
+==> Upgrading google-chrome
+  156.0.8078.48 -> 156.0.8078.80
+==> Backing up App 'Google Chrome.app' to '/opt/homebrew/Caskroom/google-chrome/156.0.8078.48/Google Chrome.app'
+==> Removing App '/Applications/Google Chrome.app'
+==> Moving App 'Google Chrome.app' to '/Applications/Google Chrome.app'
+==> Purging files for version 156.0.8078.48 of Cask google-chrome
+🍺  google-chrome was successfully upgraded!
+==> Upgrading visual-studio-code
+  1.143.0 -> 1.144.0
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.143.0/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.143.0 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Cleanup
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.143.0... (323.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/google-chrome--156.0.8078.48.dmg... (279MB)
+Removing: /opt/homebrew/Cellar/uv/0.13.5... (17 files, 33.8MB)
+Removing: /opt/homebrew/Cellar/simdjson/5.0.5... (19 files, 10.7MB)
+Removing: /opt/homebrew/Cellar/simdutf/9.3.2... (66 files, 2.1MB)
+Removing: /opt/homebrew/Cellar/gh/2.103.0... (245 files, 39.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv--0.13.5... (15.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson--5.0.5... (2.1MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdjson_bottle_manifest--5.0.5... (13.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/uv_bottle_manifest--0.13.5... (16.8KB)
+Removing: /opt/homebrew/Cellar/icu4c@78/78.3... (279 files, 87.9MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf--9.3.2... (414.2KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/simdutf_bottle_manifest--9.3.2... (19.7KB)
+Removing: /opt/homebrew/Cellar/jc/1.26.1... (736 files, 8.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gh--2.103.0... (13.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/gh_bottle_manifest--2.103.0... (12.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jc--1.26.1... (1.7MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/jc_bottle_manifest--1.26.1... (63.4KB)
+Removing: /opt/homebrew/Cellar/node/26.12.1... (2,077 files, 75.3MB)
+Removing: /opt/homebrew/Cellar/python@3.11/3.11.17_1... (3,304 files, 64.2MB)
+Removing: /opt/homebrew/Cellar/openssl@4/4.0.3... (6,820 files, 23.8MB)
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.17... (3,720 files, 73.7MB)
+Removing: /opt/homebrew/Cellar/python@3.14/3.14.9... (3,772 files, 74.7MB)
+Removing: /opt/homebrew/Cellar/python@3.15/3.15.0_1... (3,985 files, 79MB)
+Removing: /opt/homebrew/Cellar/bitwarden-cli/2026.10.0... (10,167 files, 56.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node--26.12.1... (21.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/node_bottle_manifest--26.12.1... (150.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11--3.11.17_1... (15.3MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.11_bottle_manifest--3.11.17_1... (90.4KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13--3.13.17... (18.5MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.17... (98.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14--3.14.9... (19.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.14_bottle_manifest--3.14.9... (108KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.15--3.15.0_1... (20.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/python@3.15_bottle_manifest--3.15.0_1... (108.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@4--4.0.3... (11.2MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/openssl@4_bottle_manifest--4.0.3... (19.5KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli--2026.10.0... (14.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/bitwarden-cli_bottle_manifest--2026.10.0... (132.6KB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> node
+Single Executable Application is disabled as it doesn't work with shared libnode.
+==> python@3.13
+Python is installed as
+  /opt/homebrew/bin/python3.13
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.13`, `python3.13-config`, `pip3.13` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.13/libexec/bin
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+`idle3.13` requires tkinter, which is available separately:
+  brew install python-tk@3.13
+
+`dbm.gnu` is available separately:
+  brew install python-gdbm@3.13
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> uv
+The following uv executables are shadowed by commands in /Library/Frameworks/Python.framework/Versions/3.12/bin:
+uv
+uvx
+Running these by name will not invoke the version provided by Homebrew
+because the shadowing commands come earlier in your PATH.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> python@3.11
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Upgraded 16 outdated packages
+icu4c@78            78.3          -> 78.3_1
+simdutf             9.3.2         -> 9.3.3
+openssl@4           4.0.3         -> 4.1.0
+simdjson            5.0.5         -> 5.1.1
+node                26.12.1       -> 26.13.0_2
+bitwarden-cli       2026.10.0     -> 2026.10.1
+gh                  2.103.0       -> 2.103.3
+python@3.14         3.14.9        -> 3.14.10
+python@3.13         3.13.17       -> 3.13.18
+python@3.15         3.15.0_1      -> 3.15.2
+uv                  0.13.5        -> 0.13.6
+jc                  1.26.1        -> 1.26.2
+python@3.11         3.11.17_1     -> 3.11.18
+ghostty             1.0.1         -> 1.4.0
+google-chrome       156.0.8078.48 -> 156.0.8078.80
+visual-studio-code  1.143.0       -> 1.144.0
+==> 2 Deprecated or disabled packages
+icu4c@78 (deprecated)
+macdown (disabled)
+Already up-to-date.
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 6 outdated packages
+libnghttp3          1.18.0   -> 1.19.0     (192.7KB)
+svt-av1             4.2.0    -> 4.3.0      (1.4MB)
+libnghttp2          1.70.0   -> 1.71.0     (221.9KB)
+docker-compose      5.6.1    -> 5.7.0      (10.1MB)
+bitwarden           2026.7.0 -> 2026.10.3
+visual-studio-code  1.144.0  -> 1.144.1
+==> 1 Deprecated or disabled package
+macdown (disabled)
