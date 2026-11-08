@@ -10829,3 +10829,85 @@ bitwarden           2026.7.0 -> 2026.10.3
 visual-studio-code  1.144.0  -> 1.144.1
 ==> 1 Deprecated or disabled package
 macdown (disabled)
+==> Upgrading libnghttp3
+  1.18.0 -> 1.19.0 
+==> Pouring libnghttp3--1.19.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.19.0: 20 files, 628.9KB
+==> Upgrading svt-av1
+  4.2.0 -> 4.3.0 
+==> Pouring svt-av1--4.3.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/4.3.0: 23 files, 3.4MB
+==> Upgrading libnghttp2
+  1.70.0 -> 1.71.0 
+==> Pouring libnghttp2--1.71.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.71.0: 14 files, 780.2KB
+==> Upgrading docker-compose
+  5.6.1 -> 5.7.0 
+==> Pouring docker-compose--5.7.0.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/docker-compose/5.7.0: 8 files, 28.4MB
+==> Upgrading bitwarden
+  2026.7.0 -> 2026.10.3
+==> Quitting application 'com.bitwarden.desktop'...
+Application 'com.bitwarden.desktop' quit successfully.
+==> Purging files for version 2026.10.3 of Cask bitwarden
+==> Upgrading visual-studio-code
+  1.144.0 -> 1.144.1
+==> Removing launchctl service com.microsoft.VSCode.ShipIt
+==> Backing up App 'Visual Studio Code.app' to '/opt/homebrew/Caskroom/visual-studio-code/1.144.0/Visual Studio Code.app'
+==> Removing App '/Applications/Visual Studio Code.app'
+==> Unlinking Binary '/opt/homebrew/bin/code'
+==> Unlinking Binary '/opt/homebrew/bin/code-tunnel'
+==> Moving App 'Visual Studio Code.app' to '/Applications/Visual Studio Code.app'
+==> Linking Binary 'code' to '/opt/homebrew/bin/code'
+==> Linking Binary 'code-tunnel' to '/opt/homebrew/bin/code-tunnel'
+==> Purging files for version 1.144.0 of Cask visual-studio-code
+🍺  visual-studio-code was successfully upgraded!
+==> Cleanup
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/Cask/visual-studio-code--1.144.0... (350.5MB)
+Removing: /opt/homebrew/Cellar/docker-compose/5.6.1... (8 files, 27.3MB)
+Removing: /opt/homebrew/Cellar/libnghttp2/1.70.0... (14 files, 858.4KB)
+Removing: /opt/homebrew/Cellar/svt-av1/4.2.0... (23 files, 3.3MB)
+Removing: /opt/homebrew/Cellar/libnghttp3/1.18.0... (20 files, 601.6KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose--5.6.1... (9.8MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2--1.70.0... (235KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/docker-compose_bottle_manifest--5.6.1... (13.1KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.70.0... (14.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3--1.18.0... (189.7KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1--4.2.0... (1.4MB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/libnghttp3_bottle_manifest--1.18.0... (14.8KB)
+Removing: /Users/ryanjinnette/Library/Caches/Homebrew/svt-av1_bottle_manifest--4.2.0... (15.1KB)
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+==> docker-compose
+Compose is a Docker plugin. For Docker to find the plugin, add "cliPluginsExtraDirs" to ~/.docker/config.json:
+  "cliPluginsExtraDirs": [
+      "/opt/homebrew/lib/docker/cli-plugins"
+  ]
+==> Upgraded 5 outdated packages
+libnghttp3          1.18.0  -> 1.19.0
+svt-av1             4.2.0   -> 4.3.0
+libnghttp2          1.70.0  -> 1.71.0
+docker-compose      5.6.1   -> 5.7.0
+visual-studio-code  1.144.0 -> 1.144.1
+{"id":"XbuF6bWshLaT","time":1793664231,"expires":1793707431,"event":"message","topic":"brew","message":"Apps Updated/Upgrades"}
+Already up-to-date.
+Homebrew will now attempt to upgrade casks with `auto_updates true`.
+Disable this behaviour with `HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS=1`.
+Some casks with `auto_updates true` or `version :latest` may still require `--greedy`,
+`HOMEBREW_UPGRADE_GREEDY` or `HOMEBREW_UPGRADE_GREEDY_CASKS` to be upgraded.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Would upgrade 11 outdated packages
+fmt                 12.2.0        -> 12.2.1         (287.7KB)
+lz4                 1.10.0        -> 1.11.0         (304KB)
+ca-certificates     2026-10-20    -> 2026-11-05     (109.6KB)
+rsync               3.5.1         -> 3.5.2          (494.2KB)
+uv                  0.13.6        -> 0.13.7         (15.2MB)
+sdl3                3.4.18        -> 3.4.20         (1.6MB)
+libngtcp2           1.25.0_1      -> 1.26.0         (441.1KB)
+fzf                 0.74.5        -> 0.75.0         (2.2MB)
+bitwarden           2026.7.0      -> 2026.10.4
+google-chrome       156.0.8078.80 -> 157.0.8103.39
+visual-studio-code  1.144.1       -> 1.145.2
+==> 1 Deprecated or disabled package
+macdown (disabled)
